@@ -1,0 +1,38 @@
+## Lagragien for Static Balance
+
+*Source : Dynamics and Control of Single-Line Kites - Gonzalo Sanchez-Arrlaga*
+
+*Goal : Find the Angle of Attack ($\alpha$) and the Elevation($\beta$) in Regard of Wind Speed*
+
+
+
+import os
+import pandas as pd
+import numpy as np
+
+
+# ## Xfoil Polar 
+polar_data = pd.read_csv("polaire_SK50VD_modified.csv") # Same airfoil as 10VB
+polar = pd.json_normalize({
+    "alpha" : polar_data.alpha,
+    "CL" : polar_data.CL,
+    "CD" : polar_data.CD, 
+    "CDp" : polar_data.CDp,
+    "CM" : polar_data.CM,
+    "Top_Xtr" : polar_data.Top_Xtr,
+    "Bot_Xtr" : polar_data.Bot_Xtr,
+})
+
+# ## Air
+g = 9.8 
+rho = 1.225
+
+# ## Kite
+Surface = 10 # (m2)
+mass = 5.5 # (kg)
+height = 2.2 # distance from towpoint to profile (m)
+corde = 1.99 # (m)
+Xt = 0.3* corde # towpoint (m)
+Xg = 0.5 * corde  # mass center (m)
+delta_deg = 83 # Bridle Angle (°)
+r = 2.26 # Bridle Length |QG| (m)
