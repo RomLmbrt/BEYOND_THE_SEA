@@ -283,6 +283,7 @@ def creating_geometry_plot(
     # Ensure the figure is fully rendered
     fig.canvas.draw()
 
+
     return fig
 
 
