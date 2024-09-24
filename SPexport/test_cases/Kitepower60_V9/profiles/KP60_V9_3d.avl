@@ -1,0 +1,123 @@
+Empty Project
+0.0                          | Mach
+0     0     0.0              | iYsym  iZsym  Zsym
+
+  60.000      3.922     18.166  | Sref   Cref   Bref
+ 0.00   0.00   0.00          | Xref   Yref   Zref
+ 0.00                        | CDp  (optional)
+
+
+
+#=================================================
+SURFACE                      | (keyword)
+KP_V9.60J-4.56 billow
+#Nchord    Cspace   [ Nspan Sspace ]
+ 10        1.0
+
+INDEX                        | (keyword)
+111                          | Lsurf
+
+YDUPLICATE
+0.0
+
+SCALE
+1.0  1.0  1.0
+
+TRANSLATE
+0.0  0.0  0.0
+
+ANGLE
+0.0                          | dAinc
+
+#__________________________________
+SECTION                                          |  (keyword)
+   0.0000    0.3201    0.0000    3.9203  2.7500    3    0   | Xle Yle Zle   Chord Ainc   [ Nspan Sspace ]
+
+AFIL 0.0 1.0
+C:\Users\CorentinTran\Nextcloud\01-PRODUIT\SK-SeaKite\S-Shipping\1-Conception, calculs, nomenclature\K-Kite\M - Modèles\1 - Aerodynamique\Aero 3D\SPexport\Kitepower60_V9\profiles\prof_1.dat
+
+#______________
+SECTION                                          |  (keyword)
+   0.0152    0.9600   -0.0459    3.9051  1.2500    3    0   | Xle Yle Zle   Chord Ainc   [ Nspan Sspace ]
+
+AFIL 0.0 1.0
+C:\Users\CorentinTran\Nextcloud\01-PRODUIT\SK-SeaKite\S-Shipping\1-Conception, calculs, nomenclature\K-Kite\M - Modèles\1 - Aerodynamique\Aero 3D\SPexport\Kitepower60_V9\profiles\prof_2.dat
+
+#______________
+SECTION                                          |  (keyword)
+   0.0484    1.6003   -0.1323    3.8720  2.7500    3    0   | Xle Yle Zle   Chord Ainc   [ Nspan Sspace ]
+
+AFIL 0.0 1.0
+C:\Users\CorentinTran\Nextcloud\01-PRODUIT\SK-SeaKite\S-Shipping\1-Conception, calculs, nomenclature\K-Kite\M - Modèles\1 - Aerodynamique\Aero 3D\SPexport\Kitepower60_V9\profiles\prof_3.dat
+
+#______________
+SECTION                                          |  (keyword)
+   0.0965    2.2399   -0.2679    3.8239  1.2400    3    0   | Xle Yle Zle   Chord Ainc   [ Nspan Sspace ]
+
+AFIL 0.0 1.0
+C:\Users\CorentinTran\Nextcloud\01-PRODUIT\SK-SeaKite\S-Shipping\1-Conception, calculs, nomenclature\K-Kite\M - Modèles\1 - Aerodynamique\Aero 3D\SPexport\Kitepower60_V9\profiles\prof_4.dat
+
+#______________
+SECTION                                          |  (keyword)
+   0.1660    2.8783   -0.4537    3.7546  2.7500    3    0   | Xle Yle Zle   Chord Ainc   [ Nspan Sspace ]
+
+AFIL 0.0 1.0
+C:\Users\CorentinTran\Nextcloud\01-PRODUIT\SK-SeaKite\S-Shipping\1-Conception, calculs, nomenclature\K-Kite\M - Modèles\1 - Aerodynamique\Aero 3D\SPexport\Kitepower60_V9\profiles\prof_5.dat
+
+#______________
+SECTION                                          |  (keyword)
+   0.2562    3.5100   -0.7041    3.6646  1.2300    3    0   | Xle Yle Zle   Chord Ainc   [ Nspan Sspace ]
+
+AFIL 0.0 1.0
+C:\Users\CorentinTran\Nextcloud\01-PRODUIT\SK-SeaKite\S-Shipping\1-Conception, calculs, nomenclature\K-Kite\M - Modèles\1 - Aerodynamique\Aero 3D\SPexport\Kitepower60_V9\profiles\prof_6.dat
+
+#______________
+SECTION                                          |  (keyword)
+   0.3715    4.1348   -1.0157    3.5494  2.7500    3    0   | Xle Yle Zle   Chord Ainc   [ Nspan Sspace ]
+
+AFIL 0.0 1.0
+C:\Users\CorentinTran\Nextcloud\01-PRODUIT\SK-SeaKite\S-Shipping\1-Conception, calculs, nomenclature\K-Kite\M - Modèles\1 - Aerodynamique\Aero 3D\SPexport\Kitepower60_V9\profiles\prof_7.dat
+
+#______________
+SECTION                                          |  (keyword)
+   0.5120    4.7431   -1.4031    3.4058  1.2200    3    0   | Xle Yle Zle   Chord Ainc   [ Nspan Sspace ]
+
+AFIL 0.0 1.0
+C:\Users\CorentinTran\Nextcloud\01-PRODUIT\SK-SeaKite\S-Shipping\1-Conception, calculs, nomenclature\K-Kite\M - Modèles\1 - Aerodynamique\Aero 3D\SPexport\Kitepower60_V9\profiles\prof_8.dat
+
+#______________
+SECTION                                          |  (keyword)
+   0.6886    5.3184   -1.8832    3.2158  2.7500    3    0   | Xle Yle Zle   Chord Ainc   [ Nspan Sspace ]
+
+AFIL 0.0 1.0
+C:\Users\CorentinTran\Nextcloud\01-PRODUIT\SK-SeaKite\S-Shipping\1-Conception, calculs, nomenclature\K-Kite\M - Modèles\1 - Aerodynamique\Aero 3D\SPexport\Kitepower60_V9\profiles\prof_9.dat
+
+#______________
+SECTION                                          |  (keyword)
+   0.8991    5.8482   -2.4602    2.9797  1.2000    3    0   | Xle Yle Zle   Chord Ainc   [ Nspan Sspace ]
+
+AFIL 0.0 1.0
+C:\Users\CorentinTran\Nextcloud\01-PRODUIT\SK-SeaKite\S-Shipping\1-Conception, calculs, nomenclature\K-Kite\M - Modèles\1 - Aerodynamique\Aero 3D\SPexport\Kitepower60_V9\profiles\prof_10.dat
+
+#______________
+SECTION                                          |  (keyword)
+   1.1513    6.3042   -3.1469    2.6889  1.7500    3    0   | Xle Yle Zle   Chord Ainc   [ Nspan Sspace ]
+
+AFIL 0.0 1.0
+C:\Users\CorentinTran\Nextcloud\01-PRODUIT\SK-SeaKite\S-Shipping\1-Conception, calculs, nomenclature\K-Kite\M - Modèles\1 - Aerodynamique\Aero 3D\SPexport\Kitepower60_V9\profiles\prof_11.dat
+
+#______________
+SECTION                                          |  (keyword)
+   1.4552    6.5821   -3.9751    2.3307  2.5000    3    0   | Xle Yle Zle   Chord Ainc   [ Nspan Sspace ]
+
+AFIL 0.0 1.0
+C:\Users\CorentinTran\Nextcloud\01-PRODUIT\SK-SeaKite\S-Shipping\1-Conception, calculs, nomenclature\K-Kite\M - Modèles\1 - Aerodynamique\Aero 3D\SPexport\Kitepower60_V9\profiles\prof_12.dat
+
+#______________
+SECTION                                          |  (keyword)
+   1.7628    6.6365   -4.8029    1.9613  1.0000    3    0   | Xle Yle Zle   Chord Ainc   [ Nspan Sspace ]
+
+AFIL 0.0 1.0
+C:\Users\CorentinTran\Nextcloud\01-PRODUIT\SK-SeaKite\S-Shipping\1-Conception, calculs, nomenclature\K-Kite\M - Modèles\1 - Aerodynamique\Aero 3D\SPexport\Kitepower60_V9\profiles\prof_13.dat
+
+#______________
