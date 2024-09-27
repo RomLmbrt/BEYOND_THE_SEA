@@ -3,6 +3,7 @@
 % Added to commands
 \input epsf
 \usepackage{graphicx}
+\usepackage{subcaption}
 \usepackage [french]{babel}
 \usepackage [utf8]{inputenc}
 \usepackage [T1] {fontenc}
@@ -112,24 +113,88 @@ On part d'une circulation $\Gamma$ initiale, on en déduit la vitesse induite (e
 \IEEEpeerreviewmaketitle
 \section{Test VSM/VLM sur SeaKite $50m^2$ VH}
 
-\subsection{Polaires VSM vs CFD} 
-À partir de :
-\begin{itemize}
-    \item \textbf{Le code VSM de Ocaryon} \texttt{"tutorial\_testing\_stall\_model.py"}
-    \item \textbf{Les données de simulation CFD de Maxime} (08/2024) accessibles dans Nextcloud (C:\textbackslash Users\textbackslash RomainLambert\textbackslash Nextcloud\textbackslash 01-PRODUIT\textbackslash SK-SeaKite\textbackslash S-Shipping\textbackslash 1-Conception, calculs, nomenclature\textbackslash K-Kite\textbackslash M - Modèles\textbackslash 1 - Aerodynamique\textbackslash Aero 3D\textbackslash CFD\textbackslash CFD\_Maxime)
-    \item \textbf{Les coordonnées de la voile} \textbf{supposée} SeaKite $50m^2$ accessible dans Nextcloud (C:\textbackslash Users\textbackslash RomainLambert\textbackslash Nextcloud\textbackslash 01-PRODUIT\textbackslash SK-SeaKite\textbackslash S-Shipping\textbackslash 1-Conception, calculs, nomenclature\textbackslash K-Kite\textbackslash M - Modèles\textbackslash 1 - Aerodynamique\textbackslash Aero 3D\textbackslash SPexport\textbackslash test\_cases\textbackslash default\_kite)
-\end{itemize} 
+\subsection{Polaires Sur l'aile de DELFT} 
 
-les polaires suivantes ont pu être tracées :
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\textwidth]{Pics/Polar VSM CFD.png}
-    \caption{Comparatif des polaires}
-    \label{fig:Comparatif des polaires}
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Pics/kite delft vsm.png}
+        \caption{Kite de Delft tel que modélisé par la VSM}
+        \label{fig:Kite de Delft tel que modélisé par la VSM}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Pics/kite delft vlm.png}
+        \caption{Kite de Delft tel que modélisé par la VLM}
+        \label{fig:Kite de Delft tel que modélisé par la VLM}
+    \end{subfigure}
+    \caption{Deux graphiques côte à côte}
+    \label{fig:deux_graphiques}
 \end{figure}
 
-On observe une zone ($\alpha < 14^{\circ}$) où la courbe de $C_D$ diverge dans le cas de la correction liée au décrochage. \textbf{IL SEMBLERAIT} que cela provienne d'un problème de convergence des calculs aux faible incidences (avec correction du backstall). 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{Pics/polar delft.png}
+    \caption{Comparatif des polaires pour l'aile de DELFT}
+    \label{fig:Comparatif des polaires pour l'aile de DELFT}
+\end{figure}
 
-\subsection{Polaires VLM vs CFD} 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{Pics/circulation DELFT.png}
+    \caption{Comparatif des circulation pour l'aile de DELFT}
+    \label{fig:Comparatif des circulation pour l'aile de DELFT}
+\end{figure}
+
+
+\subsection{Polaires Sur l'aile de BEYOND} 
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Pics/kite beyond vsm.png}
+        \caption{Kite de Beyond tel que modélisé par la VSM}
+        \label{fig:Kite de Beyond tel que modélisé par la VSM}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Pics/kite beyond vlm.png}
+        \caption{Kite de Beyond tel que modélisé par la VLM}
+        \label{fig:Kite de Beyond tel que modélisé par la VLM}
+    \end{subfigure}
+    \caption{Deux graphiques côte à côte}
+    \label{fig:deux_graphiques}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{Pics/polar BEYOND.png}
+    \caption{Comparatif des polaires pour l'aile de BEYOND}
+    \label{fig:Comparatif des polaires pour l'aile de BEYOND}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{Pics/circulation BEYOND.png}
+    \caption{Comparatif des circulation pour l'aile de BEYOND}
+    \label{fig:Comparatif des circulation pour l'aile de BEYOND}
+\end{figure}
+
+\subsection{Analyse} 
+
+Pour le moment VLM est VSM semble proche des résultats obtenus par CFD. \\
+On remarque que, dans le cas de la voile de Delft, la VSM semble capturer un effet de décrochage là où la VLM ne le prend pas en compte (résultat attendu).\\
+Les résultats de la VLM sont moins concluant pour la voile de Delft \textbf{mais} la 3d associé présente des défauts qui pourraient expliquer ce décalage... \\
+
+\textbf{TODO} :
+\begin{itemize}
+    \item Améliorer la géométrie de l'aile pour la VLM
+    \item Afficher la répartition de circulation en envergure pour la VLM afin de la comparer à celle de la VSM
+    \item Utiliser de l'optim sur la VLM (car Aerosandbox le permet)
+\end{itemize}
 
 \end{document}
