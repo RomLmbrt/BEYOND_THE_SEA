@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you are using this software, please cite it as shown below."
+authors:
+  -
+    family-names: "Lambert"
+    given-names: "Romain"
+title: "SurfplanAdapter VLM"
+keywords:
+  - Kites
+version: 0.1.0
+# doi: "11.1111/11111"
+# date-released: YYYY-MM-DD
+license: MIT
+url: "https://github.com/jellepoland/SurfplanAdapter"
