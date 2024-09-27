@@ -16,9 +16,24 @@ def read_surfplan_txt_vlm(filepath):
     Returns:
         An Aerosandbox Airplane object.
     """
-    with open(filepath, "r") as file:
-        lines = file.readlines()
-        
+
+    # Gets all profile files in the folder
+    foldername = os.path.join(os.path.dirname(filepath), "profiles")
+    filenames = [
+        os.path.join(foldername, f)
+        for f in os.listdir(foldername)
+        if os.path.isfile(os.path.join(foldername, f))
+    ]
+
+    # Figure out if their is rib .txt files
+    profile_name_type = "" # In case there is no 'rib' files
+    for i in range(len(filenames)):
+        if "rib" in filenames[i]:
+            profile_name_type = "rib"
+            break
+    if profile_name_type == "":  
+        profile_name_type = "prof"
+
     with open(filepath, "r") as file:
         lines = file.readlines()
 
@@ -88,18 +103,19 @@ def read_surfplan_txt_vlm(filepath):
         tube_diameter = le_tube[i] / np.linalg.norm(rib_te - rib_le)
         # Associate each rib with its airfoil .dat file name
         k = n_ribs // 2
+
         # First case, kite has one central rib
         if n_ribs % 2 == 1:
             # print(1 +abs(k-i))
-            profile_name = f"rib_{1 +abs(-k+i)}.dat"
+            profile_name = profile_name_type + f"_{1 +abs(-k+i)}.dat"
         # Second case, kite has two central ribs
         else:
             if i < k:
                 # print(k-i)
-                profile_name = f"rib_{k-i}.dat"
+                profile_name = profile_name_type + f"_{k-i}.dat"
             else:
                 # print(i-k+1)
-                profile_name = f"rib_{i-k+1}.dat"
+                profile_name = profile_name_type + f"_{i-k+1}.dat"
         # Extract the directory path
         airfoil_directory_path = os.path.dirname(filepath) + "/profiles/" + profile_name
         # Read camber height from .dat airfoil file
@@ -109,50 +125,49 @@ def read_surfplan_txt_vlm(filepath):
         # TE_angle = airfoil["TE_angle"]
         chord = np.linalg.norm(rib_te - rib_le)
         twist = np.atan((rib_le[1]-rib_te[1])/(rib_le[2]-rib_te[2]))*180/np.pi
+        rib_le = [-rib_le[2], -rib_le[0], rib_le[1]]
 
         xsec = asb.WingXSec(
-            xyz_le=rib_le,
+            xyz_le= rib_le,
             chord=chord,
             twist=twist,
-            airfoil=airfoil_directory_path,
+            airfoil=asb.Airfoil(airfoil_directory_path),
         )
-        mainwing_xsecs.append(xsec)
-    
-        mainwing_name = filepath.split("/")[-1].split(".")[0]
 
-        mainwing = asb.Wing(
-            name=mainwing_name,
-            xsecs=mainwing_xsecs,
-            symmetric=False,
-            is_main_wing=True,
-            is_horizontal_stabilizer=False,
-            is_vertical_stabilizer=False,
-            is_fuselage=False,
-        )
-        airplane = asb.Airplane(
-            name=mainwing.name,
-            xyz_ref=[0,0,0],
-            wings=[mainwing],
-        )
+        mainwing_xsecs.append(xsec)
+
+    # Normalisation du chemin (au cas où il y aurait des \ et / mélangés)
+    mainwing_name = os.path.normpath(filepath)
+    # Extraction de la dernière partie du chemin
+    mainwing_name = os.path.basename(mainwing_name).split(".")[0]
+
+    mainwing = asb.Wing(
+        name=mainwing_name,
+        xsecs=mainwing_xsecs,
+        symmetric=False,
+        is_main_wing=True,
+        is_horizontal_stabilizer=False,
+        is_vertical_stabilizer=False,
+        is_fuselage=False,
+    )
+
+    airplane = asb.Airplane(
+        name=mainwing.name,
+        # xyz_ref=[0,0,0],
+        wings=[mainwing],
+    )
 
     return airplane  # , df_section
-
 
 if __name__ == "__main__":
     # Find the root directory of the repository
     root_dir = os.path.abspath(os.path.dirname(__file__))
-    while not os.path.isfile(os.path.join(root_dir, ".gitignore")):
-        root_dir = os.path.abspath(os.path.join(root_dir, ".."))
-        if root_dir == "/":
-            raise FileNotFoundError(
-                "Could not find the root directory of the repository."
-            )
+
     # Example usage:
-    filepath = Path(root_dir) / "data" / "TUDELFT_V3_LEI_KITE" / "V3D_3d.txt"
+    # filepath = Path(root_dir) / "data" / "TUDELFT_V3_LEI_KITE" / "V3D_3d.txt"
+    filepath = Path(root_dir)/ "data" / "BEYOND_THE_SEA" / "SK50-VH_3d.txt"
+
 
     # filepath = 'data/Seakite50_VH/SK50-VH_3d.txt'
-    ribs_data = read_surfplan_txt_vlm(filepath)
-    for rib in ribs_data:
-        print(rib)
-        # print("\n")
-        # print(rib["d_tube"])
+    airplane = read_surfplan_txt_vlm(filepath)
+    airplane.draw_three_view()
