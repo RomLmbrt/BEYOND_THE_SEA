@@ -33,7 +33,7 @@ def import_from_xflr5_with_airfoils_aerosandbox(
 
     Args:
         foldername (str): The foldername of the XFLR5 `.xml` file and `.dat` airfoil section files.
-        force_midle (bool): Froce rib 0 and 1 with diadral 0  , default = False
+        force_midle (bool): Froce rib 0 and 1 with diadral 0  , defaulft = False
         draw_three_view (bool): draw the 3d view, default = False
     Returns:
         An Aerosandbox Airplane object.

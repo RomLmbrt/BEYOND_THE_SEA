@@ -1,12 +1,12 @@
 import numpy as np
 import os
 from pathlib import Path
-import aerosandbox as asb
 from SurfplanAdapter.surfplan_to_vsm.read_profile_from_airfoil_dat_files import (
     reading_profile_from_airfoil_dat_files,
 )
 
-def read_surfplan_txt_vlm(filepath):
+
+def read_surfplan_txt(filepath):
     """
     Read the main characteristics of kite ribs and LE (Leading Edge) tube sections from the .txt file from Surfplan.
 
@@ -14,11 +14,9 @@ def read_surfplan_txt_vlm(filepath):
     filepath (str): The name of the file containing the 3D rib and LE tube data.
 
     Returns:
-        An Aerosandbox Airplane object.
+    list of dict: A list of dictionaries, each containing the leading edge (LE) position, trailing edge (TE) position,
+                  and airfoil characteristics (tube diameter and camber height) for each rib.
     """
-    with open(filepath, "r") as file:
-        lines = file.readlines()
-        
     with open(filepath, "r") as file:
         lines = file.readlines()
 
@@ -30,7 +28,6 @@ def read_surfplan_txt_vlm(filepath):
     n_ribs = 0  # Number of ribs
     n_le_sections = 0  # Number of LE sections
     txt_section = None  # Current section being read ('ribs' or 'le_tube')
-    mainwing_xsecs = []
 
     for line in lines:
         line = line.strip()
@@ -91,51 +88,36 @@ def read_surfplan_txt_vlm(filepath):
         # First case, kite has one central rib
         if n_ribs % 2 == 1:
             # print(1 +abs(k-i))
-            profile_name = f"rib_{1 +abs(-k+i)}.dat"
+            profile_name = f"prof_{1 +abs(-k+i)}.dat"
         # Second case, kite has two central ribs
         else:
             if i < k:
                 # print(k-i)
-                profile_name = f"rib_{k-i}.dat"
+                profile_name = f"prof_{k-i}.dat"
             else:
                 # print(i-k+1)
-                profile_name = f"rib_{i-k+1}.dat"
+                profile_name = f"prof_{i-k+1}.dat"
         # Extract the directory path
-        airfoil_directory_path = os.path.dirname(filepath) + "/profiles/" + profile_name
+        profile_directory_path = os.path.dirname(filepath) + "/profiles/"
         # Read camber height from .dat airfoil file
-
+        airfoil = reading_profile_from_airfoil_dat_files(
+            profile_directory_path + profile_name
+        )
+        camber = airfoil["depth"]
         # It's possible to add here more airfoil parameters to read in the dat file for more complete airfoil data
         # x_camber = airfoil["x_depth"]
         # TE_angle = airfoil["TE_angle"]
-        chord = np.linalg.norm(rib_te - rib_le)
-        twist = np.atan((rib_le[1]-rib_te[1])/(rib_le[2]-rib_te[2]))*180/np.pi
-
-        xsec = asb.WingXSec(
-            xyz_le=rib_le,
-            chord=chord,
-            twist=twist,
-            airfoil=airfoil_directory_path,
+        ribs_data.append(
+            {
+                "LE": rib_le,
+                "TE": rib_te,
+                "d_tube": tube_diameter,
+                "camber": camber,
+                # "x_camber" : x_camber,
+                # "TE_angle" : TE_angle
+            }
         )
-        mainwing_xsecs.append(xsec)
-    
-        mainwing_name = filepath.split("/")[-1].split(".")[0]
-
-        mainwing = asb.Wing(
-            name=mainwing_name,
-            xsecs=mainwing_xsecs,
-            symmetric=False,
-            is_main_wing=True,
-            is_horizontal_stabilizer=False,
-            is_vertical_stabilizer=False,
-            is_fuselage=False,
-        )
-        airplane = asb.Airplane(
-            name=mainwing.name,
-            xyz_ref=[0,0,0],
-            wings=[mainwing],
-        )
-
-    return airplane  # , df_section
+    return ribs_data
 
 
 if __name__ == "__main__":
@@ -151,7 +133,7 @@ if __name__ == "__main__":
     filepath = Path(root_dir) / "data" / "TUDELFT_V3_LEI_KITE" / "V3D_3d.txt"
 
     # filepath = 'data/Seakite50_VH/SK50-VH_3d.txt'
-    ribs_data = read_surfplan_txt_vlm(filepath)
+    ribs_data = read_surfplan_txt(filepath)
     for rib in ribs_data:
         print(rib)
         # print("\n")
