@@ -12,6 +12,7 @@ def read_surfplan_txt_vlm(filepath):
 
     Parameters:
     filepath (str): The name of the file containing the 3D rib and LE tube data.
+    draw_three_view (bool): Draw the 3d view of the airplane
 
     Returns:
         An Aerosandbox Airplane object.
