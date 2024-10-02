@@ -1,7 +1,7 @@
-PWD c:\Users\RomainLambert\BEYOND_THE_SEA-1\COMPTE RENDU\TowPoint
+PWD c:\Users\RomainLambert\BEYOND_THE_SEA-1\COMPTE RENDU\Equilibre Kite
 INPUT C:\Users\RomainLambert\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\RomainLambert\BEYOND_THE_SEA-1\COMPTE RENDU\TowPoint\TowPoint.tex
-OUTPUT TowPoint.log
+INPUT c:\Users\RomainLambert\BEYOND_THE_SEA-1\COMPTE RENDU\Equilibre Kite\Equilibre Kite.tex
+OUTPUT Equilibre Kite.log
 INPUT .\IEEEtran.cls
 INPUT IEEEtran.cls
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ptm.fd
@@ -87,12 +87,22 @@ INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\t1pt
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT .\TowPoint.aux
-INPUT .\TowPoint.aux
-INPUT TowPoint.aux
-OUTPUT TowPoint.aux
+INPUT .\Equilibre Kite.aux
+INPUT .\Equilibre Kite.aux
+INPUT Equilibre Kite.aux
+OUTPUT Equilibre Kite.aux
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8t.tfm
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8t.tfm
@@ -137,11 +147,44 @@ INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\context\base\mkii
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\generic\infwarerr\infwarerr.sty
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\generic\infwarerr\infwarerr.sty
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\grfext\grfext.sty
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\grfext\grfext.sty
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\generic\kvdefinekeys\kvdefinekeys.sty
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\generic\kvdefinekeys\kvdefinekeys.sty
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\kvoptions\kvoptions.sty
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\kvoptions\kvoptions.sty
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\kvsetkeys\kvsetkeys.sty
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\kvsetkeys\kvsetkeys.sty
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmrc8t.tfm
-OUTPUT TowPoint.pdf
+INPUT .\Pics\TowPoint.png
+INPUT .\Pics\TowPoint.png
+INPUT .\Pics\TowPoint.png
+INPUT .\Pics\TowPoint.png
+OUTPUT Equilibre Kite.pdf
+INPUT .\Pics\TowPoint.png
+INPUT .\Pics\TowPoint.png
+INPUT .\Pics\TowPoint.png
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmrc8t.tfm
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT .\Pics\Equilibre Kite.png
+INPUT .\Pics\Equilibre Kite.png
+INPUT .\Pics\Equilibre Kite.png
+INPUT .\Pics\Equilibre Kite.png
+INPUT .\Pics\Equilibre Kite.png
+INPUT .\Pics\Equilibre Kite.png
+INPUT .\Pics\Equilibre Kite.png
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Users\RomainLambert\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
@@ -158,7 +201,12 @@ INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
-INPUT TowPoint.aux
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmrc8t.vf
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
+INPUT Equilibre Kite.aux
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi5.pfb
