@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.24)  24 SEP 2024 11:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.24)  2 OCT 2024 14:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/RomainLambert/BEYOND_THE_SEA/COMPTE RENDU/Equilibre Zenith/Equilibre Zenith.tex"
-(c:/Users/RomainLambert/BEYOND_THE_SEA/COMPTE RENDU/Equilibre Zenith/Equilibre Zenith.tex
+**"c:/Users/RomainLambert/BEYOND_THE_SEA-1/COMPTE RENDU/Equilibre Zenith/Mesure Equilibre Zenith.tex"
+(c:/Users/RomainLambert/BEYOND_THE_SEA-1/COMPTE RENDU/Equilibre Zenith/Mesure Equilibre Zenith.tex
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
 (IEEEtran.cls
@@ -185,8 +185,8 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count283
 \l__pdf_internal_box=\box55
-) (Equilibre Zenith.aux)
-\openout1 = `"Equilibre Zenith.aux"'.
+) (Mesure Equilibre Zenith.aux)
+\openout1 = `"Mesure Equilibre Zenith.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
@@ -285,7 +285,7 @@ Before submitting the final camera ready copy, remember to:
 
 
 
-[3 <./Pics/Schéma Equilibre capteurs tension AB.png>] (Equilibre Zenith.aux)
+[3 <./Pics/Schéma Equilibre capteurs tension AB.png>] (Mesure Equilibre Zenith.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
@@ -293,14 +293,14 @@ L3 programming layer <2024-08-30>
  ) 
 Here is how much of TeX's memory you used:
  4423 strings out of 473899
- 79944 string characters out of 5722724
- 478641 words of memory out of 5000000
+ 80058 string characters out of 5722724
+ 478655 words of memory out of 5000000
  27274 multiletter control sequences out of 15000+600000
  664111 words of font info for 131 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
- 57i,6n,65p,429b,428s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,6n,65p,438b,428s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "Equilibre Zenith.pdf" (3 pages, 376534 bytes).
+Output written on "Mesure Equilibre Zenith.pdf" (3 pages, 376524 bytes).
 PDF statistics:
  87 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

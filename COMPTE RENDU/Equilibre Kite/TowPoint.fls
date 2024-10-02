@@ -1,7 +1,7 @@
-PWD c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\Equilibre Zenith
+PWD c:\Users\RomainLambert\BEYOND_THE_SEA-1\COMPTE RENDU\TowPoint
 INPUT C:\Users\RomainLambert\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\Equilibre Zenith\IMS2014_summary_paper_template.tex
-OUTPUT IMS2014_summary_paper_template.log
+INPUT c:\Users\RomainLambert\BEYOND_THE_SEA-1\COMPTE RENDU\TowPoint\TowPoint.tex
+OUTPUT TowPoint.log
 INPUT .\IEEEtran.cls
 INPUT IEEEtran.cls
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ptm.fd
@@ -89,10 +89,10 @@ INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\float\float
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT .\IMS2014_summary_paper_template.aux
-INPUT .\IMS2014_summary_paper_template.aux
-INPUT IMS2014_summary_paper_template.aux
-OUTPUT IMS2014_summary_paper_template.aux
+INPUT .\TowPoint.aux
+INPUT .\TowPoint.aux
+INPUT TowPoint.aux
+OUTPUT TowPoint.aux
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8t.tfm
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8t.tfm
@@ -141,22 +141,7 @@ INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\ep
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmrc8t.tfm
-INPUT .\Pics\Picture Sanchez.png
-INPUT .\Pics\Picture Sanchez.png
-INPUT .\Pics\Picture Sanchez.png
-INPUT .\Pics\Picture Sanchez.png
-OUTPUT IMS2014_summary_paper_template.pdf
-INPUT .\Pics\Picture Sanchez.png
-INPUT .\Pics\Picture Sanchez.png
-INPUT .\Pics\Picture Sanchez.png
-INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmrc8t.tfm
-INPUT .\Pics\Schéma Equilibre Zéntih.png
-INPUT .\Pics\Schéma Equilibre Zéntih.png
-INPUT .\Pics\Schéma Equilibre Zéntih.png
-INPUT .\Pics\Schéma Equilibre Zéntih.png
-INPUT .\Pics\Schéma Equilibre Zéntih.png
-INPUT .\Pics\Schéma Equilibre Zéntih.png
-INPUT .\Pics\Schéma Equilibre Zéntih.png
+OUTPUT TowPoint.pdf
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Users\RomainLambert\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
@@ -171,44 +156,19 @@ INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmri8t.vf
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
-INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmrc8t.vf
-INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
-INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
-INPUT .\Pics\Schéma Equilibre finesse.png
-INPUT .\Pics\Schéma Equilibre finesse.png
-INPUT .\Pics\Schéma Equilibre finesse.png
-INPUT .\Pics\Schéma Equilibre finesse.png
-INPUT .\Pics\Schéma Equilibre finesse.png
-INPUT .\Pics\Schéma Equilibre finesse.png
-INPUT .\Pics\Schéma Equilibre finesse.png
-INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
-INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
-INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
-INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
-INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
-INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
-INPUT .\Pics\Schéma Equilibre capteurs tension AB.png
-INPUT .\Pics\Schéma Equilibre capteurs tension AB.png
-INPUT .\Pics\Schéma Equilibre capteurs tension AB.png
-INPUT .\Pics\Schéma Equilibre capteurs tension AB.png
-INPUT .\Pics\Schéma Equilibre capteurs tension AB.png
-INPUT .\Pics\Schéma Equilibre capteurs tension AB.png
-INPUT .\Pics\Schéma Equilibre capteurs tension AB.png
-INPUT IMS2014_summary_paper_template.aux
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
+INPUT TowPoint.aux
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi5.pfb
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi5.pfb
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
-INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
-INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr5.pfb
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr5.pfb
-INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr6.pfb
-INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr6.pfb
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
