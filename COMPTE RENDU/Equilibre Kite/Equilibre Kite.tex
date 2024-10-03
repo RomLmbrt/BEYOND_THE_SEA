@@ -45,20 +45,35 @@ Isoler les ensembles \{kite\} et \{kite+bridage\} permet de montrer $X_T$ est le
 
 Pour l'équilibre des moments appliqué à l'ensemble \{kite\}, en le $X_T$ :
 \begin{equation}
-    F_{Poid}(x_G-x_{TP})+F{aero}(x_{aero}-x_{TP}) = 0
+    F_{Poid}(x_G-x_T)+F{aero}(x_{aero}-x_T) = 0
 \end{equation}
 
 Pour l'équilibre des moments appliqué à l'ensemble \{kite+bridage\}, $X_T$:
 \begin{equation}
-    F_{Poid}(x_G-x_{TP}) + F{aero}(x_{aero}-x_{TP}) + \sum_{i=A}^{D} F_{ligne i}(x_{ligne i}-x_{TP})= 0
+    F_{Poid}(x_G-x_T) + F{aero}(x_{aero}-x_T) + \sum_{i=A}^{D} F_{ligne i}(x_{ligne i}-x_T)= 0
 \end{equation}
 
 D'où : 
 \begin{equation}
-    \sum_{i=A}^{D} F_{ligne i}(x_{ligne i}-x_{TP})= 0
+    \sum_{i=A}^{D} F_{ligne i}(x_{ligne i}-x_T)= 0
 \end{equation}
 
 Ce qui, par définition, montre que \textbf{$X_T$ est le point d'application de la résultante de tension de l'ensemble du bridage projeté sur la corde.}
+
+\subsection{Différence entre $X_T$ et Tow Point}
+
+On définit le Tow Point par \textbf{le projeté orthogonal du point d'attache entre les lignes et le bridage sur la corde moyenne du kite}. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Pics/xtp.png}  
+    \caption{Différence entre $x_{TP}$ et $x_T$}
+    \label{fig:Xtp}
+\end{figure}
+
+Le schéma \ref{fig:Xtp} montre que le towpoint ($x_{TP}$) et $x_T$ forment un angle $\alpha_0$ avec le point d'attache entre les lignes et le bridage. Ainsi, dans le cas où les lignes forment un angle de $\frac{\pi}{2}$ avec la corde moyenne du kite, Tow Point et $x_T$ sont confondus. 
+
+De plus, $x_{TP}$ est purement géométrique là où $x_T$ lie géométrie et aérodynamique.
 
 \subsection{l'Equilibre} 
 
@@ -75,7 +90,7 @@ On écrit l'équilibre statique de \{kite+bridage\}, en $X_T$ du kite :
     \begin{cases}
         L = P + T sin(\theta) \\
         D = T cos(\theta) \\
-        0 = C_{M_0} + (x_{TP} - x_F) (L cos(\alpha) + D sin(\alpha)) - P cos(\alpha) (x_{TP} - x_G)
+        0 = C_{M_0} + (x_T - x_F) (L cos(\alpha) + D sin(\alpha)) - P cos(\alpha) (x_T - x_G)
     \end{cases}
 \end{equation}
 
@@ -85,23 +100,23 @@ Ainsi, en considérant $\alpha << 1$, on a :
     \begin{cases}
     \frac{L-P}{D} = tan(\theta) \\
     \theta = \alpha + \alpha_0 \\
-    x_{TP} = \frac{L x_F - P x_G -C_{M_0}}{L - P}
+    x_T = \frac{L x_F - P x_G -C_{M_0}}{L - P}
     \end{cases}
-    \label{eq:Xtp}
+    \label{eq:Xt}
 \end{equation}
     
 Il semblerait donc que le calcul (CFD, VSM, ...) des polaires aérodynamiques ($L(\alpha)$ et $D(\alpha)$) permettent de trouver le $X_T$ optimal afin d'optimiser la finesse au zénith. 
 
 \textit{Exemple : }
-Pour $\alpha_{optimal} = 21^\circ$, $C_D = 0.19$ et $C_L = 1.35$, on trouve en appliquant l'équation \ref{eq:Xtp} : \\
+Pour $\alpha_{optimal} = 21^\circ$, $C_D = 0.19$ et $C_L = 1.35$, on trouve en appliquant l'équation \ref{eq:Xt} : \\
 
 \begin{equation}
     \begin{cases}
     \alpha_0 =  -12^\circ\\
     \theta = 9^\circ\\
-    x_{TP} = 0.22
+    x_T = 0.22
     \end{cases}
-    \label{eq:Xtp}
+    \label{eq:Xt results}
 \end{equation}
 
 avec $P = 21 kg$, $x_F = 0.25$, $x_G = 0.5$,$\frac{1}{2} \rho S v^2 = \frac{1}{2} 1.225 * (50m^2) * (14 * 0.514 m/s)^2$  et $C_{M_0} = 0$

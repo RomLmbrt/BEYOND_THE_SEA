@@ -1,0 +1,3 @@
+git+https://github.com/peterdsharpe/AeroSandbox.git
+git+https://github.com/awegroup/Vortex-Step-Method.git
+git+https://github.com/BeyondTheSea-KiteDesign/SurfplanExport.git
