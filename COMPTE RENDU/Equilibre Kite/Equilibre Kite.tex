@@ -75,6 +75,15 @@ Le schéma \ref{fig:Xtp} montre que le towpoint ($x_{TP}$) et $x_T$ forment un a
 
 De plus, $x_{TP}$ est purement géométrique là où $x_T$ lie géométrie et aérodynamique.
 
+On peut lier ces deux positions par la relation suivante : 
+
+\begin{equation}
+    x_{TP} = x_T + d * tan(\alpha_0)
+    \label{eq:Xtp}
+\end{equation}
+
+où d est la distance du point d’attache entre les lignes et le bridage à la corde moyenne, divisé par la corde profil.
+
 \subsection{l'Equilibre} 
 
 \begin{figure}[H]
@@ -99,7 +108,7 @@ Ainsi, en considérant $\alpha << 1$, on a :
 \begin{equation}
     \begin{cases}
     \frac{L-P}{D} = tan(\theta) \\
-    \theta = \alpha + \alpha_0 \\
+    \theta = \frac{\pi}{2} - \alpha + \alpha_0 \\
     x_T = \frac{L x_F - P x_G -C_{M_0}}{L - P}
     \end{cases}
     \label{eq:Xt}
@@ -113,13 +122,19 @@ Pour $\alpha_{optimal} = 21^\circ$, $C_D = 0.19$ et $C_L = 1.35$, on trouve en a
 \begin{equation}
     \begin{cases}
     \alpha_0 =  -12^\circ\\
-    \theta = 9^\circ\\
+    \theta = 81^\circ\\
     x_T = 0.22
     \end{cases}
     \label{eq:Xt results}
 \end{equation}
 
-avec $P = 21 kg$, $x_F = 0.25$, $x_G = 0.5$,$\frac{1}{2} \rho S v^2 = \frac{1}{2} 1.225 * (50m^2) * (14 * 0.514 m/s)^2$  et $C_{M_0} = 0$
+avec $P = 21 kg$, $x_F = 0.25$, $x_G = 0.5$,$\frac{1}{2} \rho S v^2 = \frac{1}{2} 1.225 * (50m^2) * (14 * 0.514 m/s)^2$  et $C_{M_0} = 0$ \\
+
+De plus, avec  $d = \frac{6.9 m}{4.56 m} = 1.51 m$ pour une $50m^2$ (d'après SurfPlan). On a finalement :\\
+$x_{TP} = -0.10 $
+
+Ce resultat semble correct en ordre de grandeur (comme celui de $x_{TP}$) mais pas "exacte"; comparé aux observations expérimentales. On comprend donc l'importance de déterminer chaque grandeur, notamment les coefficients aérodynamiques, avec davantage de précision !
+
 
 \IEEEpeerreviewmaketitle
 \section{Condition d'existence de l'équilibre du kite }
