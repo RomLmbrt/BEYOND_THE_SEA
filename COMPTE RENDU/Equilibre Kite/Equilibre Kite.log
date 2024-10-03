@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.24)  2 OCT 2024 17:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.24)  3 OCT 2024 10:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -325,19 +325,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--36
 
  []
 
-<Pics/TowPoint.png, id=1, 501.37312pt x 437.38406pt>
-File: Pics/TowPoint.png Graphic file (type png)
-<use Pics/TowPoint.png>
-Package pdftex.def Info: Pics/TowPoint.png  used on input line 39.
-(pdftex.def)             Requested size: 258.0pt x 225.07845pt.
-<Pics/Equilibre Kite.png, id=3, 534.49687pt x 458.46281pt>
+<Pics/Xt.png, id=1, 539.76656pt x 437.38406pt>
+File: Pics/Xt.png Graphic file (type png)
+<use Pics/Xt.png>
+Package pdftex.def Info: Pics/Xt.png  used on input line 39.
+(pdftex.def)             Requested size: 258.0pt x 209.06767pt.
+<Pics/Equilibre Kite.png, id=3, 521.69907pt x 446.41782pt>
 File: Pics/Equilibre Kite.png Graphic file (type png)
 <use Pics/Equilibre Kite.png>
 Package pdftex.def Info: Pics/Equilibre Kite.png  used on input line 67.
-(pdftex.def)             Requested size: 258.0pt x 221.30486pt.
+(pdftex.def)             Requested size: 258.0pt x 220.76973pt.
 
 
-[1{C:/Users/RomainLambert/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./Pics/TowPoint.png>]
+[1{C:/Users/RomainLambert/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./Pics/Xt.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 95--97
 
  []
@@ -367,14 +367,14 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  5665 strings out of 473899
- 99375 string characters out of 5722724
+ 99326 string characters out of 5722724
  500500 words of memory out of 5000000
  28472 multiletter control sequences out of 15000+600000
  663849 words of font info for 128 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
- 59i,8n,67p,830b,428s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 59i,8n,67p,818b,428s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "Equilibre Kite.pdf" (2 pages, 306300 bytes).
+Output written on "Equilibre Kite.pdf" (2 pages, 307337 bytes).
 PDF statistics:
  75 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

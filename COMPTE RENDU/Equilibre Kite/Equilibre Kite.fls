@@ -167,17 +167,17 @@ INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\ep
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmrc8t.tfm
-INPUT .\Pics\TowPoint.png
-INPUT .\Pics\TowPoint.png
-INPUT .\Pics\TowPoint.png
-INPUT .\Pics\TowPoint.png
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT .\Pics\Xt.png
+INPUT .\Pics\Xt.png
+INPUT .\Pics\Xt.png
+INPUT .\Pics\Xt.png
 OUTPUT Equilibre Kite.pdf
-INPUT .\Pics\TowPoint.png
-INPUT .\Pics\TowPoint.png
-INPUT .\Pics\TowPoint.png
+INPUT .\Pics\Xt.png
+INPUT .\Pics\Xt.png
+INPUT .\Pics\Xt.png
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmrc8t.tfm
-INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT .\Pics\Equilibre Kite.png
 INPUT .\Pics\Equilibre Kite.png
 INPUT .\Pics\Equilibre Kite.png

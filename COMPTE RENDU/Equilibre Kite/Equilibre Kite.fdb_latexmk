@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1727884246.62667 "c:/Users/RomainLambert/BEYOND_THE_SEA-1/COMPTE RENDU/Equilibre Kite/Equilibre Kite.tex" "Equilibre Kite.pdf" "Equilibre Kite" 1727884248.23257 0
+["pdflatex"] 1727943850.82029 "c:/Users/RomainLambert/BEYOND_THE_SEA-1/COMPTE RENDU/Equilibre Kite/Equilibre Kite.tex" "Equilibre Kite.pdf" "Equilibre Kite" 1727943851.71621 0
   "C:/Users/RomainLambert/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1727881249 279613 fe62a258ff6d99cc2243c3a2d16aa767 ""
   "C:/Users/RomainLambert/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1727162944 11951973 dd11c5ad33a6f110b4bdd66e2f6eaa53 ""
   "C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -68,12 +68,12 @@
   "C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-pdftex.def" 1716480499 29785 9f93ab201fe5dd053afcc6c1bcf7d266 ""
   "C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/tex/latex/psnfss/ot1ptm.fd" 1585253778 1007 15056f4a61917ceed3a44e4ac11fcc52 ""
   "C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/tex/latex/psnfss/t1ptm.fd" 1585253778 817 61d7da1e9f9e74989b196d147e623736 ""
-  "Equilibre Kite.aux" 1727884248 1450 732043cfa61c6f7700f0e5bca5b4223e "pdflatex"
-  "Equilibre Kite.tex" 1727884244 4334 fd9d7b3276854b3440f98c6fe450e66a ""
+  "Equilibre Kite.aux" 1727943851 1429 513807211a9e3b381d15ae7746640444 "pdflatex"
+  "Equilibre Kite.tex" 1727943850 4295 644d8dab88c79ef520cdc9fc47828b15 ""
   "IEEEtran.cls" 1727703131 211262 46f1bb139787f7420123218a50323f6b ""
-  "Pics/Equilibre Kite.png" 1727881556 118261 89706020572993dd5e58437863ca0ea8 ""
-  "Pics/TowPoint.png" 1727874114 104480 69c91cd6b5c565220d4f6fe8436b0a2e ""
-  "c:/Users/RomainLambert/BEYOND_THE_SEA-1/COMPTE RENDU/Equilibre Kite/Equilibre Kite.tex" 1727884244 4334 fd9d7b3276854b3440f98c6fe450e66a ""
+  "Pics/Equilibre Kite.png" 1727943360 118261 d1623521a1f52ac93e8088998bb4859e ""
+  "Pics/Xt.png" 1727943570 106168 af5c8b665893a4273368ea1dfd04e053 ""
+  "c:/Users/RomainLambert/BEYOND_THE_SEA-1/COMPTE RENDU/Equilibre Kite/Equilibre Kite.tex" 1727943850 4295 644d8dab88c79ef520cdc9fc47828b15 ""
   (generated)
   "Equilibre Kite.aux"
   "Equilibre Kite.log"
