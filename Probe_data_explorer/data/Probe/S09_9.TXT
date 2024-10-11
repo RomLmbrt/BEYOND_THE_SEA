@@ -1,0 +1,2 @@
+Ubat;accx1;accy1;accz1;Acc1_Temp;accx2;accy2;accz2;Acc2_Temp;Abs_Pressure;Vector_Temp;Pressure_I;Pressure_Kiel;Pressure_Lacet;Air_Temp_I;Air_Temp_KIEL;Air_Temp_Lacet;Time;latitude;longitude;altGPS;vitesseGPS;UTC_h;UTC_m;UTC_s;dateGPS;Probe
+4.09;nan;nan;nan;25.00;nan;nan;nan;25.00;1.012429;22.89;0.0000;0.000;0.0000;0.00;0.00;0.00;385;0.000000;0.000000;0.00;0.00;0;0;0;09.2
