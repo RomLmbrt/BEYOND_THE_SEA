@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.24)  14 OCT 2024 09:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.24)  14 OCT 2024 11:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/RomainLambert/BEYOND_THE_SEA/COMPTE RENDU/Equilibre Kite/Equilibre Kite.tex"
-(c:/Users/RomainLambert/BEYOND_THE_SEA/COMPTE RENDU/Equilibre Kite/Equilibre Kite.tex
+**"c:/Users/RomainLambert/BEYOND_THE_SEA/COMPTE RENDU/Mesure experimentales/Mesure experimentales.tex"
+(c:/Users/RomainLambert/BEYOND_THE_SEA/COMPTE RENDU/Mesure experimentales/Mesure experimentales.tex
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
 (IEEEtran.cls
@@ -249,8 +249,8 @@ LaTeX Info: Redefining \] on input line 2954.
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count295
 \l__pdf_internal_box=\box57
-) (Equilibre Kite.aux)
-\openout1 = `"Equilibre Kite.aux"'.
+) (Mesure experimentales.aux)
+\openout1 = `"Mesure experimentales.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
@@ -321,33 +321,45 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--36
 
  []
 
-<Pics/Xt.png, id=1, 539.76656pt x 437.38406pt>
-File: Pics/Xt.png Graphic file (type png)
-<use Pics/Xt.png>
-Package pdftex.def Info: Pics/Xt.png  used on input line 39.
-(pdftex.def)             Requested size: 258.0pt x 209.06767pt.
-<Pics/xtp.png, id=3, 478.03593pt x 374.90062pt>
-File: Pics/xtp.png Graphic file (type png)
-<use Pics/xtp.png>
-Package pdftex.def Info: Pics/xtp.png  used on input line 69.
-(pdftex.def)             Requested size: 258.0pt x 202.33463pt.
+<Pics/Picture Sanchez.png, id=1, 524.71031pt x 357.58594pt>
+File: Pics/Picture Sanchez.png Graphic file (type png)
+<use Pics/Picture Sanchez.png>
+Package pdftex.def Info: Pics/Picture Sanchez.png  used on input line 39.
+(pdftex.def)             Requested size: 258.0pt x 175.82974pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
+
+ []
+
+<Pics/Schéma Equilibre Zéntih.png, id=3, 711.4078pt x 548.0475pt>
+File: Pics/Schéma Equilibre Zéntih.png Graphic file (type png)
+<use Pics/Schéma Equilibre Zéntih.png>
+Package pdftex.def Info: Pics/Schéma Equilibre Zéntih.png  used on input line 73.
+(pdftex.def)             Requested size: 258.0pt x 198.76039pt.
 
 
-[1{C:/Users/RomainLambert/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./Pics/Xt.png>]
-<Pics/Equilibre Kite.png, id=18, 498.36188pt x 502.87875pt>
-File: Pics/Equilibre Kite.png Graphic file (type png)
-<use Pics/Equilibre Kite.png>
-Package pdftex.def Info: Pics/Equilibre Kite.png  used on input line 91.
-(pdftex.def)             Requested size: 258.0pt x 260.33978pt.
+[1{C:/Users/RomainLambert/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./Pics/Picture Sanchez.png>]
+<Pics/Schéma Equilibre finesse.png, id=20, 824.32968pt x 420.82219pt>
+File: Pics/Schéma Equilibre finesse.png Graphic file (type png)
+<use Pics/Schéma Equilibre finesse.png>
+Package pdftex.def Info: Pics/Schéma Equilibre finesse.png  used on input line 88.
+(pdftex.def)             Requested size: 258.0pt x 131.70566pt.
+<Pics/Schéma Equilibre capteurs tension AB.png, id=21, 593.96906pt x 492.33937pt>
+File: Pics/Schéma Equilibre capteurs tension AB.png Graphic file (type png)
+<use Pics/Schéma Equilibre capteurs tension AB.png>
+Package pdftex.def Info: Pics/Schéma Equilibre capteurs tension AB.png  used on input line 110.
+(pdftex.def)             Requested size: 258.0pt x 213.86539pt.
 
 
-[2 <./Pics/xtp.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 119--121
+[2 <./Pics/Schéma Equilibre Zéntih.png> <./Pics/Schéma Equilibre finesse.png>]
+
+[3 <./Pics/Schéma Equilibre capteurs tension AB.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--132
+Underfull \hbox (badness 10000) in paragraph at lines 181--182
 
  []
 
@@ -364,26 +376,24 @@ Before submitting the final camera ready copy, remember to:
 
 
 
-[3 <./Pics/Equilibre Kite.png>]
-
-[4] (Equilibre Kite.aux)
+[4] (Mesure experimentales.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 5694 strings out of 473899
- 99662 string characters out of 5722724
- 502503 words of memory out of 5000000
- 28494 multiletter control sequences out of 15000+600000
- 666122 words of font info for 136 fonts, out of 8000000 for 9000
+ 5710 strings out of 473899
+ 100717 string characters out of 5722724
+ 502572 words of memory out of 5000000
+ 28509 multiletter control sequences out of 15000+600000
+ 667218 words of font info for 137 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
- 59i,8n,67p,816b,428s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "Equilibre Kite.pdf" (4 pages, 412473 bytes).
+ 59i,7n,67p,455b,428s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on "Mesure experimentales.pdf" (4 pages, 411890 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
+ 100 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

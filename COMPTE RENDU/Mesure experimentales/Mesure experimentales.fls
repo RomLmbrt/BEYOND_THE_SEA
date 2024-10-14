@@ -1,7 +1,7 @@
-PWD c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\Equilibre Kite
+PWD c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\Mesure experimentales
 INPUT C:\Users\RomainLambert\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\Equilibre Kite\Equilibre Kite.tex
-OUTPUT Equilibre Kite.log
+INPUT c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\Mesure experimentales\Mesure experimentales.tex
+OUTPUT Mesure experimentales.log
 INPUT .\IEEEtran.cls
 INPUT IEEEtran.cls
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ptm.fd
@@ -99,10 +99,10 @@ INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\ams
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT .\Equilibre Kite.aux
-INPUT .\Equilibre Kite.aux
-INPUT Equilibre Kite.aux
-OUTPUT Equilibre Kite.aux
+INPUT .\Mesure experimentales.aux
+INPUT .\Mesure experimentales.aux
+INPUT Mesure experimentales.aux
+OUTPUT Mesure experimentales.aux
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8t.tfm
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8t.tfm
@@ -169,30 +169,22 @@ INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\ep
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmrc8t.tfm
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT .\Pics\Xt.png
-INPUT .\Pics\Xt.png
-INPUT .\Pics\Xt.png
-INPUT .\Pics\Xt.png
-OUTPUT Equilibre Kite.pdf
-INPUT .\Pics\Xt.png
-INPUT .\Pics\Xt.png
-INPUT .\Pics\Xt.png
+INPUT .\Pics\Picture Sanchez.png
+INPUT .\Pics\Picture Sanchez.png
+INPUT .\Pics\Picture Sanchez.png
+INPUT .\Pics\Picture Sanchez.png
+OUTPUT Mesure experimentales.pdf
+INPUT .\Pics\Picture Sanchez.png
+INPUT .\Pics\Picture Sanchez.png
+INPUT .\Pics\Picture Sanchez.png
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmrc8t.tfm
-INPUT .\Pics\xtp.png
-INPUT .\Pics\xtp.png
-INPUT .\Pics\xtp.png
-INPUT .\Pics\xtp.png
-INPUT .\Pics\xtp.png
-INPUT .\Pics\xtp.png
-INPUT .\Pics\xtp.png
-INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
-INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
-INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
-INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
-INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
-INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
-INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
-INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT .\Pics\Schéma Equilibre Zéntih.png
+INPUT .\Pics\Schéma Equilibre Zéntih.png
+INPUT .\Pics\Schéma Equilibre Zéntih.png
+INPUT .\Pics\Schéma Equilibre Zéntih.png
+INPUT .\Pics\Schéma Equilibre Zéntih.png
+INPUT .\Pics\Schéma Equilibre Zéntih.png
+INPUT .\Pics\Schéma Equilibre Zéntih.png
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Users\RomainLambert\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
@@ -207,27 +199,42 @@ INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmri8t.vf
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
-INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
-INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmrc8t.vf
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
-INPUT .\Pics\Equilibre Kite.png
-INPUT .\Pics\Equilibre Kite.png
-INPUT .\Pics\Equilibre Kite.png
-INPUT .\Pics\Equilibre Kite.png
-INPUT .\Pics\Equilibre Kite.png
-INPUT .\Pics\Equilibre Kite.png
-INPUT .\Pics\Equilibre Kite.png
-INPUT Equilibre Kite.aux
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
+INPUT .\Pics\Schéma Equilibre finesse.png
+INPUT .\Pics\Schéma Equilibre finesse.png
+INPUT .\Pics\Schéma Equilibre finesse.png
+INPUT .\Pics\Schéma Equilibre finesse.png
+INPUT .\Pics\Schéma Equilibre finesse.png
+INPUT .\Pics\Schéma Equilibre finesse.png
+INPUT .\Pics\Schéma Equilibre finesse.png
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT .\Pics\Schéma Equilibre capteurs tension AB.png
+INPUT .\Pics\Schéma Equilibre capteurs tension AB.png
+INPUT .\Pics\Schéma Equilibre capteurs tension AB.png
+INPUT .\Pics\Schéma Equilibre capteurs tension AB.png
+INPUT .\Pics\Schéma Equilibre capteurs tension AB.png
+INPUT .\Pics\Schéma Equilibre capteurs tension AB.png
+INPUT .\Pics\Schéma Equilibre capteurs tension AB.png
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmbi8t.vf
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi8r.tfm
+INPUT Mesure experimentales.aux
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi5.pfb
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi5.pfb
-INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi6.pfb
-INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi6.pfb
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
@@ -236,6 +243,8 @@ INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\am
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr5.pfb
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr5.pfb
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr6.pfb
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr6.pfb
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
@@ -244,6 +253,8 @@ INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\am
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmb8a.pfb
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmb8a.pfb
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmbi8a.pfb
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmbi8a.pfb
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmr8a.pfb
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmr8a.pfb
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmri8a.pfb
