@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.24)  28 NOV 2024 12:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.24)  28 NOV 2024 17:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -233,42 +233,52 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 34.
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
+Underfull \hbox (badness 10000) in paragraph at lines 34--36
 
  []
 
-<Pics/circulation BEYOND.png, id=1, 1149.093pt x 711.8595pt>
-File: Pics/circulation BEYOND.png Graphic file (type png)
-<use Pics/circulation BEYOND.png>
-Package pdftex.def Info: Pics/circulation BEYOND.png  used on input line 38.
-(pdftex.def)             Requested size: 258.0pt x 159.82475pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--58
-
- []
-
-File: Pics/circulation BEYOND.png Graphic file (type png)
-<use Pics/circulation BEYOND.png>
-Package pdftex.def Info: Pics/circulation BEYOND.png  used on input line 73.
-(pdftex.def)             Requested size: 258.0pt x 159.82475pt.
+LaTeX Warning: Command \` invalid in math mode on input line 61.
 
 
-[1{C:/Users/RomainLambert/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./Pics/circulation BEYOND.png>]
-File: Pics/circulation BEYOND.png Graphic file (type png)
-<use Pics/circulation BEYOND.png>
-Package pdftex.def Info: Pics/circulation BEYOND.png  used on input line 88.
-(pdftex.def)             Requested size: 258.0pt x 159.82475pt.
+LaTeX Warning: Command \' invalid in math mode on input line 61.
+
+Missing character: There is no � in font cmr10!
+Missing character: There is no � in font cmr10!
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 82.
+(C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+<Pics/breukels.png, id=1, 462.16666pt x 436.14944pt>
+File: Pics/breukels.png Graphic file (type png)
+<use Pics/breukels.png>
+Package pdftex.def Info: Pics/breukels.png  used on input line 85.
+(pdftex.def)             Requested size: 258.0pt x 243.47668pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 89.
+(Font)              <8> on input line 86.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 89.
-File: Pics/circulation BEYOND.png Graphic file (type png)
-<use Pics/circulation BEYOND.png>
-Package pdftex.def Info: Pics/circulation BEYOND.png  used on input line 100.
-(pdftex.def)             Requested size: 258.0pt x 159.82475pt.
+(Font)              <6> on input line 86.
 
 
-[2]
+[1{C:/Users/RomainLambert/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}]
+<Pics/vsm.png, id=20, 422.7795pt x 436.14944pt>
+File: Pics/vsm.png Graphic file (type png)
+<use Pics/vsm.png>
+Package pdftex.def Info: Pics/vsm.png  used on input line 110.
+(pdftex.def)             Requested size: 258.0pt x 266.17056pt.
+
+
+[2 <./Pics/breukels.png>]
+<Pics/résultats pas alpha 2D.png, id=27, 566.5968pt x 421.69545pt>
+File: Pics/résultats pas alpha 2D.png Graphic file (type png)
+<use Pics/résultats pas alpha 2D.png>
+Package pdftex.def Info: Pics/résultats pas alpha 2D.png  used on input line 154.
+(pdftex.def)             Requested size: 258.0pt x 192.01328pt.
+
+
+[3 <./Pics/vsm.png>]
+
+[4 <./Pics/résultats pas alpha 2D.png>]
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -282,24 +292,24 @@ Before submitting the final camera ready copy, remember to:
 
 
 
-[3] (Diameter_depth_study.aux)
+[5] (Diameter_depth_study.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4401 strings out of 473899
- 79109 string characters out of 5722724
- 478645 words of memory out of 5000000
- 27252 multiletter control sequences out of 15000+600000
- 664111 words of font info for 131 fonts, out of 8000000 for 9000
+ 4450 strings out of 473899
+ 79990 string characters out of 5722724
+ 492659 words of memory out of 5000000
+ 27294 multiletter control sequences out of 15000+600000
+ 666939 words of font info for 135 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
- 57i,6n,65p,442b,428s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Diameter_depth_study.pdf (3 pages, 320388 bytes).
+ 57i,8n,65p,670b,428s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Diameter_depth_study.pdf (5 pages, 850905 bytes).
 PDF statistics:
- 81 PDF objects out of 1000 (max. 8388607)
+ 106 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
