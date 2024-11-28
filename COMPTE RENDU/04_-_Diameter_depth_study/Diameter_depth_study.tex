@@ -13,7 +13,7 @@
 \begin{document}
 
 %+++++++++++++++++++++++++++++++++++++++++++
-\title{\LARGE Equilibre au Zénith du Kite
+\title{\LARGE Etude de l'influence du diamètre et de la profondeur sur la finesse d'un kite
 \vskip10pt
 
 \small 2024 - Romain LAMBERT
@@ -27,7 +27,7 @@
 \IEEEoverridecommandlockouts
 
 \IEEEpeerreviewmaketitle
-\section{Travaux précédents (Zoé Marcelet)}
+\section{La théorie}
 
 \subsection{Modèle Lagragien} 
 
@@ -35,7 +35,7 @@ D'après le document \textit{"Dynamics and Control of Single-Line Kites"} de Gon
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.5\textwidth]{Pics/Picture Sanchez.png}  
+    \includegraphics[width=0.5\textwidth]{Pics/circulation BEYOND.png}  
     \caption{Schéma du kite au Zénith.}
     \label{fig:sanchez}
 \end{figure}
@@ -59,8 +59,9 @@ Avec $\beta = \frac{\rho A W_0^2}{2mg}$ et $\sigma = \frac{X_{cp}}{r}$ \\
 Ces équations ont été codées (disponible sur Nextcloud : 06-RESSOURCE/AC-Admin Commun/4-Rapports Stagiaires/Stage Zoé Marcelet/Rapport\_zozo/06\_Topic\_modèle\_aéro\_zenith). 
 Elles restent cependant peut concluantes car requièrent les coéfficients aérodynamiques du kite. 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \IEEEpeerreviewmaketitle
-\section{Mesure de l'angle d'incidence au Zénith}
+\section{Le Code }
 
 \subsection{Problème de l'angle de calage $\alpha_0$} 
 
@@ -69,7 +70,7 @@ Une première intuition nous amène à penser que la connaissance de l'angle d'�
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.5\textwidth]{Pics/Schéma Equilibre Zéntih.png}  
+    \includegraphics[width=0.5\textwidth]{Pics/circulation BEYOND.png}  
     \caption{Schéma des angles qui paramètres le Zénith.}
     \label{fig:Zénith alpha zéro}
 \end{figure}
@@ -84,7 +85,7 @@ Ainsi, l'angle que fait le cône de bridage avec les lignes qui le relient au so
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.5\textwidth]{Pics/Schéma Equilibre finesse.png}  
+    \includegraphics[width=0.5\textwidth]{Pics/circulation BEYOND.png}  
     \caption{Graphique du lien entre finesse (aérodynamique) et l'angle $\alpha_0$}
     \label{fig:Zénith finesse}
 \end{figure}
@@ -96,7 +97,7 @@ L'idée est que notre système \{kite+bridages\} se comporte comme un pendule in
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.5\textwidth]{Pics/Schéma Equilibre capteurs tension AB.png}  
+    \includegraphics[width=0.5\textwidth]{Pics/circulation BEYOND.png}  
     \caption{Schéma des tensions dans les bridages}
     \label{fig:Zénith tensions AB}
 \end{figure}
@@ -112,7 +113,7 @@ et ainsi d'en déduire :
 
 \begin{center}
     \begin{equation}
-        \alpha = \theta + sin^{-1}(\frac{T_B cos(\delta_B) - T_A cos(\delta_A)}{T}))
+        \alpha = \theta + sin^{-1}(\frac{T_B cos(\delta_B) - T_A cos(\delta_A)}{T})
     \end{equation}
 \end{center}
 
@@ -125,5 +126,9 @@ Ainsi, on peut déterminer l'angle d'incidence $\alpha$ à partir de :
     \item $\delta_A$ : l'angle des A par rapport à la corde moyenne du kite (surfplan ou au laser)
     \item $\delta_B$ : l'angle des B par rapport à la corde moyenne du kite (surfplan ou au laser)
 \end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\IEEEpeerreviewmaketitle
+\section{Les Résultats}
 
 \end{document}
