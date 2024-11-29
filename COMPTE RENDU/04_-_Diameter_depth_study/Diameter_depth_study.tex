@@ -13,7 +13,7 @@
 \begin{document}
 
 %+++++++++++++++++++++++++++++++++++++++++++
-\title{\LARGE Etude de l'influence du diamètre et de la profondeur sur la finesse d'un kite
+\title{\LARGE Etude de l'influence du couple (diamètre, profondeur) sur la finesse d'un kite
 \vskip10pt
 
 \small 2024 - Romain LAMBERT
@@ -58,12 +58,12 @@ et :
 où les 23 coéfficients $C_x$ sont prédéterminés, et (t,k) est le couple (diamètre, cambrure) définit tel que :
 \begin{center}
     \begin{equation}
-        t = \frac{Diamètre_{BA}}{Corde} ; k = \frac{max(CoordonéesExtrados)}{Corde}
+        t = \frac{Diamètre(BA)}{Corde} ; k = \frac{max(CoordonéesExtrados)}{Corde}
         \label{eq:tk_breukels}
     \end{equation}
 \end{center}
 
-Ainsi, l'obtention ds coéfficients 2D permet ensuite à la VSM d'ajouter l'indluence des effets 3D (loi de corde, d'envergure, de voute...) sur les coefficients aérodynamique d'un kite
+Ainsi, l'obtention ds coéfficients 2D permet ensuite à la VSM d'ajouter l'indluence des effets 3D (loi de corde, d'envergure, de voute...) sur les coefficients aérodynamiques d'un kite
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \IEEEpeerreviewmaketitle
@@ -74,7 +74,7 @@ Ainsi, l'obtention ds coéfficients 2D permet ensuite à la VSM d'ajouter l'indl
 On étudie dans un premier temps La fonction de Breukels pour en chercher les optimum. On utilise pour ce faire un code d'optimsiation fournit par la bibliothèque \textbf{aerosandbox} et on se place dans deux cas d'optimisation : 
 \begin{itemize}
     \item Maximum de $\frac{C_L(\alpha)}{C_D(\alpha)}$ à angle $\alpha$ fixé 
-    \item Maximum de $\sum_{\alpha = 0}^{21}\frac{C_L(\alpha)}{C_D(\alpha)} Gaussienne(alpha, center, sigma) $
+    \item Maximum de $\sum_{\alpha = 0}^{20}\frac{C_L(\alpha)}{C_D(\alpha)} Gaussienne(alpha, center, sigma) $
 \end{itemize}
 
     où $Gaussienne(\alpha, center, \sigma) = e^{-\frac{(center - \alpha)^2}{2\sigma^2}}$ est une Gaussienne permettant d'obtenir une moyenne pondérée. 
@@ -90,7 +90,8 @@ On étudie dans un premier temps La fonction de Breukels pour en chercher les op
 
 \subsection{Le cas d'étude - 3D} 
 
-On se place ensuite dans le cas d'étude d'un SK50-VG dont on fait varier le \textbf{diamètre t entre -0.02 et +0.1 et la cambrure k entre -0.1 et 0.1}. A noter que sur chaque section de l'aile \textbf{le diamètre ne peut pas être inférieur à 0.04 et la cambrure inférieur au demi-diamètre}. Ainsi, les résultats sont à nuancer : \textbf{une aile avec un delta de t ou de k ne veut as dire que toutes les sections ont été modifiées de ce delta}; seules les sections respectant ces critères énoncés précédemment le sont.
+On se place ensuite dans le cas d'étude d'un SK50-VG dont on fait varier le \textbf{diamètre t entre -0.02 et +0.1 et la cambrure k entre -0.1 et 0.1}. \\
+    A noter que sur chaque section de l'aile \textbf{le diamètre ne peut pas être inférieur à 0.04 et la cambrure inférieur au demi-diamètre}. Ainsi, les résultats sont à nuancer : \textbf{une aile avec un certain delta de t ou de k ne veut as dire que toutes les sections ont été modifiées de ce delta; seules les sections respectant ces critères de minimum énoncés précédemment le sont.}
 
 La loi d'évolution de t et k sur une VG est initialement:  
 \begin{itemize}
@@ -174,54 +175,67 @@ La loi d'évolution de t et k sur une VG est initialement:
 
 \subsection{3D - résultats par $\alpha$}
 
+Le tableau suivant présente les résultats obtenu avec la VSM (3D). Les nombres de ribs saturés en diamètre/cambrure sont, pour chaque alpha, les nombre de ribs qui ne pouvaient pas atteindre la valeurs objective (Valeurs initiale + delta) et qui donc sont "saturés" à la valeurs minimal ( $\frac{Diamètre}{2}$ pour la cambrure et 0.04 pour le diamètre).\\
+
+A noter que les ribs initialement à faible diamètre (relatif) sont ceux du bord d'attaque, et que les profils les moins cambré sont aux tips; en témoigne les valeurs initiales de t et k présentés en II.B..
+
 \[
 \begin{array}{|c|c|c|c|c|}
     \hline
     \textbf{$\alpha$} & \textbf{$\delta diametre$} & \textbf{nombre ribs saturés en diamètre} & \textbf{$\delta cambrure$} & \textbf{nombre ribs saturés en cambrure}\\
     \hline
-    0 & -0.02 & 10 & -0.05 & 10\\
-    1 & -0.02 & 10 & -0.05 & 10\\
-    2 & -0.02 & 10 & -0.05 & 10\\
-    3 & -0.02 & 10 & -0.05 & 10 \\
-    4 & -0.02 & 10 & -0.05 & 10 \\
-    5 & -0.02 & 10 & -0.05 & 10 \\
-    6 & -0.02 & 10 & -0.05 & 10  \\
-    7 & -0.02 & 10 & -0.05 & 10 \\
-    8 & -0.02 & 10 & -0.05 & 10 \\
-    9 & -0.02 & 10 & -0.05 & 10 \\
-    10 & -0.02 & 10 & -0.05 & 10 \\
-    11 & 0.04 & 0 & -0.1 & 20 \\
-    12 & 0.04 & 0 & -0.1 & 20 \\
-    13 & 0.04 & 0 & -0.1 & 20 \\
-    14 & 0.04 & 0 & -0.1 & 20 \\
-    15 & 0.01 & 0 & -0.1 & 20 \\
-    16 & 0.01 & 0 & -0.1 & 20 \\
-    17 & 0.01 & 0 & -0.1 & 20 \\
-    18 & 0.01 & 0 & -0.1 & 20 \\
-    19 & 0.01 & 0 & -0.1 & 20 \\
-    20 & 0.01 & 0 & -0.1 & 20 \\
+    0 & -0.02 & 10 & -0.1 & 20\\
+    1 & -0.007 & 0 & -0.1 & 20\\
+    2 & -0.007 & 0 & -0.1 & 20\\
+    3 & -0.007 & 0 & -0.1 & 20 \\
+    4 & -0.007 & 0 & -0.1 & 20 \\
+    5 & -0.007 & 0 & -0.1 & 20 \\
+    6 & -0.007 & 0 & -0.1 & 20  \\
+    7 & -0.007 & 0 & -0.1 & 20 \\
+    8 & -0.02 & 0 & -0.1 & 20 \\
+    9 & -0.02 & 0 & -0.1 & 20 \\
+    10 & -0.02 & 0 & -0.1 & 20 \\
+    11 & 0.033 & 0 & -0.033 & 12 \\
+    12 & 0.033 & 0 & -0.033 & 12 \\
+    13 & 0.033 & 0 & -0.1 & 4 \\
+    14 & 0.02 & 0 & -0.1 & 4 \\
+    15 & 0.02 & 0 & -0.1 & 4 \\
+    16 & 0.02 & 0 & -0.1 & 4 \\
+    17 & 0.02 & 0 & -0.1 & 4 \\
+    18 & -0.007 & 0 & 0.1 & 0 \\
+    19 & -0.007 & 0 & 0.1 & 0 \\
+    20 & -0.007 & 0 & 0.1 & 0 \\
     \hline
 \end{array}
 \]
     \textbf{Remarque :}
     \begin{itemize}
-        \item Pour beaucoup de valeurs optimales, un nombre importants de ribs sont saturés en cambrure et diamètre; c'est à dire qu'ils sont limités par la condition de valeurs minimale. \textbf{Ce sont les rib sur les tips qui saturent en premier}
-        \item Le faible nombre d'échantillon semble limité la précision des résultats. Avec 5 valeurs de $\delta Diameter$ et 5 valeurs de $\delta Depth$, on est déjà à 5x5 = 25 simulations (10 minutes)!
+        \item Pour beaucoup de valeurs optimales, un nombre importants de ribs sont saturés en cambrure
+        \item Le faible nombre d'échantillon semble limité la précision des résultats. Avec 10 valeurs de $\delta Diameter$ et 10 valeurs de $\delta Depth$, on est déjà à 10x10 = 100 simulations (45 minutes)!
     \end{itemize}
 
 \subsection{3D - résultats avec moyenne pondérée par Gaussienne}
 Avec une Gaussienne de paramètres \textbf{center = 7° et sigma = 8}, les valeurs qui maximisent la fonction objective (moyenne pondérée de finesse aérodynamique) sont :
 \begin{itemize}
-    \item $\delta diameter$ : -0.02
-    \item $\delta depth$ : -0.05
+    \item $\delta diameter$ : 0.02
+    \item $\delta depth$ : -0.1
 \end{itemize}
 
 \textbf{Les valeurs de diamètre et cambrure optimaux ainsi obtenus en 3D sont : 
 }
 
 \begin{itemize}
-    \item t : 0.080 0.077 0.0757 0.073 0.0713 0.070 0.070  0.070 0.070 0.0709  0.070  0.070 0.070 0.070 0.070 0.071 0.073 0.075 0.077 0.080
-    \item k : 0.040 0.038 0.038 0.036 0.035 0.035 0.035  0.035 0.035 0.035 0.035 0.035 0.035 0.035  0.035 0.035 0.036 0.038 0.038 0.040
+    \item t : 0.090 0.086 0.085 0.083 0.081 0.080 0.080  0.080 0.080 0.080 0.080  0.080 0.080 0.080 0.080 0.081 0.083 0.085 0.087 0.090
+    \item k : 0.045 0.043 0.043 0.041 0.040 0.040 0.040  0.040 0.040 0.040 0.040 0.040 0.040 0.040  0.040 0.040 0.041 0.043 0.043 0.045
 \end{itemize}
+
+\textbf{A comparer avec les valeurs initiales :}
+\begin{itemize}
+    \item t : 0.07 0.067 0.065 0.063 0.061 0.06 0.06  0.06 0.06 0.06  0.06  0.06 0.06 0.06  0.06 0.061 0.063 0.065 0.067 0.07
+    \item k : 0.034 0.05 0.0645 0.0686 0.072 0.075 0.08 0.08 0.08 0.08 0.08 0.08 0.08 0.08 0.075 0.072 0.0686 0.0645 0.05 0.034
+\end{itemize}
+
+\textbf{On note donc une tendance (en 3D) à augumenter diamètre et cambrure du kite. }\\
+A noter que l'étude est réalisée à \textbf{50 knots}. 
 
 \end{document}
