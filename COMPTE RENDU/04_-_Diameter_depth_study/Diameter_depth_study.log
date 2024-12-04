@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.24)  4 DEC 2024 11:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.24)  4 DEC 2024 16:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -174,149 +174,249 @@ Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 LaTeX Font Info:    Trying to load font information for T1+ptm on input line 116.
  (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
-)) (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+)) (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2024/06/14 v2.6d Tabular extension package (FMi)
+\col@sep=\dimen176
+\ar@mcellbox=\box53
+\extrarowheight=\dimen177
+\NC@list=\toks22
+\extratabsurround=\skip52
+\backup@length=\skip53
+\ar@cellbox=\box54
+) (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/subfigure\subfigure.sty
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip54
+\subfigcapskip=\skip55
+\subfigcaptopadj=\dimen178
+\subfigbottomskip=\skip56
+\subfigcapmargin=\dimen179
+\subfiglabelskip=\skip57
+\c@subfigure=\count282
+\c@lofdepth=\count283
+\c@subtable=\count284
+\c@lotdepth=\count285
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/subfigure\subfigure.cfg)
+\subfig@top=\skip58
+\subfig@bottom=\skip59
+) (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count282
-\float@exts=\toks22
-\float@box=\box53
-\@float@everytoks=\toks23
-\@floatcapt=\box54
+\c@float@type=\count286
+\float@exts=\toks23
+\float@box=\box55
+\@float@everytoks=\toks24
+\@floatcapt=\box56
 ) (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count283
-\l__pdf_internal_box=\box55
-) (Diameter_depth_study.aux)
+\l__color_backend_stack_int=\count287
+\l__pdf_internal_box=\box57
+) (Diameter_depth_study.aux
+
+LaTeX Warning: Label `fig:table' multiply defined.
+
+
+LaTeX Warning: Label `fig:graph' multiply defined.
+
+)
 \openout1 = `Diameter_depth_study.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
  (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count284
-\scratchdimen=\dimen176
-\scratchbox=\box56
-\nofMPsegments=\count285
-\nofMParguments=\count286
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count287
-\MPscratchDim=\dimen177
-\MPnumerator=\count288
-\makeMPintoPDFobject=\count289
-\everyMPtoPDFconversion=\toks25
+\scratchcounter=\count288
+\scratchdimen=\dimen180
+\scratchbox=\box58
+\nofMPsegments=\count289
+\nofMParguments=\count290
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count291
+\MPscratchDim=\dimen181
+\MPnumerator=\count292
+\makeMPintoPDFobject=\count293
+\everyMPtoPDFconversion=\toks26
 ) (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Info: Redefining \degres on input line 13.
-LaTeX Info: Redefining \up on input line 13.
+LaTeX Info: Redefining \degres on input line 15.
+LaTeX Info: Redefining \up on input line 15.
 
 
 LaTeX Warning: No \author given.
 
-** ATTENTION: Overriding command lockouts (line 27).
+** ATTENTION: Overriding command lockouts (line 29).
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 34.
+(Font)              <7> on input line 36.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 34.
+(Font)              <5> on input line 36.
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--36
+Underfull \hbox (badness 10000) in paragraph at lines 36--38
 
  []
 
 
-LaTeX Warning: Command \` invalid in math mode on input line 61.
+LaTeX Warning: Command \` invalid in math mode on input line 63.
 
 
-LaTeX Warning: Command \' invalid in math mode on input line 61.
+LaTeX Warning: Command \' invalid in math mode on input line 63.
 
 Missing character: There is no � in font cmr10!
 Missing character: There is no � in font cmr10!
 <Pics/airfoil.png, id=1, 690.32906pt x 490.83376pt>
 File: Pics/airfoil.png Graphic file (type png)
 <use Pics/airfoil.png>
-Package pdftex.def Info: Pics/airfoil.png  used on input line 70.
+Package pdftex.def Info: Pics/airfoil.png  used on input line 72.
 (pdftex.def)             Requested size: 258.0pt x 183.44057pt.
 
 
 [1{C:/Users/RomainLambert/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./Pics/airfoil.png>]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 89.
+<Pics/breukels.png, id=16, 449.15805pt x 436.14944pt>
+File: Pics/breukels.png Graphic file (type png)
+<use Pics/breukels.png>
+Package pdftex.def Info: Pics/breukels.png  used on input line 93.
+(pdftex.def)             Requested size: 258.0pt x 250.52443pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 94.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 94.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 94.
  (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-<Pics/breukels.png, id=16, 462.16666pt x 436.14944pt>
-File: Pics/breukels.png Graphic file (type png)
-<use Pics/breukels.png>
-Package pdftex.def Info: Pics/breukels.png  used on input line 92.
-(pdftex.def)             Requested size: 258.0pt x 243.47668pt.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 93.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 93.
-<Pics/vsm.png, id=17, 422.7795pt x 436.14944pt>
+Underfull \hbox (badness 10000) in paragraph at lines 101--103
+
+ []
+
+<Pics/vsm.png, id=17, 400.3758pt x 436.14944pt>
 File: Pics/vsm.png Graphic file (type png)
 <use Pics/vsm.png>
-Package pdftex.def Info: Pics/vsm.png  used on input line 118.
-(pdftex.def)             Requested size: 258.0pt x 266.17056pt.
+Package pdftex.def Info: Pics/vsm.png  used on input line 126.
+(pdftex.def)             Requested size: 258.0pt x 281.07132pt.
 
 
 [2 <./Pics/breukels.png>]
+
+LaTeX Warning: Command \` invalid in math mode on input line 144.
+
+Missing character: There is no � in font cmr10!
 <Pics/résultats pas alpha 2D.png, id=29, 566.5968pt x 421.69545pt>
 File: Pics/résultats pas alpha 2D.png Graphic file (type png)
 <use Pics/résultats pas alpha 2D.png>
-Package pdftex.def Info: Pics/résultats pas alpha 2D.png  used on input line 162.
-(pdftex.def)             Requested size: 258.0pt x 192.01328pt.
+Package pdftex.def Info: Pics/résultats pas alpha 2D.png  used on input line 176.
+(pdftex.def)             Requested size: 232.19843pt x 172.81259pt.
 
 
-[3 <./Pics/vsm.png>]
+[3 <./Pics/vsm.png> <./Pics/résultats pas alpha 2D.png>]
+<Pics/diametre gaussian 2d.png, id=35, 529.7391pt x 436.14944pt>
+File: Pics/diametre gaussian 2d.png Graphic file (type png)
+<use Pics/diametre gaussian 2d.png>
+Package pdftex.def Info: Pics/diametre gaussian 2d.png  used on input line 194.
+(pdftex.def)             Requested size: 232.19843pt x 191.17429pt.
+<Pics/depth gaussian 2d.png, id=36, 530.10045pt x 436.14944pt>
+File: Pics/depth gaussian 2d.png Graphic file (type png)
+<use Pics/depth gaussian 2d.png>
+Package pdftex.def Info: Pics/depth gaussian 2d.png  used on input line 199.
+(pdftex.def)             Requested size: 232.19843pt x 191.04118pt.
 
-LaTeX Warning: Command \` invalid in math mode on input line 185.
+Underfull \hbox (badness 10000) in paragraph at lines 204--205
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 206--207
+
+ []
+
+
+LaTeX Warning: Command \` invalid in math mode on input line 212.
 
 Missing character: There is no � in font cmr7!
 
-Underfull \hbox (badness 10000) in paragraph at lines 185--186
+Underfull \hbox (badness 10000) in paragraph at lines 212--213
+
+ []
+
+
+Overfull \hbox (4.17345pt too wide) in paragraph at lines 222--222
+ []$\OML/cmm/m/it/10 ^^N$\T1/ptm/b/n/10 cambrure 
+ []
+
+
+Overfull \hbox (10.9181pt too wide) in paragraph at lines 220--247
+ [][] 
+ []
+
+<Pics/résultats pas alpha 3D.png, id=37, 566.5968pt x 421.69545pt>
+File: Pics/résultats pas alpha 3D.png Graphic file (type png)
+<use Pics/résultats pas alpha 3D.png>
+Package pdftex.def Info: Pics/résultats pas alpha 3D.png  used on input line 253.
+(pdftex.def)             Requested size: 232.19843pt x 172.81259pt.
+
+
+[4 <./Pics/diametre gaussian 2d.png> <./Pics/depth gaussian 2d.png>]
+<Pics/diametre gaussian.png, id=43, 536.2434pt x 436.14944pt>
+File: Pics/diametre gaussian.png Graphic file (type png)
+<use Pics/diametre gaussian.png>
+Package pdftex.def Info: Pics/diametre gaussian.png  used on input line 271.
+(pdftex.def)             Requested size: 232.19843pt x 188.8583pt.
+
+
+LaTeX Warning: Command \` invalid in math mode on input line 271.
+
+Missing character: There is no � in font cmr8!
+<Pics/depth gaussian.png, id=44, 536.2434pt x 436.14944pt>
+File: Pics/depth gaussian.png Graphic file (type png)
+<use Pics/depth gaussian.png>
+Package pdftex.def Info: Pics/depth gaussian.png  used on input line 276.
+(pdftex.def)             Requested size: 232.19843pt x 188.8583pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 281--282
 
  []
 
 
 
-[4 <./Pics/résultats pas alpha 2D.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 250--251
+[5 <./Pics/résultats pas alpha 3D.png> <./Pics/diametre gaussian.png> <./Pics/depth gaussian.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 315--316
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--253
+Underfull \hbox (badness 10000) in paragraph at lines 317--318
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 254--255
+Underfull \hbox (badness 10000) in paragraph at lines 319--320
 
  []
 
-
-
-[5]
-<Pics/optim neuralfoil.png, id=42, 709.6914pt x 284.7438pt>
+<Pics/optim neuralfoil.png, id=51, 709.6914pt x 284.7438pt>
 File: Pics/optim neuralfoil.png Graphic file (type png)
 <use Pics/optim neuralfoil.png>
-Package pdftex.def Info: Pics/optim neuralfoil.png  used on input line 260.
+Package pdftex.def Info: Pics/optim neuralfoil.png  used on input line 326.
 (pdftex.def)             Requested size: 258.0pt x 103.51134pt.
 
+
+[6 <./Pics/optim neuralfoil.png>]
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -330,24 +430,28 @@ Before submitting the final camera ready copy, remember to:
 
 
 
-[6 <./Pics/optim neuralfoil.png>] (Diameter_depth_study.aux)
+[7] (Diameter_depth_study.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 4466 strings out of 473899
- 80398 string characters out of 5722724
- 496687 words of memory out of 5000000
- 27310 multiletter control sequences out of 15000+600000
- 666939 words of font info for 135 fonts, out of 8000000 for 9000
+ 4758 strings out of 473899
+ 85798 string characters out of 5722724
+ 492450 words of memory out of 5000000
+ 27593 multiletter control sequences out of 15000+600000
+ 667253 words of font info for 136 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
- 57i,8n,65p,713b,428s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Diameter_depth_study.pdf (6 pages, 1158623 bytes).
+ 57i,13n,65p,713b,428s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Diameter_depth_study.pdf (7 pages, 2031199 bytes).
 PDF statistics:
- 113 PDF objects out of 1000 (max. 8388607)
+ 123 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

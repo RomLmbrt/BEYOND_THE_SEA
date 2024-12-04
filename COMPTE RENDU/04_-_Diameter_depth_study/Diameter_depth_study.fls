@@ -85,6 +85,13 @@ INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\t1pt
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\t1ptm.fd
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\t1ptm.fd
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\subfigure\subfigure.sty
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\subfigure\subfigure.sty
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\subfigure\subfigure.cfg
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\subfigure\subfigure.cfg
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\subfigure\subfigure.cfg
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
@@ -169,10 +176,6 @@ INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmrc8t.vf
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
-INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
-INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
-INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
-INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8c.tfm
 INPUT .\Pics\breukels.png
 INPUT .\Pics\breukels.png
 INPUT .\Pics\breukels.png
@@ -186,6 +189,9 @@ INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\c
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8c.tfm
 INPUT .\Pics\vsm.png
 INPUT .\Pics\vsm.png
@@ -196,7 +202,6 @@ INPUT .\Pics\vsm.png
 INPUT .\Pics\vsm.png
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
-INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8c.vf
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8c.vf
 INPUT .\Pics\résultats pas alpha 2D.png
 INPUT .\Pics\résultats pas alpha 2D.png
@@ -205,6 +210,45 @@ INPUT .\Pics\résultats pas alpha 2D.png
 INPUT .\Pics\résultats pas alpha 2D.png
 INPUT .\Pics\résultats pas alpha 2D.png
 INPUT .\Pics\résultats pas alpha 2D.png
+INPUT .\Pics\diametre gaussian 2d.png
+INPUT .\Pics\diametre gaussian 2d.png
+INPUT .\Pics\diametre gaussian 2d.png
+INPUT .\Pics\diametre gaussian 2d.png
+INPUT .\Pics\diametre gaussian 2d.png
+INPUT .\Pics\diametre gaussian 2d.png
+INPUT .\Pics\diametre gaussian 2d.png
+INPUT .\Pics\depth gaussian 2d.png
+INPUT .\Pics\depth gaussian 2d.png
+INPUT .\Pics\depth gaussian 2d.png
+INPUT .\Pics\depth gaussian 2d.png
+INPUT .\Pics\depth gaussian 2d.png
+INPUT .\Pics\depth gaussian 2d.png
+INPUT .\Pics\depth gaussian 2d.png
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8c.tfm
+INPUT .\Pics\résultats pas alpha 3D.png
+INPUT .\Pics\résultats pas alpha 3D.png
+INPUT .\Pics\résultats pas alpha 3D.png
+INPUT .\Pics\résultats pas alpha 3D.png
+INPUT .\Pics\résultats pas alpha 3D.png
+INPUT .\Pics\résultats pas alpha 3D.png
+INPUT .\Pics\résultats pas alpha 3D.png
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8c.vf
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8c.tfm
+INPUT .\Pics\diametre gaussian.png
+INPUT .\Pics\diametre gaussian.png
+INPUT .\Pics\diametre gaussian.png
+INPUT .\Pics\diametre gaussian.png
+INPUT .\Pics\diametre gaussian.png
+INPUT .\Pics\diametre gaussian.png
+INPUT .\Pics\diametre gaussian.png
+INPUT .\Pics\depth gaussian.png
+INPUT .\Pics\depth gaussian.png
+INPUT .\Pics\depth gaussian.png
+INPUT .\Pics\depth gaussian.png
+INPUT .\Pics\depth gaussian.png
+INPUT .\Pics\depth gaussian.png
+INPUT .\Pics\depth gaussian.png
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8c.vf
 INPUT .\Pics\optim neuralfoil.png
 INPUT .\Pics\optim neuralfoil.png
 INPUT .\Pics\optim neuralfoil.png
@@ -231,8 +275,6 @@ INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\am
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr5.pfb
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
-INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
-INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy5.pfb
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy5.pfb
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
