@@ -65,6 +65,13 @@ où les 23 coéfficients $C_x$ sont prédéterminés, et (t,k) est le couple (di
 
 Ainsi, l'obtention ds coéfficients 2D permet ensuite à la VSM d'ajouter l'indluence des effets 3D (loi de corde, d'envergure, de voute...) sur les coefficients aérodynamiques d'un kite
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Pics/airfoil.png}  
+    \caption{Profil central d'une SK50-VG avec identification du diamètre et de la cambrure tel que utilisés par la VSM.}
+    \label{fig:airfoil}
+\end{figure}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \IEEEpeerreviewmaketitle
 \section{Le Code }
@@ -237,5 +244,23 @@ Avec une Gaussienne de paramètres \textbf{center = 7° et sigma = 8}, les valeu
 
 \textbf{On note donc une tendance (en 3D) à augumenter diamètre et cambrure du kite. }\\
 A noter que l'étude est réalisée à \textbf{50 knots}. 
+
+\section{ Limites et Etudes Complémentaires}
+
+Tout d'abord Breukels ne prend en compte que le diamètre et la cambrure maximal d'un profil, \textbf{la position de la cambrure maximale d'un profil n'est donc pas prise en compte}. \\
+
+Ensuite, l'étude réalisée \textbf{ne fait pas intervenir de critère de stabilité.} Il sera sujet par suite d'une telle étude avec les résultats obtenus dans ce papier.\\
+
+De plus, le choix de la fonction objective pour la recherche d'un optimum (moyenne pondérée par une Gaussienne) est peu justifiée. Connaître la valeurs d'un angle d'attaque pour lequel on souhaite optimiser une fonction ( finesse, stabilité, portance...) permettrait d'avoir un résultat plus pertinant. \textbf{Mesurer les angles d'attaques principaux lors des essais kite, peut-être avec l'extended Karmann Filter (EKF)} fournit par Kite Power, permettrait de répondre à ce problème. Le choix de sigma et alpha center dans la Gaussienne sont, eux aussi, criticables.\\
+
+Finalement les fonctions d'optimisation d'Aerosandbox ne sont pas applicables à la VSM. Elles sont cependant utilisées pour optimiser la fonction de Breukels (2 paramètres) et les profils représentés avec 10 paramètres (Kulfan parameters) tel quel :  
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Pics/optim neuralfoil.png}  
+    \caption{Optimisation réalisée avec Aerosandbox sur des profils dis "de Kulfan"}
+    \label{fig:kulfan}
+\end{figure}
+
 
 \end{document}
