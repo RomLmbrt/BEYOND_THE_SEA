@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.24)  6 DEC 2024 12:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.24)  6 DEC 2024 14:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -383,14 +383,14 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 File: datetime2-english.ldf 2019/10/21 v1.05 (NLCT)
  (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/datetime2-english\datetime2-english-base.ldf
 File: datetime2-english-base.ldf 2019/10/21 v1.05 (NLCT)
-)) (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/datetime2-portuges\datetime2-portuges.ldf
-File: datetime2-portuges.ldf 2018/08/21 v1.1
+)) (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/datetime2-french\datetime2-french.ldf
+File: datetime2-french.ldf 2020/09/21 v1.03
  (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 ) (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
-) (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/datetime2-portuges\datetime2-portuges-ascii.ldf
-File: datetime2-portuges-ascii.ldf 2018/08/21 v1.1
+) (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/datetime2-french\datetime2-french-ascii.ldf
+File: datetime2-french-ascii.ldf 2020/09/21 v1.03
 )) (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/datetime2\datetime2-calc.sty
 Package: datetime2-calc 2021/03/21 v1.5.7 (NLCT)
  (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
@@ -484,9 +484,9 @@ Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
 LaTeX Info: Redefining \translate on input line 184.
 ) (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-english\glossaries-english.ldf
 File: glossaries-english.ldf 2014/11/23 v1.0
-) (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-portuges\glossaries-portuges.ldf
-File: glossaries-portuges.ldf 2014/11/23 v1.0
- (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-portuges\glossaries-portuges-utf8.ldf)) (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-base.sty
+) (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-french\glossaries-french.ldf
+File: glossaries-french.ldf 2016/12/12 v1.1
+) (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-base.sty
 Package: datatool-base 2019/09/27 v2.32 (NLCT)
  (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2024/05/23 v2.17q AMS math features
@@ -1057,9 +1057,9 @@ Package rerunfilecheck Info: File `main.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  33527 strings out of 473899
- 726947 string characters out of 5722724
- 1246532 words of memory out of 5000000
- 55839 multiletter control sequences out of 15000+600000
+ 726416 string characters out of 5722724
+ 1247475 words of memory out of 5000000
+ 55842 multiletter control sequences out of 15000+600000
  613498 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  110i,19n,107p,2473b,986s stack positions out of 10000i,1000n,20000p,200000b,200000s

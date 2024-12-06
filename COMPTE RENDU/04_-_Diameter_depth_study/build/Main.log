@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.24)  6 DEC 2024 12:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.24)  6 DEC 2024 17:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -383,14 +383,14 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 File: datetime2-english.ldf 2019/10/21 v1.05 (NLCT)
  (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/datetime2-english\datetime2-english-base.ldf
 File: datetime2-english-base.ldf 2019/10/21 v1.05 (NLCT)
-)) (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/datetime2-portuges\datetime2-portuges.ldf
-File: datetime2-portuges.ldf 2018/08/21 v1.1
+)) (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/datetime2-french\datetime2-french.ldf
+File: datetime2-french.ldf 2020/09/21 v1.03
  (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 ) (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
-) (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/datetime2-portuges\datetime2-portuges-ascii.ldf
-File: datetime2-portuges-ascii.ldf 2018/08/21 v1.1
+) (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/datetime2-french\datetime2-french-ascii.ldf
+File: datetime2-french-ascii.ldf 2020/09/21 v1.03
 )) (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/datetime2\datetime2-calc.sty
 Package: datetime2-calc 2021/03/21 v1.5.7 (NLCT)
  (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
@@ -484,9 +484,9 @@ Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
 LaTeX Info: Redefining \translate on input line 184.
 ) (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-english\glossaries-english.ldf
 File: glossaries-english.ldf 2014/11/23 v1.0
-) (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-portuges\glossaries-portuges.ldf
-File: glossaries-portuges.ldf 2014/11/23 v1.0
- (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-portuges\glossaries-portuges-utf8.ldf)) (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-base.sty
+) (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-french\glossaries-french.ldf
+File: glossaries-french.ldf 2016/12/12 v1.1
+) (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-base.sty
 Package: datatool-base 2019/09/27 v2.32 (NLCT)
  (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2024/05/23 v2.17q AMS math features
@@ -869,9 +869,22 @@ File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 LaTeX Warning: Label `fig:table' multiply defined.
 
 
+LaTeX Warning: Label `sub@fig:table' multiply defined.
+
+
 LaTeX Warning: Label `fig:graph' multiply defined.
 
-) (c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\04_-_Diameter_depth_study\build\Chapters/04 - Limites et études complémentaires.aux))
+
+LaTeX Warning: Label `sub@fig:graph' multiply defined.
+
+) (c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\04_-_Diameter_depth_study\build\Chapters/04 - Etudes complémentaires.aux) (c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\04_-_Diameter_depth_study\build\Chapters/05 - Limites.aux
+
+LaTeX Warning: Label `sec:Ch4.1' multiply defined.
+
+
+LaTeX Warning: Label `sec:Ch4.2' multiply defined.
+
+))
 \openout1 = `Main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
@@ -977,16 +990,11 @@ Package scrbase Info: activating english \abstraclabel on input line 26.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<Pics/airfoil.png, id=59, 690.32906pt x 490.83376pt>
-File: Pics/airfoil.png Graphic file (type png)
-<use Pics/airfoil.png>
-Package pdftex.def Info: Pics/airfoil.png  used on input line 28.
-(pdftex.def)             Requested size: 184.9429pt x 131.49333pt.
-<Pics/résultats pas alpha 2D.png, id=61, 566.5968pt x 421.69545pt>
-File: Pics/résultats pas alpha 2D.png Graphic file (type png)
-<use Pics/résultats pas alpha 2D.png>
-Package pdftex.def Info: Pics/résultats pas alpha 2D.png  used on input line 28.
-(pdftex.def)             Requested size: 199.16928pt x 148.23264pt.
+<Pics/Beyond the sea.png, id=79, 595.47469pt x 553.31718pt>
+File: Pics/Beyond the sea.png Graphic file (type png)
+<use Pics/Beyond the sea.png>
+Package pdftex.def Info: Pics/Beyond the sea.png  used on input line 28.
+(pdftex.def)             Requested size: 398.33861pt x 370.13802pt.
 
 
 [1
@@ -994,38 +1002,38 @@ Package pdftex.def Info: Pics/résultats pas alpha 2D.png  used on input line 28
 \openout4 = `Main.ist'.
 
 
-{C:/Users/RomainLambert/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc} <./Pics/airfoil.png> <./Pics/résultats pas alpha 2D.png>] (c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\04_-_Diameter_depth_study\build\Main.toc
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2.
+{C:/Users/RomainLambert/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc} <./Pics/Beyond the sea.png>] (c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\04_-_Diameter_depth_study\build\Main.toc
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 3.
  (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 3.
  (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 2.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 3.
  (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 2.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 3.
  (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 2.
+(Font)              <10.95> on input line 3.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 2.
+(Font)              <8> on input line 3.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 2.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
+(Font)              <6> on input line 3.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
  (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
  (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 2.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 3.
  (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ))
@@ -1040,235 +1048,221 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 \openout2 = `"Chapters/01 - La théorie.aux"'.
 
  (Chapters/01 - La théorie.tex
-Overfull \hbox (124.64438pt too wide) in paragraph at lines 8--10
-\T1/lmr/m/n/10.95 sur des pro-fils typ-iques de kites � boudin, et ne $[]$. 
- []
+Chapter 1.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--10
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
  []
 
 
-LaTeX Warning: Command \` invalid in math mode on input line 34.
-
-
-LaTeX Warning: Command \' invalid in math mode on input line 34.
-
-
-Overfull \hbox (0.78316pt too wide) in paragraph at lines 39--40
-[]\T1/lmr/m/n/10.95 Ainsi, l'obtention ds co�f-fi-cients 2D per-met en-suite � la VSM d'ajouter l'indluence
- []
-
-File: Pics/airfoil.png Graphic file (type png)
-<use Pics/airfoil.png>
-Package pdftex.def Info: Pics/airfoil.png  used on input line 43.
-(pdftex.def)             Requested size: 199.1693pt x 141.61165pt.
-)
 
 [3
 
+
 {C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}]
 
-[4]
+LaTeX Warning: Command \` invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 42.
+
+
+Overfull \hbox (0.78316pt too wide) in paragraph at lines 47--48
+[]\T1/lmr/m/n/10.95 Ainsi, l'obtention ds co�f-fi-cients 2D per-met en-suite � la VSM d'ajouter l'indluence
+ []
+
+<Pics/01 - La théories/airfoil.png, id=126, 690.32906pt x 490.83376pt>
+File: Pics/01 - La théories/airfoil.png Graphic file (type png)
+<use Pics/01 - La théories/airfoil.png>
+Package pdftex.def Info: Pics/01 - La théories/airfoil.png  used on input line 51.
+(pdftex.def)             Requested size: 199.1693pt x 141.61165pt.
+)
+
+[4 <./Pics/01 - La théories/airfoil.png>]
 \openout2 = `"Chapters/02 - Le code.aux"'.
 
  (Chapters/02 - Le code.tex
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 10.
- (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
+Chapter 2.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 17.
+(C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-Overfull \hbox (17.23877pt too wide) in paragraph at lines 13--14
+Overfull \hbox (17.23877pt too wide) in paragraph at lines 20--21
 []\T1/lmr/m/n/10.95 o� $\OML/lmm/m/it/10.95 Gaussienne\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 ; center; ^^[\OT1/lmr/m/n/10.95 ) = \OML/lmm/m/it/10.95 e[]$ \T1/lmr/m/n/10.95 est une Gaussi-enne per-me-t-tant d'obtenir
  []
 
-<Pics/breukels.png, id=110, 449.15805pt x 436.14944pt>
-File: Pics/breukels.png Graphic file (type png)
-<use Pics/breukels.png>
-Package pdftex.def Info: Pics/breukels.png  used on input line 18.
+<Pics/02 - Le code/breukels.png, id=135, 449.15805pt x 436.14944pt>
+File: Pics/02 - Le code/breukels.png Graphic file (type png)
+<use Pics/02 - Le code/breukels.png>
+Package pdftex.def Info: Pics/02 - Le code/breukels.png  used on input line 25.
 (pdftex.def)             Requested size: 199.1693pt x 193.39708pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 19.
+(Font)              <10> on input line 26.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 19.
+(Font)              <7> on input line 26.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 19.
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--29
-
- []
-
+(Font)              <5> on input line 26.
 
 
 [5
 
 
 
-{C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc} <./Pics/breukels.png>]
-<Pics/vsm.png, id=125, 400.3758pt x 436.14944pt>
-File: Pics/vsm.png Graphic file (type png)
-<use Pics/vsm.png>
-Package pdftex.def Info: Pics/vsm.png  used on input line 52.
+
+{C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}]
+Underfull \hbox (badness 10000) in paragraph at lines 37--39
+
+ []
+
+<Pics/02 - Le code/vsm.png, id=146, 400.3758pt x 436.14944pt>
+File: Pics/02 - Le code/vsm.png Graphic file (type png)
+<use Pics/02 - Le code/vsm.png>
+Package pdftex.def Info: Pics/02 - Le code/vsm.png  used on input line 62.
 (pdftex.def)             Requested size: 199.1693pt x 216.96944pt.
 )
 
-[6 <./Pics/vsm.png>]
+[6 <./Pics/02 - Le code/breukels.png>]
+
+[7 <./Pics/02 - Le code/vsm.png>]
 \openout2 = `"Chapters/03 - Les résultats.aux"'.
 
  (Chapters/03 - Les résultats.tex
+Chapter 3.
+<Pics/03 - Les résultats/résultats pas alpha 2D.png, id=162, 566.5968pt x 421.69545pt>
+File: Pics/03 - Les résultats/résultats pas alpha 2D.png Graphic file (type png)
+<use Pics/03 - Les résultats/résultats pas alpha 2D.png>
+Package pdftex.def Info: Pics/03 - Les résultats/résultats pas alpha 2D.png  used on input line 33.
+(pdftex.def)             Requested size: 239.00558pt x 177.87659pt.
 
-LaTeX Warning: Command \` invalid in math mode on input line 14.
+
+[8
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--39
- \T1/lmr/m/n/10 op-ti-males pour 
- []
 
-File: Pics/résultats pas alpha 2D.png Graphic file (type png)
-<use Pics/résultats pas alpha 2D.png>
-Package pdftex.def Info: Pics/résultats pas alpha 2D.png  used on input line 46.
-(pdftex.def)             Requested size: 179.25114pt x 133.40744pt.
-<Pics/diametre gaussian 2d.png, id=132, 529.7391pt x 436.14944pt>
-File: Pics/diametre gaussian 2d.png Graphic file (type png)
-<use Pics/diametre gaussian 2d.png>
-Package pdftex.def Info: Pics/diametre gaussian 2d.png  used on input line 65.
+
+ <./Pics/03 - Les résultats/résultats pas alpha 2D.png>]
+<Pics/03 - Les résultats/diametre gaussian 2d.png, id=171, 529.7391pt x 436.14944pt>
+File: Pics/03 - Les résultats/diametre gaussian 2d.png Graphic file (type png)
+<use Pics/03 - Les résultats/diametre gaussian 2d.png>
+Package pdftex.def Info: Pics/03 - Les résultats/diametre gaussian 2d.png  used on input line 57.
 (pdftex.def)             Requested size: 179.25114pt x 147.5834pt.
 
-Underfull \hbox (badness 1297) in paragraph at lines 66--66
+Underfull \hbox (badness 1297) in paragraph at lines 58--58
  []\T1/lmr/m/n/9 (a) |di-am�tre selon les param�tres de la 
  []
 
-<Pics/depth gaussian 2d.png, id=133, 530.10045pt x 436.14944pt>
-File: Pics/depth gaussian 2d.png Graphic file (type png)
-<use Pics/depth gaussian 2d.png>
-Package pdftex.def Info: Pics/depth gaussian 2d.png  used on input line 72.
+<Pics/03 - Les résultats/depth gaussian 2d.png, id=172, 530.10045pt x 436.14944pt>
+File: Pics/03 - Les résultats/depth gaussian 2d.png Graphic file (type png)
+<use Pics/03 - Les résultats/depth gaussian 2d.png>
+Package pdftex.def Info: Pics/03 - Les résultats/depth gaussian 2d.png  used on input line 64.
 (pdftex.def)             Requested size: 179.25114pt x 147.47693pt.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
+
+ []
+
+
+LaTeX Warning: Command \` invalid in math mode on input line 80.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 80--81
 
  []
 
+<Pics/03 - Les résultats/résultats pas alpha 3D.png, id=173, 566.5968pt x 421.69545pt>
+File: Pics/03 - Les résultats/résultats pas alpha 3D.png Graphic file (type png)
+<use Pics/03 - Les résultats/résultats pas alpha 3D.png>
+Package pdftex.def Info: Pics/03 - Les résultats/résultats pas alpha 3D.png  used on input line 112.
+(pdftex.def)             Requested size: 278.8358pt x 207.52698pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
+
+[9 <./Pics/03 - Les résultats/diametre gaussian 2d.png> <./Pics/03 - Les résultats/depth gaussian 2d.png>]
+<Pics/03 - Les résultats/diametre gaussian.png, id=181, 536.2434pt x 436.14944pt>
+File: Pics/03 - Les résultats/diametre gaussian.png Graphic file (type png)
+<use Pics/03 - Les résultats/diametre gaussian.png>
+Package pdftex.def Info: Pics/03 - Les résultats/diametre gaussian.png  used on input line 137.
+(pdftex.def)             Requested size: 179.25114pt x 145.79318pt.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 138.
+<Pics/03 - Les résultats/depth gaussian.png, id=182, 536.2434pt x 436.14944pt>
+File: Pics/03 - Les résultats/depth gaussian.png Graphic file (type png)
+<use Pics/03 - Les résultats/depth gaussian.png>
+Package pdftex.def Info: Pics/03 - Les résultats/depth gaussian.png  used on input line 144.
+(pdftex.def)             Requested size: 179.25114pt x 145.79318pt.
+
+
+[10 <./Pics/03 - Les résultats/résultats pas alpha 3D.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
 
  []
 
 
 
-[7
+[11 <./Pics/03 - Les résultats/diametre gaussian.png> <./Pics/03 - Les résultats/depth gaussian.png>])
+
+[12]
+\openout2 = `"Chapters/04 - Etudes complémentaires.aux"'.
+
+ (Chapters/04 - Etudes complémentaires.tex
+Chapter 4.
+<Pics/04 -Etudes complémentaires/position cambrure.png, id=205, 837.24796pt x 837.6093pt>
+File: Pics/04 -Etudes complémentaires/position cambrure.png Graphic file (type png)
+<use Pics/04 -Etudes complémentaires/position cambrure.png>
+Package pdftex.def Info: Pics/04 -Etudes complémentaires/position cambrure.png  used on input line 20.
+(pdftex.def)             Requested size: 398.33861pt x 398.52037pt.
+
+
+[13
+
 
 
 
 ]
 
-LaTeX Warning: Command \` invalid in math mode on input line 88.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 88--89
-
- []
-
-
-Overfull \hbox (11.33649pt too wide) in paragraph at lines 98--98
- []$\OML/lmm/m/it/10.95 ^^N$\T1/lmr/bx/n/10.95 diam�tre 
- []
-
-
-Overfull \hbox (14.59854pt too wide) in paragraph at lines 98--98
- []$\OML/lmm/m/it/10.95 ^^N$\T1/lmr/bx/n/10.95 cambrure 
- []
-
-
-Overfull \hbox (64.81537pt too wide) in paragraph at lines 96--123
- [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 123--123
- \T1/lmr/m/n/10 op-ti-males pour 
- []
-
-<Pics/résultats pas alpha 3D.png, id=140, 566.5968pt x 421.69545pt>
-File: Pics/résultats pas alpha 3D.png Graphic file (type png)
-<use Pics/résultats pas alpha 3D.png>
-Package pdftex.def Info: Pics/résultats pas alpha 3D.png  used on input line 129.
-(pdftex.def)             Requested size: 179.25114pt x 133.40744pt.
-
-
-[8 <./Pics/diametre gaussian 2d.png> <./Pics/depth gaussian 2d.png>]
-<Pics/diametre gaussian.png, id=149, 536.2434pt x 436.14944pt>
-File: Pics/diametre gaussian.png Graphic file (type png)
-<use Pics/diametre gaussian.png>
-Package pdftex.def Info: Pics/diametre gaussian.png  used on input line 147.
-(pdftex.def)             Requested size: 179.25114pt x 145.79318pt.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 148.
-<Pics/depth gaussian.png, id=150, 536.2434pt x 436.14944pt>
-File: Pics/depth gaussian.png Graphic file (type png)
-<use Pics/depth gaussian.png>
-Package pdftex.def Info: Pics/depth gaussian.png  used on input line 154.
-(pdftex.def)             Requested size: 179.25114pt x 145.79318pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 163--164
+[14 <./Pics/04 -Etudes complémentaires/position cambrure.png>]
+<Pics/04 -Etudes complémentaires/optim neuralfoil.png, id=218, 709.6914pt x 284.7438pt>
+File: Pics/04 -Etudes complémentaires/optim neuralfoil.png Graphic file (type png)
+<use Pics/04 -Etudes complémentaires/optim neuralfoil.png>
+Package pdftex.def Info: Pics/04 -Etudes complémentaires/optim neuralfoil.png  used on input line 50.
+(pdftex.def)             Requested size: 398.33861pt x 159.8204pt.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 62--38
 
  []
 
 
 
-[9 <./Pics/résultats pas alpha 3D.png>]
+[15 <./Pics/04 -Etudes complémentaires/optim neuralfoil.png>]
+\openout2 = `"Chapters/05 - Limites.aux"'.
 
-[10 <./Pics/diametre gaussian.png> <./Pics/depth gaussian.png>])
+ (Chapters/05 - Limites.tex
+Chapter 5.
 
-[11]
-\openout2 = `"Chapters/04 - Limites et études complémentaires.aux"'.
-
- (Chapters/04 - Limites et études complémentaires.tex
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
- []
-
-
-Overfull \hbox (5.19548pt too wide) in paragraph at lines 12--13
-[]\T1/lmr/m/n/10.95 De plus, le choix de la fonc-tion ob-jec-tive pour la recherche d'un op-ti-mum (moyenne
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--13
-
- []
-
-<Pics/optim neuralfoil.png, id=173, 709.6914pt x 284.7438pt>
-File: Pics/optim neuralfoil.png Graphic file (type png)
-<use Pics/optim neuralfoil.png>
-Package pdftex.def Info: Pics/optim neuralfoil.png  used on input line 19.
-(pdftex.def)             Requested size: 199.1693pt x 79.9102pt.
-
-
-[12
+[16
 
 
 
- <./Pics/optim neuralfoil.png>])
 
-[13]
+])
+
+[17]
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-(c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\04_-_Diameter_depth_study\build\Main.aux (c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\04_-_Diameter_depth_study\build\Chapters/01 - La théorie.aux) (c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\04_-_Diameter_depth_study\build\Chapters/02 - Le code.aux) (c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\04_-_Diameter_depth_study\build\Chapters/03 - Les résultats.aux) (c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\04_-_Diameter_depth_study\build\Chapters/04 - Limites et études complémentaires.aux))
+(c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\04_-_Diameter_depth_study\build\Main.aux (c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\04_-_Diameter_depth_study\build\Chapters/01 - La théorie.aux) (c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\04_-_Diameter_depth_study\build\Chapters/02 - Le code.aux) (c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\04_-_Diameter_depth_study\build\Chapters/03 - Les résultats.aux) (c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\04_-_Diameter_depth_study\build\Chapters/04 - Etudes complémentaires.aux) (c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\04_-_Diameter_depth_study\build\Chapters/05 - Limites.aux))
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2020/03/25>
@@ -1278,20 +1272,20 @@ L3 programming layer <2020/03/25>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `Main.out' has not changed.
-(rerunfilecheck)             Checksum: 80DCE61ED50FC7469099F50EF67F5282;2651.
+(rerunfilecheck)             Checksum: B3FE6B5BD59864C0661FB24DF0D168A0;3443.
  ) 
 Here is how much of TeX's memory you used:
- 33832 strings out of 473899
- 736891 string characters out of 5722724
- 1261659 words of memory out of 5000000
- 56071 multiletter control sequences out of 15000+600000
- 634304 words of font info for 99 fonts, out of 8000000 for 9000
+ 33899 strings out of 473899
+ 739667 string characters out of 5722724
+ 1261620 words of memory out of 5000000
+ 56122 multiletter control sequences out of 15000+600000
+ 646303 words of font info for 103 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  110i,20n,107p,2485b,1081s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi5.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb>
-Output written on "c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\04_-_Diameter_depth_study\build\Main.pdf" (13 pages, 2157253 bytes).
+<C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx8.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi5.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb>
+Output written on "c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\04_-_Diameter_depth_study\build\Main.pdf" (17 pages, 3397570 bytes).
 PDF statistics:
- 279 PDF objects out of 1000 (max. 8388607)
- 41 named destinations out of 1000 (max. 500000)
- 163 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 333 PDF objects out of 1000 (max. 8388607)
+ 51 named destinations out of 1000 (max. 500000)
+ 213 words of extra memory for PDF output out of 10000 (max. 10000000)
 

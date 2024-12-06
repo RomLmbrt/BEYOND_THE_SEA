@@ -1,9 +1,16 @@
-\section{Le Code }
-\label{sec:Ch1}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Chapter 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SUBSECTION 1
-\subsection{Le cas d'étude - 2D} 
-\label{sec:Ch1.1}
+\chapter{Le Code} 	
+\label{Chapter2} 		
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SECTION 1 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Le cas d'étude - 2D} 
+\label{sec:Ch2.1}
 
 On étudie dans un premier temps La fonction de Breukels pour en chercher les optimum. On utilise pour ce faire un code d'optimsiation fournit par la bibliothèque \textbf{aerosandbox} et on se place dans le cas d'optimisation suivant: 
 \begin{itemize}
@@ -15,14 +22,17 @@ On étudie dans un premier temps La fonction de Breukels pour en chercher les op
 \underline{Les résultats sont présentés dans la partie suivante.}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.5\textwidth]{Pics/breukels.png}  
+    \includegraphics[width=0.5\textwidth]{Pics/02 - Le code/breukels.png}  
     \caption{Tracer de $\frac{C_L}{C_D}$ par Régression de Breukels à $\alpha$=5°}
     \label{fig:breukels}
 \end{figure}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SUBSECTION 2
-\subsection{Le cas d'étude - 3D} 
-\label{sec:Ch1.2}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SECTION 2 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Le cas d'étude - 3D} 
+\label{sec:Ch2.2}
 
 \textbf{L'étude est réalisée à 50 knots}.\\
 On se place dans le cas d'étude d'un SK50-VG dont on fait varier le \textbf{diamètre t entre -0.02 et +0.1 et la cambrure k entre -0.1 et 0.1}. \\
@@ -49,7 +59,8 @@ La loi d'évolution de t et k sur une VG est initialement:
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.5\textwidth]{Pics/vsm.png}  
+    \includegraphics[width=0.5\textwidth]{Pics/02 - Le code/vsm.png}  
     \caption{Tracer de $\frac{C_L}{C_D}$ par VSM en faisant varier (t,k)}
     \label{fig:vsm}
+    \vspace{-1cm} % Réduction d'espace après la figure
 \end{figure}

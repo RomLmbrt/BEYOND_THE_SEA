@@ -1,0 +1,87 @@
+\begin{thebibliography}{10}
+
+\bibitem{Andersson2018}
+Joel A~E Andersson, Joris Gillis, Greg Horn, James~B Rawlings, and Moritz
+  Diehl.
+\newblock {CasADi} -- {A} software framework for nonlinear optimization and
+  optimal control.
+\newblock {\em Mathematical Programming Computation}, 2018.
+
+\bibitem{formula_kite}
+The International~Kiteboarding Association.
+\newblock Registered series production kites 2020-2024.
+\newblock Available at
+  \url{https://www.formulakite.org/equipment/eligible-equipment/kites-2020-2024},
+  May 2021.
+\newblock (Last access the 23/07/2023).
+
+\bibitem{olympics}
+International~Olympic Committee.
+\newblock Kiteboarding set for lift-off at paris 2024.
+\newblock Available at
+  \url{https://olympics.com/en/news/kiteboarding-set-for-lift-off-at-paris-2024},
+  2023.
+\newblock (Last access the 22/07/2023).
+
+\bibitem{XFLR5doc}
+André Deperrois.
+\newblock Why does an airfoil drag: the viscous problem.
+\newblock Available at \url{http://www.xflr5.tech/docs/}, 2019.
+\newblock (Last access the 22/08/2023).
+
+\bibitem{RichardsonInterpolation}
+Jérémie Gressier.
+\newblock {\em Introduction à la Simulation Numérique}.
+\newblock PhD thesis, ISAE-SUPAERO, 10 Av. Edouard Belin, 31400 Toulouse,
+  November 2016.
+
+\bibitem{XFOILlimits}
+Kristen Kallstrom.
+\newblock {\em Exploring Airfoil Table Generation using XFOIL and OVERFLOW}.
+\newblock PhD thesis, NASA Ames Research Center, Moffett Field, CA, 94035,
+  january 2022.
+
+\bibitem{Kulfan}
+Brenda~M. Kulfan.
+\newblock {\em A Universal Parametric Geometry Representation Method –
+  “CST”}.
+\newblock PhD thesis, 45th AIAA Aerospace Sciences Meeting and Exhibit, Reno,
+  Nevada, January 2007.
+
+\bibitem{ozonekites}
+Ozone~Kitesurf Ltd.
+\newblock About ozone.
+\newblock Available at \url{https://ozonekites.com/about-ozone/}, 2023.
+\newblock (Last access the 22/07/2023).
+
+\bibitem{turbulentmodels}
+Remi Manceau.
+\newblock {\em Modelisation de la turbulence pour la CFD}.
+\newblock PhD thesis, ENSGTI, street Jules Ferry, 64000 Pau, July 2023.
+
+\bibitem{cours_leloup}
+Guilhem Bles Jean-Baptiste Leroux Christian Jochum Yves~Parlier Richard~Leloup,
+  Kostia~Roncin.
+\newblock {\em Use of kites as an auxiliary propulsion method for ships:
+  estimation of kite aerodynamic characteristics and performance prediction for
+  a sailboat and a merchant vessel}.
+\newblock PhD thesis, ISAE-SUPAERO, Toulouse, November 2012.
+
+\bibitem{neuralfoil}
+Peter Sharpe.
+\newblock {NeuralFoil}: An airfoil aerodynamics analysis tool using
+  physics-informed machine learning.
+\newblock \url{https://github.com/peterdsharpe/NeuralFoil}, 2023.
+
+\bibitem{aerosandbox}
+Peter~D. Sharpe.
+\newblock Aerosandbox: A differentiable framework for aircraft design
+  optimization.
+\newblock Master's thesis, Massachusetts Institute of Technology, 2021.
+
+\bibitem{ipopt}
+Andreas~Wächter Stefan~Vigerske.
+\newblock Ipopt documentation.
+\newblock \url{https://coin-or.github.io/Ipopt/}, 2023.
+
+\end{thebibliography}

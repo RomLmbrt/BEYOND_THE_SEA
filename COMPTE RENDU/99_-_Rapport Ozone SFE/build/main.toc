@@ -38,3 +38,4 @@
 \contentsline {section}{\numberline {4.2}The theoretical existing kite stability}{42}{section.4.2}%
 \contentsline {section}{\numberline {4.3}The add of stability in the airfoil optimization}{44}{section.4.3}%
 \contentsline {chapter}{\numberline {5}Conclusions}{46}{chapter.5}%
+\contentsline {chapter}{References}{48}{chapter.5}%

@@ -45,11 +45,11 @@
 \booltrue{listtoc}		%add lists to the toc
 \newbool{headsepline}
 \booltrue{headsepline}	%add header underline
-\newbool{portuguese}	%to set the babel language 
+\newbool{french}	%to set the babel language 
 \newbool{LEEC}			%to set the DEE course for front pages
 \newbool{LETI}
 
-\DeclareOption{portuguese}{\booltrue{portuguese}}
+\DeclareOption{french}{\booltrue{french}}
 \DeclareOption{LEEC}{\booltrue{LEEC}}
 \DeclareOption{LETI}{\booltrue{LETI}}
 
@@ -167,8 +167,8 @@
 \RequirePackage[T1]{fontenc} 		% Output font encoding for international characters
 \RequirePackage{lmodern} 			% THE font
 
-\ifbool{portuguese}{% Required for automatically changing names of document elements to languages besides english
-  \RequirePackage[portuguese]{babel}
+\ifbool{french}{% Required for automatically changing names of document elements to languages besides english
+  \RequirePackage[french]{babel}
 	}{
   \RequirePackage[english]{babel}
 }
@@ -232,7 +232,7 @@ breaklinks=true,
  morekeywords={*,var,template,new}  % if you want to add more keywords to the set
 }
 
-\RequirePackage[calc,portuguese]{datetime2}	% For date format
+\RequirePackage[calc,french]{datetime2}	% For date format
 \DTMnewdatestyle{mydateformat}{%
   \renewcommand{\DTMdisplaydate}[4]{%
 %    \DTMshortweekdayname{##4},\space% 
@@ -305,49 +305,45 @@ breaklinks=true,
 %----------------------------------------------------------------------------------------
 %	CUSTOM LANGUAGE SETTINGS
 %----------------------------------------------------------------------------------------
-\addto{\captionsportuguese}{\renewcommand*\contentsname{\'{I}ndice}}
 
-\addto{\captionsportuguese}{\renewcommand{\appendixname}{Anexo}}
-
+\addto{\captionsfrench}{\renewcommand*\contentsname{Table des matières}}
+\addto{\captionsfrench}{\renewcommand{\appendixname}{Annexe}}
 \addto{\captionsenglish}{\renewcommand{\bibname}{References}}
-\addto{\captionsportuguese}{\renewcommand{\bibname}{Refer\^{e}ncias}}
-
-\newcommand{\reftocname}{References}
+\addto{\captionsfrench}{\renewcommand{\bibname}{Références}}
+\providecaptionname{french}{\reftocname}{Références}
 \providecaptionname{english}{\reftocname}{References}
-\providecaptionname{portuguese}{\reftocname}{Refer\^{e}ncias}
 
 \addto{\captionsenglish}{\renewcommand{\lstlistlistingname}{Listings}}
-\addto{\captionsportuguese}{\renewcommand{\lstlistlistingname}{Listagens}}
+\addto{\captionsfrench}{\renewcommand{\lstlistlistingname}{Liste de codes}}
 
-\newcommand{\secondLang}{portuguese}
-\iflanguage{portuguese}{
-	\renewcommand{\lstlistingname}{Listagem}	
-	\renewcommand{\secondLang}{english}
-	\newtheorem{theorem}{Teorema}
-	\newtheorem{corollary}{Corolário}
-	\newtheorem{lemma}{Lema}	
+\newcommand{\secondLang}{french}
+\iflanguage{french}{
+    \renewcommand{\lstlistingname}{Liste de codes}  
+    \newtheorem{theorem}{Théorème}
+    \newtheorem{corollary}{Corollaire}
+    \newtheorem{lemma}{Lemme}
 }{
-	\newtheorem{theorem}{Theorem}
-	\newtheorem{corollary}{Corollary}
-	\newtheorem{lemma}{Lemma}
+    \newtheorem{theorem}{Theorem}
+    \newtheorem{corollary}{Corollary}
+    \newtheorem{lemma}{Lemma}
 }
 
 \RequirePackage[hyperpageref]{backref}
 \renewcommand*{\backref}[1]{}
-\iflanguage{portuguese}{
+\iflanguage{french}{
     \renewcommand*{\backrefalt}[4]{%
-      \ifcase #1 %
+      \ifcase #1 % 
       \or
-      {\footnotesize [Citado na p\'{a}gina #2]}%
+      {\footnotesize [Cité à la page #2]}%
       \else
-      {\footnotesize [Citado nas p\'{a}ginas #2]}%
+      {\footnotesize [Cité aux pages #2]}%
       \fi
     }
-    \renewcommand*{\backreftwosep}{ e~}
-    \renewcommand*{\backreflastsep}{ e~}
+    \renewcommand*{\backreftwosep}{ et~}
+    \renewcommand*{\backreflastsep}{ et~}
 }{
     \renewcommand*{\backrefalt}[4]{%
-      \ifcase #1 %
+      \ifcase #1 % 
       \or
       {\footnotesize [Cited on page #2]}%
       \else
@@ -355,6 +351,8 @@ breaklinks=true,
       \fi
     }
 }
+
+
 
 %----------------------------------------------------------------------------------------
 %	MARGINS and SPACING
@@ -459,8 +457,8 @@ KOMA-script documentation for details.}]{fancyhdr}
 %	TITLE PAGES DESIGN
 %----------------------------------------------------------------------------------------
 
-\newcommand{\university}{ISAE SUPAERO}
-\newcommand{\school}{Institut Supérieure de l'Aéronautique et de l'Espace}
+\newcommand{\university}{}
+\newcommand{\school}{BEYOND THE SEA}
 \newcommand{\department}{}
 \newcommand{\degree}{}
 \newcommand{\frontcourselabel}{}
@@ -472,17 +470,16 @@ KOMA-script documentation for details.}]{fancyhdr}
 \newcommand{\disclamertemp}{}
 
 \ifbool{LEEC}{
-	\renewcommand{\degreeacrn}{Internship Report}
-	\renewcommand{\degreetemp}{Internship Report}
+	\renewcommand{\degreeacrn}{Rapport}
+	\renewcommand{\degreetemp}{Rapport}
 	\providecaptionname{english}{\degreetemp}{}
-	\providecaptionname{portuguese}{\degreetemp}{Stage de césure}
+	\providecaptionname{french}{\degreetemp}{Stage de césure}
 	\renewcommand{\frontcourselabel}{{\large \degreetemp}\\}
 	\renewcommand{\disclamertemp}{
             \begin{multicols}{2}
-            Author : Romain Lambert
+            Auteur : Romain Lambert
             \columnbreak
-            
-            Supervisor : Dominik Zimmerman
+            Superviseur : Corentin Tran
             \end{multicols}
             }
         \renewcommand{\aftercourselabel}{\large \textit{\disclamertemp \degreetemp}\\}			
@@ -490,40 +487,41 @@ KOMA-script documentation for details.}]{fancyhdr}
 
 \ifbool{LETI}{
 	\renewcommand{\degreeacrn}{LETI}
-	\renewcommand{\degreetemp}{Licenciatura em Engenharia de Telecomunicações e Informática}
+	\renewcommand{\degreetemp}{Licence en Génie des Télécommunications et Informatique}
 	\providecaptionname{english}{\degreetemp}{Degree in Telecommunications and Informatics Engineering}
-	\providecaptionname{portuguese}{\degreetemp}{Licenciatura em Engenharia de Telecomunicações e Informática}
+	\providecaptionname{french}{\degreetemp}{Licence en Génie des Télécommunications et Informatique}
 	\renewcommand{\frontcourselabel}{{\large \degreetemp}\\}
-	\renewcommand{\disclamertemp}{This report partially satisfies the requirements defined for the Project/Internship course, in the 3\textsuperscript{rd} year, of the }
+	\renewcommand{\disclamertemp}{Ce rapport satisfait partiellement les exigences définies pour le cours Projet/Stage, en 3\textsuperscript{e} année, de la }
 	\providecaptionname{english}{\disclamertemp}{This report partially satisfies the requirements defined for the Project/Internship course, in the 3\textsuperscript{rd} year, of the }
-	\providecaptionname{portuguese}{\disclamertemp}{Este relat\'{o}rio satisfaz, parcialmente, os requisitos que constam da Ficha de Unidade Curricular de Projeto/Est\'{a}gio, do 3º ano, da }
+	\providecaptionname{french}{\disclamertemp}{Ce rapport satisfait partiellement les exigences définies pour le cours Projet/Stage, en 3\textsuperscript{e} année, de la }
 	\renewcommand{\aftercourselabel}{\large \textit{\disclamertemp \degreetemp.}\\}	
 }{}
+
 
 %%common
 \newcommand{\studentlabel}{Candidate}
 \providecaptionname{english}{\studentlabel}{Candidate}
-\providecaptionname{portuguese}{\studentlabel}{Candidato}
+\providecaptionname{french}{\studentlabel}{Candidat}
 
 \newcommand{\nblabel}{nb.}
 \providecaptionname{english}{\nblabel}{{No. }}
-\providecaptionname{portuguese}{\nblabel}{{Nº }}
+\providecaptionname{french}{\nblabel}{{Nº }}
 
 \newcommand{\advisorlabel}{Scientific Guidance}
 \providecaptionname{english}{\advisorlabel}{Scientific Guidance}
-\providecaptionname{portuguese}{\advisorlabel}{Orienta\c{c}\~{a}o Cient\'{i}fica}
+\providecaptionname{french}{\advisorlabel}{Direction Scientifique}
 
 \newcommand{\coadvisorlabel}{Scientific Co-Guidance}
 \providecaptionname{english}{\coadvisorlabel}{Scientific Co-Guidance}
-\providecaptionname{portuguese}{\coadvisorlabel}{Coorienta\c{c}\~{a}o Cient\'{i}fica}
+\providecaptionname{french}{\coadvisorlabel}{Co-Direction Scientifique}
 
 \newcommand{\supervisorlabel}{Advisor}
 \providecaptionname{english}{\supervisorlabel}{Advisor}
-\providecaptionname{portuguese}{\supervisorlabel}{Orientador}
+\providecaptionname{french}{\supervisorlabel}{Directeur de thèse}
 
 \newcommand{\companylabel}{Company}
 \providecaptionname{english}{\companylabel}{Company}
-\providecaptionname{portuguese}{\companylabel}{Empresa}
+\providecaptionname{french}{\companylabel}{Entreprise}
 
 
 %%1st page
@@ -553,13 +551,12 @@ KOMA-script documentation for details.}]{fancyhdr}
 	        
 	        % Informations académiques
 	        \textbetweenrules[.3pt]{\degreeacrn}\par
-	        \vspace{-8pt}
+	        \vspace{1pt}
 	        
 	        \vfill	
 	        
 	        % Logo(s)
-	        \includegraphics[width=6.5cm]{Pics/airfoil.png}\par\vspace{1cm}
-	        \includegraphics[width=7cm]{Pics/résultats pas alpha 2D.png}\par
+	        \includegraphics[width=\textwidth]{Pics/Beyond the sea.png}\par\vspace{1cm}
 	        
 	        \vspace{3cm}
 	        
@@ -581,7 +578,7 @@ KOMA-script documentation for details.}]{fancyhdr}
 
 \newcommand{\abstraclabel}{Main}
 \providecaptionname{english}{\abstraclabel}{Introduction}
-\providecaptionname{portuguese}{\abstraclabel}{Resumo} % Portuguese 
+\providecaptionname{french}{\abstraclabel}{Introduction} % french 
 
 \newenvironment{main}{
 	\setcounter{page}{1}

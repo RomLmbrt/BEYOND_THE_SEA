@@ -1,0 +1,29 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Chapter 
+
+\chapter{Limites} 	
+\label{Chapter5} 		
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SECTION 1 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Limite de la Gaussienne}
+\label{sec:Ch4.1}
+
+Le choix de la fonction objective pour la recherche d'un optimum (moyenne pondérée par une Gaussienne) est peu justifiée. Connaître la valeurs d'un angle d'attaque pour lequel on souhaite optimiser une fonction ( finesse, stabilité, portance...) permettrait d'avoir un résultat plus pertinant. \textbf{Mesurer les angles d'attaques principaux lors des essais kite, peut-être avec l'extended Karmann Filter (EKF)} fournit par Kite Power, permettrait de répondre à ce problème. Le choix de sigma et alpha center dans la Gaussienne sont, eux aussi, criticables.\\
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SECTION 2 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{A faire pour la suite}
+\label{sec:Ch4.2}
+
+\begin{itemize}
+    \item Comparer sur NeuralFoil et/ou XFoil le profil actuel d’une VG avec le profil optimisé trouvé par OptimXBreukels
+    \item Comparer aussi le Cm des 2 profils -> potentiellement conclure sur un profil + performant + stable ?
+    \item Créer une base de données d'airfoils polars grâce à Aerosandbox ? qui prend en compte les 3 paramètres (diameter, x depth et depth) et les faire tourner en 2D et ou sur la VSM pour trouver le profil optimal
+    \item Faire un chapitre de comparaison des 10m2 classiques vs Hybrid avec profil à caisson, quantifier l'impact de la double peau
+\end{itemize}

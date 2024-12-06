@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.24)  6 DEC 2024 10:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.24)  6 DEC 2024 15:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1774,14 +1774,54 @@ Chapter 5.
 
 ])
 
-[47]
-No file main.bbl.
+[47] (c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\99_-_Rapport Ozone SFE\build\main.bbl
+No file main.brf.
+\tf@brf=\write10
+\openout10 = `main.brf'.
+
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 17.
+(C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Underfull \hbox (badness 3078) in paragraph at lines 17--17
+\T1/lmtt/m/n/10.95 eligible-[]equipment / kites-[]2020-[]2024$[]\T1/lmr/m/n/10.95 , May 2021.  (Last ac-cess the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
+[]\T1/lmr/m/n/10.95 International Olympic Com-mit-tee.  Kite-board-ing set for lift-off
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
+\T1/lmr/m/n/10.95 at paris 2024.  Avail-able at []$\T1/lmtt/m/n/10.95 https : / / olympics . com / en / news /
+ []
+
+
+Underfull \hbox (badness 3460) in paragraph at lines 25--25
+\T1/lmtt/m/n/10.95 kiteboarding-[]set-[]for-[]lift-[]off-[]at-[]paris-[]2024$[]\T1/lmr/m/n/10.95 , 2023.  (Last ac-cess
+ []
+
+
+Underfull \hbox (badness 7888) in paragraph at lines 69--69
+[]\T1/lmr/m/n/10.95 Guilhem Bles Jean-Baptiste Ler-oux Chris-tian Jochum Yves Par-lier
+ []
+
+
+
+[48
+
+
+
+])
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-(c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\99_-_Rapport Ozone SFE\build\main.aux (c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\99_-_Rapport Ozone SFE\build\nomenclature.aux) (c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\99_-_Rapport Ozone SFE\build\chapters/Introduction.aux) (c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\99_-_Rapport Ozone SFE\build\chapters/2D_steady_simulations.aux
+
+
+[49] (c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\99_-_Rapport Ozone SFE\build\main.aux (c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\99_-_Rapport Ozone SFE\build\nomenclature.aux) (c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\99_-_Rapport Ozone SFE\build\chapters/Introduction.aux) (c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\99_-_Rapport Ozone SFE\build\chapters/2D_steady_simulations.aux
 c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\99_-_Rapport Ozone SFE\build\chapters/2D_steady_simulations.aux:39: Missing \endcsname inserted.
 <to be read again> 
                    \delta 
@@ -1824,25 +1864,32 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 
 Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  1399A0203B7AFB3C68F1E8D9B6125967;6343.
+(rerunfilecheck)             After:  80F00E67C22ACA6117CC9AF30B835BBA;6437.
 
-Overfull \hbox (268.53279pt too wide) in paragraph at lines 39--85
-[]$\OML/lmm/m/it/10.95 ^^N$ \T1/lmr/m/n/10.95 be-tween the lines and the ath-lete                                                                                                                                                                                                          
+Package rerunfilecheck Warning: File `main.brf' has changed.
+(rerunfilecheck)                Rerun to get bibliographical references right.
+
+Package rerunfilecheck Info: Checksums for `main.brf':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  29A8182390FDA93853AD8B68B2A9CE50;799.
+
+Overfull \hbox (302.59947pt too wide) in paragraph at lines 39--85
+[]$\OML/lmm/m/it/10.95 ^^N$ \T1/lmr/m/n/10.95 be-tween the lines and the ath-lete                                                                                                                                                                                                                        
  []
 
  ) 
 Here is how much of TeX's memory you used:
- 34337 strings out of 473899
- 760455 string characters out of 5722724
+ 34478 strings out of 473899
+ 762801 string characters out of 5722724
  1253778 words of memory out of 5000000
- 56481 multiletter control sequences out of 15000+600000
- 646376 words of font info for 98 fonts, out of 8000000 for 9000
+ 56597 multiletter control sequences out of 15000+600000
+ 650958 words of font info for 100 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  110i,20n,107p,2482b,1153s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb>
-Output written on "c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\99_-_Rapport Ozone SFE\build\main.pdf" (47 pages, 6798427 bytes).
+<C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
+Output written on "c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\99_-_Rapport Ozone SFE\build\main.pdf" (49 pages, 6857910 bytes).
 PDF statistics:
- 521 PDF objects out of 1000 (max. 8388607)
- 140 named destinations out of 1000 (max. 500000)
+ 567 PDF objects out of 1000 (max. 8388607)
+ 156 named destinations out of 1000 (max. 500000)
  271 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,60 +1,52 @@
-\section{Les Résultats}
-\label{sec:Ch3}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Chapter 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SUBSECTION 1
-\subsection{2D - résultats par alpha}
+\chapter{Les Résultats} 	
+\label{Chapter3} 		
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SECTION 1 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{2D - résultats par alpha}
 \label{sec:Ch3.1}
 
-\begin{figure}[h!]
+\begin{figure}[H]
     \centering
-    \begin{minipage}[b]{0.45\textwidth}
+    \begin{subfigure}[b]{\textwidth}
         \centering
-        \begin{tabular}{|c|c|c|}
-            \hline
-            \textbf{$\alpha$} & \textbf{$diamètre_{opti}$} & \textbf{$cambrure_{opti}$}\\
-            \hline
-            0 & 0.040 & 0.20 \\
-            1 & 0.091 & 0.00 \\
-            2 & 0.098 & 0.00 \\
-            3 & 0.10 & 0.01  \\
-            4 & 0.10 & 0.04  \\
-            5 & 0.10 & 0.06  \\
-            6 & 0.10 & 0.068  \\
-            7 & 0.095 & 0.074 \\
-            8 & 0.089 & 0.078 \\
-            9 & 0.079 & 0.082 \\
-            10 & 0.061 & 0.086 \\
-            11 & 0.040 & 0.093 \\
-            12 & 0.040 & 0.103 \\
-            13 & 0.040 & 0.105 \\
-            14 & 0.040 & 0.107 \\
-            15 & 0.040 & 0.109 \\
-            16 & 0.040 & 0.111 \\
-            17 & 0.040 & 0.113 \\
-            18 & 0.040 & 0.115 \\
-            19 & 0.040 & 0.118 \\
-            20 & 0.040 & 0.121 \\
-            \hline
-        \end{tabular}
+        \resizebox{\textwidth}{!}{%
+            \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+                \hline
+                \textbf{$\alpha$} & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 & 16 & 17 & 18 & 19 & 20 \\ \hline
+                \textbf{$\text{diamètre}_{\text{opti}}$} & 0.040 & 0.091 & 0.098 & 0.098 & 0.10  & 0.10  & 0.10  & 0.10  & 0.095 & 0.089 & 0.079 & 0.061 & 0.040 & 0.040 & 0.040 & 0.040 & 0.040 & 0.040 & 0.040 & 0.040 & 0.040 \\ \hline
+                \textbf{$\text{cambrure}_{\text{opti}}$} & 0.20 & 0.00 & 0.00 & 0.01 & 0.04 & 0.06 & 0.068 & 0.074 & 0.078 & 0.082 & 0.086 & 0.093 & 0.103 & 0.105 & 0.107 & 0.109 & 0.111 & 0.113 & 0.115 & 0.118 & 0.121 \\ \hline
+            \end{tabular}
+        }
         \caption{Valeurs optimales pour chaque alpha}
         \label{fig:table}
-    \end{minipage}
-    \hfill % Séparation entre les deux blocs
-    % Minipage pour le graphique à droite
-    \begin{minipage}[b]{0.45\textwidth}
+    \end{subfigure}
+    
+    \vspace{10mm} % Ajout d'espace entre le tableau et l'image
+
+    \begin{subfigure}[b]{\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{Pics/résultats pas alpha 2D.png}
+        \includegraphics[width=0.6\textwidth]{Pics/03 - Les résultats/résultats pas alpha 2D.png}
         \caption{Tracer de t et k optimaux pour chaque alpha}
         \label{fig:graph}
-    \end{minipage}
+    \end{subfigure}
     \caption{Résultats 2D optimaux (finesse) de diamètre et cambrure par alpha}
     \label{fig:opti alpha 2d}
 \end{figure}
 
+
+
 \textbf{On observe que pour les grands angles le diamètre optimal tend à être le plus petit possible. La cambrure optimale augmente avec $\alpha$. Les résultats sont cohérents en ordre de grandeur}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SUBSECTION 2
-\subsection{2D - résultats moyennes pondérées par Gaussienne}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SECTION 2 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{2D - résultats moyennes pondérées par Gaussienne}
 \label{sec:Ch3.2}
 
 
@@ -62,14 +54,14 @@
     \centering
     \begin{subfigure}[b]{0.45\textwidth}
         \centering
-        \includegraphics[width=\linewidth]{Pics/diametre gaussian 2d.png}
+        \includegraphics[width=\linewidth]{Pics/03 - Les résultats/diametre gaussian 2d.png}
         \caption{diamètre selon les paramètres de la Gaussienne}
         \label{fig:diametre gaussien 2d}
     \end{subfigure}
     \hfill 
     \begin{subfigure}[b]{0.45\textwidth}
         \centering
-        \includegraphics[width=\linewidth]{Pics/depth gaussian 2d.png}
+        \includegraphics[width=\linewidth]{Pics/03 - Les résultats/depth gaussian 2d.png}
         \caption{cambrure selon les paramètres de la Gaussienne}
         \label{fig:cambrure gaussien 2d}
     \end{subfigure}
@@ -91,67 +83,65 @@ A noter que les ribs initialement à faible diamètre (relatif) sont ceux du bor
 
 \begin{figure}[H]
     \centering
-    \begin{minipage}[b]{0.45\textwidth}
+    % Tableau (lignes et colonnes inversées)
+    \begin{subfigure}[b]{\textwidth}
         \centering
-        \begin{tabular}{|c|c|c|c|c|}
-            \hline
-            \textbf{$\alpha$} & \textbf{\parbox{1.5cm}{\centering $\delta$diamètre}} & \textbf{\parbox{1.5cm}{\centering nombre ribs saturés en diamètre}} & \textbf{\parbox{1.5cm}{\centering $\delta$cambrure}} & \textbf{\parbox{1.5cm}{\centering nombre ribs saturés en cambrure}}\\
-            \hline
-            0 & -0.02 & 10 & -0.1 & 20\\
-            1 & -0.007 & 0 & -0.1 & 20\\
-            2 & -0.007 & 0 & -0.1 & 20\\
-            3 & -0.007 & 0 & -0.1 & 20 \\
-            4 & -0.007 & 0 & -0.1 & 20 \\
-            5 & -0.007 & 0 & -0.1 & 20 \\
-            6 & -0.007 & 0 & -0.1 & 20  \\
-            7 & -0.007 & 0 & -0.1 & 20 \\
-            8 & -0.02 & 0 & -0.1 & 20 \\
-            9 & -0.02 & 0 & -0.1 & 20 \\
-            10 & -0.02 & 0 & -0.1 & 20 \\
-            11 & 0.033 & 0 & -0.033 & 12 \\
-            12 & 0.033 & 0 & -0.033 & 12 \\
-            13 & 0.033 & 0 & -0.1 & 4 \\
-            14 & 0.02 & 0 & -0.1 & 4 \\
-            15 & 0.02 & 0 & -0.1 & 4 \\
-            16 & 0.02 & 0 & -0.1 & 4 \\
-            17 & 0.02 & 0 & -0.1 & 4 \\
-            18 & -0.007 & 0 & 0.1 & 0 \\
-            19 & -0.007 & 0 & 0.1 & 0 \\
-            20 & -0.007 & 0 & 0.1 & 0 \\
-            \hline
-        \end{tabular}
+        \resizebox{\textwidth}{!}{%
+            \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+                \hline
+                \textbf{$\alpha$} & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 & 16 & 17 & 18 & 19 & 20 \\ \hline
+                \textbf{\parbox{2.2cm}{\centering $\delta$diamètre}} 
+                    & -0.02 & -0.007 & -0.007 & -0.007 & -0.007 & -0.007 & -0.007 & -0.007 & -0.02 & -0.02 & -0.02 & 0.033 & 0.033 & 0.033 & 0.02 & 0.02 & 0.02 & 0.02 & -0.007 & -0.007 & -0.007 \\ \hline
+                \textbf{\parbox{2.5cm}{\centering Nombre ribs saturés en diamètre}} 
+                    & 10 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\ \hline
+                \textbf{\parbox{2.2cm}{\centering $\delta$cambrure}} 
+                    & -0.1 & -0.1 & -0.1 & -0.1 & -0.1 & -0.1 & -0.1 & -0.1 & -0.1 & -0.1 & -0.1 & -0.033 & -0.033 & -0.1 & -0.1 & -0.1 & -0.1 & -0.1 & 0.1 & 0.1 & 0.1 \\ \hline
+                \textbf{\parbox{2.5cm}{\centering Nombre ribs saturés en cambrure}} 
+                    & 20 & 20 & 20 & 20 & 20 & 20 & 20 & 20 & 20 & 20 & 20 & 12 & 12 & 4 & 4 & 4 & 4 & 4 & 0 & 0 & 0 \\ \hline
+            \end{tabular}
+        }
         \caption{Valeurs optimales pour chaque alpha}
         \label{fig:table}
-    \end{minipage}
-    \hfill 
-    \begin{minipage}[b]{0.45\textwidth}
+    \end{subfigure}
+    
+    \vspace{10mm} % Ajout d'espace entre le tableau et l'image
+    
+    % Image
+    \begin{subfigure}[b]{\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{Pics/résultats pas alpha 3D.png}
+        \includegraphics[width=0.7\textwidth]{Pics/03 - Les résultats/résultats pas alpha 3D.png}
         \caption{Tracer de t et k optimaux pour chaque alpha}
         \label{fig:graph}
-    \end{minipage}
+    \end{subfigure}
+    
+    % Légende globale
     \caption{Résultats 3D optimaux (finesse) de diamètre et cambrure par alpha}
-    \label{fig:opti alpha 3d}
+    \label{fig:opti_alpha_3d}
 \end{figure}
+
+
 
 \textbf{On observe que le diamètre optimal augmente avec $\alpha$ jusqu'à 13° puis diminue. La cambrure sature à sa valeurs minimale en dessous de 10° puis augumente avec $\alpha$ }
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SUBSECTION 3
-\subsection{3D - résultats moyennes pondérées par Gaussienne}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SECTION 3 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{3D - résultats moyennes pondérées par Gaussienne}
 \label{sec:Ch3.3}
 
-\begin{figure}[h!]
+\begin{figure}[H]
     \centering
     \begin{subfigure}[b]{0.45\textwidth}
         \centering
-        \includegraphics[width=\linewidth]{Pics/diametre gaussian.png}
+        \includegraphics[width=\linewidth]{Pics/03 - Les résultats/diametre gaussian.png}
         \caption{$\delta$ diamètre selon les paramètres de la Gaussienne}
         \label{fig:diametre gaussien}
     \end{subfigure}
     \hfill
     \begin{subfigure}[b]{0.45\textwidth}
         \centering
-        \includegraphics[width=\linewidth]{Pics/depth gaussian.png}
+        \includegraphics[width=\linewidth]{Pics/03 - Les résultats/depth gaussian.png}
         \caption{$\delta$ cambrure selon les paramètres de la Gaussienne}
         \label{fig:cambrure gaussien}
     \end{subfigure}
@@ -160,12 +150,15 @@ A noter que les ribs initialement à faible diamètre (relatif) sont ceux du bor
 \end{figure}
 
 
-    Sur la figure \ref{fig:gaussian sensibility} (comme sur la figure \ref{fig:gaussian sensibility 2d}), on rappelle que $\sigma$ proche de zéro signife un écart-type quasi nul, i.e. on retrouve les mêmes résultats que sur la figure \ref{fig:opti alpha 3d}. A l'inverse, $\sigma$ grand signifie qu'on augmente l'influence des angles autours de $\alpha_{center}$ sur la moyenne pondérée; fonction objective de l'optimisation. \\
+Sur la figure \ref{fig:gaussian sensibility} (comme sur la figure \ref{fig:gaussian sensibility 2d}), on rappelle que $\sigma$ proche de zéro signife un écart-type quasi nul, i.e. on retrouve les mêmes résultats que sur la figure \ref{fig:opti_alpha_3d}. A l'inverse, $\sigma$ grand signifie qu'on augmente l'influence des angles autours de $\alpha_{center}$ sur la moyenne pondérée; fonction objective de l'optimisation. \\
 
-    \textbf{ On observe qu'augmenter $\sigma$ diminue la cambrure optimale. Le comportement est identique pour le diamètre si $\alpha_{center}$ est supérieur à 15°; le comportement inverse en dessous de 15°}
+\textbf{ On observe qu'augmenter $\sigma$ diminue la cambrure optimale. Le comportement est identique pour le diamètre si $\alpha_{center}$ est supérieur à 15°; le comportement inverse en dessous de 15°}
     
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SUBSECTION 4
-\subsection{3D - Exemple de résultat}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SECTION 4 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{3D - Exemple de résultat}
 \label{sec:Ch3.4}
 
 Avec une Gaussienne de paramètres \textbf{center = 7° et sigma = 8}, les valeurs qui maximisent la fonction objective (moyenne pondérée de finesse aérodynamique) sont :

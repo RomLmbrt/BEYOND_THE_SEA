@@ -1,0 +1,62 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Chapter 
+
+\chapter{Etudes Complémentaires} 	
+\label{Chapter4} 		
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SECTION 1 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Etude de la position de la cambrure maximale}
+\label{sec:Ch4.1}
+
+Tout d'abord Breukels ne prend en compte que le diamètre et la cambrure maximal d'un profil, \textbf{la position de la cambrure maximale d'un profil n'est donc pas prise en compte}. \\
+En conduisant des simulations (VSM) basées cette fois sur des polaires déterminées à partir de NeuralFoil (Aersoandbox), on pense alors capturer l'influence de la position de la cambrure maximale. \textbf{On mène l'étude  sur des SK50-VG avec (t,k)=(0.08, 0.05)} :
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{Pics/04 -Etudes complémentaires/position cambrure.png}  
+    \caption{Influence de la position de la cambrure maximale}
+    \label{fig:influence cambrure position}
+\end{figure}
+
+On observe que les résultats sont sensiblement les mêmes à des angles inférieurs à 10°. Cependant au delà de 10° NeuralFoil, qui est basé sur la même théorie que XFOIL (écoulement potentiel + équations couche limite) couplé avec de l'IA, perd en fiabilité. \\
+\textbf{les résultats semblent donc être quasi-indentiques pour des variations de position de cambrure maximale entre 19\% et 25\%, aux faibles angles (<10°)}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SECTION 2 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Stabilité}
+\label{sec:Ch4.2}
+
+Ensuite, l'étude réalisée \textbf{ne fait pas intervenir de critère de stabilité.} En témoigne la figure \ref{fig:influence cambrure position}, nous avons ajouté l'évolution de Xcp, la position du centre de pousée le long de la corde, sur les polaires.\\
+\textbf{\underline{Le raisonnement est le suivant} : "Xcp doit être suffisamment faible (effort aérodynamique proche du bord d'attaque) à faible Cl (limite de l'équilibre poids-portance) pour que le moment associé soit suffisamment cabreur et que l'aile ne tende pas à aller vers des Cl plus petits"}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SECTION 3 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Optimisation avec Aerosandbox}
+\label{sec:Ch4.3}
+
+Finalement les fonctions d'optimisation d'Aerosandbox ne sont pas applicables à la VSM. Elles sont cependant utilisées pour optimiser la fonction de Breukels (2 paramètres). \\
+Aerosandbox peut aussi représenter et optimiser les profils avec 10 paramètres (Kulfan parameters). \textbf{Ce n'est pas le sujet de ce papier, cependant c'est une façon différente d'aborder le problème. Ce sera probablement le sujet d'une étude à venir.}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{Pics/04 -Etudes complémentaires/optim neuralfoil.png}  
+    \caption{Optimisation réalisée avec Aerosandbox sur des profils dis "de Kulfan"}
+    \label{fig:kulfan}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SECTION 4 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Optimisation d'un SK5}
+\label{sec:Ch4.4}
+
+La même étude que présentée dans ce papier a été réalisée sur un SK5-VB afin de permettre un premier prototype pour Beyond. Voici les résulats :\\
