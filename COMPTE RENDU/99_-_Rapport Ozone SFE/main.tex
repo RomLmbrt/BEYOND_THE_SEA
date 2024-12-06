@@ -1,0 +1,85 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% MAIN SETTINGS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[
+LEEC,			% Use this option to select your DEE degree, options: LEEC, LETI
+english,		% Select document language, options: portuguese or english
+%draft,	% Uncomment for draft mode (no pictures, no links, overfull hboxes) 
+%twocolumn
+]{DEEclass}
+
+% Use the 'preamble.tex' file (root folder) do add packages and macros. Keep your main.tex file clean.
+\include{preamble}	
+% \makenomenclature
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% REPORT INFORMATION %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\reporttitle{Designing the new Ozone kite for the 2028 Olympic Games} % Your report title
+
+\author{Romain Lambert}	% Your name
+\studentnumber{0673627662}	% Your student number
+\studentemail{1234567@isep.ipp.pt}	% Your student email address  
+
+\advisor{Nome do Orientador}{xxx@isep.ipp.pt}	% Your ISEP advisor name and email
+\coadvisor{Nome do Coorientador}{xxx@isep.ipp.pt}	% Your ISEP co-advisor name and email, comment this line if not needed
+\company{Nome da Empresa, Lda.}	% The company name where you developed your work, comment this line if not needed
+\supervisor{Nome do Orientador da Empresa}{xxx@emailaddress.com} % Your company supervisor name, comment this line if not needed
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\pagestyle{plain} % Default to the plain heading style until the thesis style is called for the body content
+
+\printcoverpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% FRONTMATTER %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Consider the following front matter sections provided as separate files in the 'front' folder.
+% Comment the lines regarding the sections you will not use, or edit the file contents as needed
+
+\tableofcontents
+
+\listoffigures
+\include{nomenclature}
+\printnomenclature
+
+%\include{front/2_acknowledgements}	% Edit to add the due acknowledgements, or comment this line if not used
+%\include{front/3_abstract}			% Edit the file to write the document Abstract. Two languages are always required.
+%\include{front/4_frontmatterlists}	% Edit the file to select the lists to be shown (figures, tables, source code segments, glossary, acronyms, symbols)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% MAINMATTER %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Include the chapters of the document as separate files from the 'chapters' folder
+
+\include{chapters/Introduction}
+\include{chapters/2D_steady_simulations}
+\include{chapters/Optimization}
+\include{chapters/Stability}
+\include{chapters/Conclusions}
+
+%\include{chapters/chapter2}		
+%\include{chapters/chapter3}	% Uncomment the lines as you write the chapters,
+								% where 'chapter3' refers to a file chapter3.tex
+%...							% in the 'chapters' folder
+								
+%\include{chapters/chapter6}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Print the bibliographic references using the ieeetr format from the 'sampleRefs.bib' file (root folder)
+
+% \clearpage
+
+\addcontentsline{toc}{chapter}{References}
+\bibliographystyle{plain} % We choose the "plain" reference style
+\bibliography{references} % Entries are in the refs.bib file
+
+								% a good option to make bib files is https://www.jabref.org/
+			
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{appendices}
+% Include the appendices of the document as separate files from the 'chapters' folder
+
+%\include{chapters/appendixA}	% Uncomment the lines as you write the appendices,
+%\include{chapters/appendixB}	% or comment the lines if not used
+
+%\end{appendices}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}  

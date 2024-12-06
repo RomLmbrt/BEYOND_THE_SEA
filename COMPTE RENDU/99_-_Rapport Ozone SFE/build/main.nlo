@@ -1,0 +1,15 @@
+\nomenclatureentry{C\(\textbf{CFD}\)@[{\(\textbf{CFD}\)}]\begingroup Computational fluid dynamics\nomeqref {0}|nompageref}{4}
+\nomenclatureentry{C\(\textbf{VLM}\)@[{\(\textbf{VLM}\)}]\begingroup Vortex lattice method\nomeqref {0}|nompageref}{4}
+\nomenclatureentry{k\(\textbf{V$_{WR}$}\)@[{\(\textbf{V$_{WR}$}\)}]\begingroup Relative wind velocity at kite altitude\nomeqref {0}|nompageref}{4}
+\nomenclatureentry{k\(\textbf{V$_{WT}$}\)@[{\(\textbf{V$_{WT}$}\)}]\begingroup True wind velocity\nomeqref {0}|nompageref}{4}
+\nomenclatureentry{k\(\textbf{V$_{s}$}\)@[{\(\textbf{V$_{s}$}\)}]\begingroup Ship velocity\nomeqref {0}|nompageref}{4}
+\nomenclatureentry{k\(\textbf{$\alpha_{i}$}\)@[{\(\textbf{$\alpha_{i}$}\)}]\begingroup Kite angle of attack\nomeqref {0}|nompageref}{4}
+\nomenclatureentry{k\(\textbf{$\delta$}\)@[{\(\textbf{$\delta$}\)}]\begingroup Angle between the athlete and his lines\nomeqref {0}|nompageref}{4}
+\nomenclatureentry{k\(\textbf{V$_{a}$}\)@[{\(\textbf{V$_{a}$}\)}]\begingroup Apparent wind velocity seen by the kite\nomeqref {0}|nompageref}{4}
+\nomenclatureentry{k\(\textbf{V$_{k}$}\)@[{\(\textbf{V$_{k}$}\)}]\begingroup Kite velocity\nomeqref {0}|nompageref}{4}
+\nomenclatureentry{k\(\textbf{F$_{a}$}\)@[{\(\textbf{F$_{a}$}\)}]\begingroup Aerodynamic resultant\nomeqref {0}|nompageref}{4}
+\nomenclatureentry{k\(\textbf{T}\)@[{\(\textbf{T}\)}]\begingroup Tethers tension\nomeqref {0}|nompageref}{4}
+\nomenclatureentry{k\(\textbf{$\alpha_{S, WT}$}\)@[{\(\textbf{$\alpha_{S, WT}$}\)}]\begingroup Angle between the rider and the true wind speed\nomeqref {0}|nompageref}{4}
+\nomenclatureentry{k\(\textbf{$\epsilon$}\)@[{\(\textbf{$\epsilon$}\)}]\begingroup Angle between the kite's velocity vector and the apparent wind\nomeqref {0}|nompageref}{4}
+\nomenclatureentry{k\(\textbf{$\alpha_{a,WT}$}\)@[{\(\textbf{$\alpha_{a,WT}$}\)}]\begingroup Angle between the apparent wind speed and the true wind speed\nomeqref {0}|nompageref}{4}
+\nomenclatureentry{S\(\textbf{VMG}\)@[{\(\textbf{VMG}\)}]\begingroup Velocity Made Good\nomeqref {0}|nompageref}{4}
