@@ -1,4 +1,3 @@
-\IEEEpeerreviewmaketitle
 \section{Les Résultats}
 \label{sec:Ch3}
 
@@ -58,18 +57,23 @@
 \subsection{2D - résultats moyennes pondérées par Gaussienne}
 \label{sec:Ch3.2}
 
+
 \begin{figure}[h!]
     \centering
-    \subfigure[diamètre selon les paramètres de la Gaussienne]{
-        \includegraphics[width=0.45\textwidth]{Pics/diametre gaussian 2d.png}
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{Pics/diametre gaussian 2d.png}
+        \caption{diamètre selon les paramètres de la Gaussienne}
         \label{fig:diametre gaussien 2d}
-    }
+    \end{subfigure}
     \hfill 
-    \subfigure[cambrure selon les paramètres de la Gaussienne]{
-        \includegraphics[width=0.45\textwidth]{Pics/depth gaussian 2d.png}
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{Pics/depth gaussian 2d.png}
+        \caption{cambrure selon les paramètres de la Gaussienne}
         \label{fig:cambrure gaussien 2d}
-    }
-    \caption{Sensibilté des résultats 2d en fonction de l'écart-type $\sigma$ et de la valeurs centrale $\alpha_{center}$ de la Gaussienne}
+    \end{subfigure}
+    \caption{Sensibilité des résultats 2D en fonction de l'écart-type $\sigma$ et de la valeur centrale $\alpha_{center}$ de la Gaussienne}
     \label{fig:gaussian sensibility 2d}
 \end{figure}
 
@@ -138,18 +142,23 @@ A noter que les ribs initialement à faible diamètre (relatif) sont ceux du bor
 
 \begin{figure}[h!]
     \centering
-    \subfigure[$\delta diamètre$ selon les paramètres de la Gaussienne]{
-        \includegraphics[width=0.45\textwidth]{Pics/diametre gaussian.png}
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{Pics/diametre gaussian.png}
+        \caption{$\delta$ diamètre selon les paramètres de la Gaussienne}
         \label{fig:diametre gaussien}
-    }
-    \hfill 
-    \subfigure[$\delta cambrure$ selon les paramètres de la Gaussienne]{
-        \includegraphics[width=0.45\textwidth]{Pics/depth gaussian.png}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{Pics/depth gaussian.png}
+        \caption{$\delta$ cambrure selon les paramètres de la Gaussienne}
         \label{fig:cambrure gaussien}
-    }
-    \caption{Sensibilté des résultats 3d en fonction de l'écart-type $\sigma$ et de la valeurs centrale $\alpha_{center}$ de la Gaussienne}
+    \end{subfigure}
+    \caption{Sensibilité des résultats 3D en fonction de l'écart-type $\sigma$ et de la valeur centrale $\alpha_{center}$ de la Gaussienne}
     \label{fig:gaussian sensibility}
 \end{figure}
+
 
     Sur la figure \ref{fig:gaussian sensibility} (comme sur la figure \ref{fig:gaussian sensibility 2d}), on rappelle que $\sigma$ proche de zéro signife un écart-type quasi nul, i.e. on retrouve les mêmes résultats que sur la figure \ref{fig:opti alpha 3d}. A l'inverse, $\sigma$ grand signifie qu'on augmente l'influence des angles autours de $\alpha_{center}$ sur la moyenne pondérée; fonction objective de l'optimisation. \\
 

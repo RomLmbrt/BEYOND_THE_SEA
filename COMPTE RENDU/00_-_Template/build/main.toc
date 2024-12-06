@@ -1,0 +1,4 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {0.1}La théorie}{3}{section.0.1}%
+\contentsline {subsection}{\numberline {0.1.1}\textbf {Regresion de Breukels : théorie 2D}}{3}{subsection.0.1.1}%
+\contentsline {subsection}{\numberline {0.1.2}\textbf {Regresion de Breukels : théorie 3D}}{3}{subsection.0.1.2}%

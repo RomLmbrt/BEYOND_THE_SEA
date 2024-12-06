@@ -459,8 +459,8 @@ KOMA-script documentation for details.}]{fancyhdr}
 %	TITLE PAGES DESIGN
 %----------------------------------------------------------------------------------------
 
-\newcommand{\university}{ISAE SUPAERO}
-\newcommand{\school}{Institut Supérieure de l'Aéronautique et de l'Espace}
+\newcommand{\university}{}
+\newcommand{\school}{BEYOND THE SEA}
 \newcommand{\department}{}
 \newcommand{\degree}{}
 \newcommand{\frontcourselabel}{}
@@ -472,8 +472,8 @@ KOMA-script documentation for details.}]{fancyhdr}
 \newcommand{\disclamertemp}{}
 
 \ifbool{LEEC}{
-	\renewcommand{\degreeacrn}{Internship Report}
-	\renewcommand{\degreetemp}{Internship Report}
+	\renewcommand{\degreeacrn}{Rapport}
+	\renewcommand{\degreetemp}{Rapport}
 	\providecaptionname{english}{\degreetemp}{}
 	\providecaptionname{portuguese}{\degreetemp}{Stage de césure}
 	\renewcommand{\frontcourselabel}{{\large \degreetemp}\\}
@@ -482,7 +482,7 @@ KOMA-script documentation for details.}]{fancyhdr}
             Author : Romain Lambert
             \columnbreak
             
-            Supervisor : Dominik Zimmerman
+            Supervisor : Corentin Tran
             \end{multicols}
             }
         \renewcommand{\aftercourselabel}{\large \textit{\disclamertemp \degreetemp}\\}			
@@ -553,13 +553,12 @@ KOMA-script documentation for details.}]{fancyhdr}
 	        
 	        % Informations académiques
 	        \textbetweenrules[.3pt]{\degreeacrn}\par
-	        \vspace{-8pt}
+	        \vspace{1pt}
 	        
 	        \vfill	
 	        
 	        % Logo(s)
-	        \includegraphics[width=6.5cm]{Pics/airfoil.png}\par\vspace{1cm}
-	        \includegraphics[width=7cm]{Pics/résultats pas alpha 2D.png}\par
+	        \includegraphics[width=\textwidth]{Pics/Beyond the sea.png}\par\vspace{1cm}
 	        
 	        \vspace{3cm}
 	        
