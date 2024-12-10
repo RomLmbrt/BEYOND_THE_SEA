@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.24)  9 DEC 2024 09:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.24)  10 DEC 2024 12:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1223,21 +1223,45 @@ Package pdftex.def Info: Pics/04 -Etudes complémentaires/position cambrure.png 
 
 
 ]
-
-[14 <./Pics/04 -Etudes complémentaires/position cambrure.png>]
-<Pics/04 -Etudes complémentaires/optim neuralfoil.png, id=218, 709.6914pt x 284.7438pt>
-File: Pics/04 -Etudes complémentaires/optim neuralfoil.png Graphic file (type png)
-<use Pics/04 -Etudes complémentaires/optim neuralfoil.png>
-Package pdftex.def Info: Pics/04 -Etudes complémentaires/optim neuralfoil.png  used on input line 50.
-(pdftex.def)             Requested size: 398.33861pt x 159.8204pt.
-)
-Underfull \hbox (badness 10000) in paragraph at lines 62--38
+Underfull \hbox (badness 10000) in paragraph at lines 34--36
 
  []
 
 
 
-[15 <./Pics/04 -Etudes complémentaires/optim neuralfoil.png>]
+[14 <./Pics/04 -Etudes complémentaires/position cambrure.png>]
+<Pics/04 -Etudes complémentaires/stabilité diam.png, id=218, 379.4175pt x 263.7855pt>
+File: Pics/04 -Etudes complémentaires/stabilité diam.png Graphic file (type png)
+<use Pics/04 -Etudes complémentaires/stabilité diam.png>
+Package pdftex.def Info: Pics/04 -Etudes complémentaires/stabilité diam.png  used on input line 41.
+(pdftex.def)             Requested size: 179.25114pt x 124.6232pt.
+
+
+LaTeX Warning: Command \` invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \` invalid in math mode on input line 42.
+
+<Pics/04 -Etudes complémentaires/stabilité dep.png, id=219, 380.622pt x 269.20575pt>
+File: Pics/04 -Etudes complémentaires/stabilité dep.png Graphic file (type png)
+<use Pics/04 -Etudes complémentaires/stabilité dep.png>
+Package pdftex.def Info: Pics/04 -Etudes complémentaires/stabilité dep.png  used on input line 48.
+(pdftex.def)             Requested size: 179.25114pt x 126.78139pt.
+<Pics/04 -Etudes complémentaires/optim neuralfoil.png, id=222, 709.6914pt x 284.7438pt>
+File: Pics/04 -Etudes complémentaires/optim neuralfoil.png Graphic file (type png)
+<use Pics/04 -Etudes complémentaires/optim neuralfoil.png>
+Package pdftex.def Info: Pics/04 -Etudes complémentaires/optim neuralfoil.png  used on input line 72.
+(pdftex.def)             Requested size: 398.33861pt x 159.8204pt.
+
+
+[15 <./Pics/04 -Etudes complémentaires/stabilité diam.png> <./Pics/04 -Etudes complémentaires/stabilité dep.png>])
+Underfull \hbox (badness 10000) in paragraph at lines 84--38
+
+ []
+
+
+
+[16 <./Pics/04 -Etudes complémentaires/optim neuralfoil.png>]
 \openout2 = `"Chapters/05 - Limites.aux"'.
 
  (Chapters/05 - Limites.tex
@@ -1249,14 +1273,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
 
 
-[16
+[17
 
 
 
 
 ])
 
-[17]
+[18]
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
@@ -1275,17 +1299,17 @@ Package rerunfilecheck Info: File `Main.out' has not changed.
 (rerunfilecheck)             Checksum: 95FED12FD6FEFE3B94E4311711005225;3537.
  ) 
 Here is how much of TeX's memory you used:
- 33898 strings out of 473899
- 739641 string characters out of 5722724
+ 33919 strings out of 473899
+ 740608 string characters out of 5722724
  1260620 words of memory out of 5000000
- 56121 multiletter control sequences out of 15000+600000
+ 56140 multiletter control sequences out of 15000+600000
  640306 words of font info for 101 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  110i,20n,107p,2485b,1081s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx8.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi5.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb>
-Output written on "c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\04_-_Diameter_depth_study\build\Main.pdf" (17 pages, 3397833 bytes).
+Output written on "c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\04_-_Diameter_depth_study\build\Main.pdf" (18 pages, 3482663 bytes).
 PDF statistics:
- 333 PDF objects out of 1000 (max. 8388607)
- 51 named destinations out of 1000 (max. 500000)
- 213 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 347 PDF objects out of 1000 (max. 8388607)
+ 53 named destinations out of 1000 (max. 500000)
+ 223 words of extra memory for PDF output out of 10000 (max. 10000000)
 

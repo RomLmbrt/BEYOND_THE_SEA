@@ -13,7 +13,7 @@
 \label{sec:Ch4.1}
 
 Tout d'abord Breukels ne prend en compte que le diamètre et la cambrure maximal d'un profil, \textbf{la position de la cambrure maximale d'un profil n'est donc pas prise en compte}. \\
-En conduisant des simulations (VSM) basées cette fois sur des polaires déterminées à partir de NeuralFoil (Aersoandbox), on pense alors capturer l'influence de la position de la cambrure maximale. \textbf{On mène l'étude  sur des SK50-VG avec (t,k)=(0.08, 0.05)} :
+En conduisant des simulations (VSM) basées cette fois sur des polaires déterminées à partir de NeuralFoil (Aersoandbox), on pense alors capturer l'influence de la position de la cambrure maximale. \textbf{On mène l'étude  sur des SK50-VG avec (t,k)=(0.06, 0.08)} :
 
 \begin{figure}[H]
     \centering
@@ -32,7 +32,29 @@ On observe que les résultats sont sensiblement les mêmes à des angles inféri
 \label{sec:Ch4.2}
 
 Ensuite, l'étude réalisée \textbf{ne fait pas intervenir de critère de stabilité.} En témoigne la figure \ref{fig:influence cambrure position}, nous avons ajouté l'évolution de Xcp, la position du centre de pousée le long de la corde, sur les polaires.\\
-\textbf{\underline{Le raisonnement est le suivant} : "Xcp doit être suffisamment faible (effort aérodynamique proche du bord d'attaque) à faible Cl (limite de l'équilibre poids-portance) pour que le moment associé soit suffisamment cabreur et que l'aile ne tende pas à aller vers des Cl plus petits"}
+\textbf{\underline{Le raisonnement est le suivant} : "Xcp doit être suffisamment faible (effort aérodynamique proche du bord d'attaque) à faible Cl (limite de l'équilibre poids-portance) pour que le moment associé soit suffisamment cabreur et que l'aile ne tende pas à aller vers des Cl plus petits"}\\ 
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{Pics/04 -Etudes complémentaires/stabilité diam.png}
+        \caption{$X_{CP}$ pour différent $\delta diamètre$}
+        \label{fig:stabilité diamètre}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{Pics/04 -Etudes complémentaires/stabilité dep.png}
+        \caption{$X_{CP}$ pour différent $\delta cambrure$}
+        \label{fig:stabilité cambrure}
+    \end{subfigure}
+    \caption{Sensibilité de la stabilité du kite aux variations de (t,k)}
+    \label{fig:stabilité}
+\end{figure}
+
+Il semblerait donc que la cambrure joue un rôle majeur dans la stabilité du kite. Diminuer la cambrure déplace la courbe de $X_{CP}$ vers la gauche et donc stabilise le kite (figure \ref{fig:stabilité cambrure}). La figure \ref{fig:stabilité diamètre} montre la faible influence du diamètre de BA sur la stabilité. \\
+\textbf{ Augumenter la cambrure semble donc dégrader la stabilité du kite. Ce résultat semble cohérent puisque augumenter la cambrure tend à augmenter la charge arrière. L'influence du diamètre est négligeable devant celle de la cambrure. }
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

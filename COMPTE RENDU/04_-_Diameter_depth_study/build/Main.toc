@@ -14,7 +14,7 @@
 \contentsline {section}{\numberline {4.1}Etude de la position de la cambrure maximale}{13}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Stabilité}{14}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Optimisation avec Aerosandbox}{15}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Optimisation d'un SK5}{15}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Limites}{16}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Limite de la Gaussienne}{16}{section.5.1}%
-\contentsline {section}{\numberline {5.2}A faire pour la suite}{16}{section.5.2}%
+\contentsline {section}{\numberline {4.4}Optimisation d'un SK5}{16}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Limites}{17}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Limite de la Gaussienne}{17}{section.5.1}%
+\contentsline {section}{\numberline {5.2}A faire pour la suite}{17}{section.5.2}%
