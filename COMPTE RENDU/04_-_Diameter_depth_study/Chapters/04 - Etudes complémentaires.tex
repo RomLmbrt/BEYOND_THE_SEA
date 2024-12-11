@@ -82,3 +82,58 @@ Aerosandbox peut aussi représenter et optimiser les profils avec 10 paramètres
 \label{sec:Ch4.4}
 
 La même étude que présentée dans ce papier a été réalisée sur un SK5-VB afin de permettre un premier prototype pour Beyond. Voici les résulats :\\
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{Pics/04 -Etudes complémentaires/sk5 vb guassian diameter.png}
+        \caption{$\delta$ diamètre selon les paramètres de la Gaussienne}
+        \label{fig:diametre gaussien sk5 vb}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{Pics/04 -Etudes complémentaires/sk5 vb guassian depth.png}
+        \caption{$\delta$ cambrure selon les paramètres de la Gaussienne}
+        \label{fig:cambrure gaussien sk5 vb}
+    \end{subfigure}
+    \caption{sk5 vb VB - Sensibilité des résultats 3D en fonction de l'écart-type $\sigma$ et de la valeur centrale $\alpha_{center}$ de la Gaussienne}
+    \label{fig:gaussian sensibility sk5 vb}
+\end{figure}
+
+la figure \ref{fig:gaussian sensibility sk5 vb} montre qu'un choix de $\sigma$ = 8° et $\alpha_{center}$ = 10° permet de trouver un bon compromis d'optimum sur l'ensemble de la poalaire à faibles incidences. \\
+Ainsi, pour ces paramètre, on obtiens la polaire suivante :\\
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{Pics/04 -Etudes complémentaires/sk5 vb polar.png}
+    \caption{Optimisation réalisée avec Aerosandbox sur des profils dis "de Kulfan"}
+    \label{fig:polar sk5 vb}
+\end{figure}
+
+La figure \ref{fig:polar sk5 vb} montre que l'optimisation améliore en effet la polaire du kite à des incidences inférieures à 10° ainsi que sa stabilité.\\
+\textbf{En conclusion :} $\alpha_{center}$ = 10°, $\sigma$ = 8°, ($\delta t_{opti}$, $\delta k_{opti}$) = (-0.0067, -0.0333) \\
+
+Cela correspond à une répartition en envergure :
+\begin{itemize}
+    \item t : 0.063 0.068 0.073 0.073 0.073 0.073 0.073 0.073 0.073 0.073 0.073 0.073 0.073 0.073 0.073 0.073 0.073 0.073 0.068 0.063
+    \item k : 0.032 0.034 0.037 0.037 0.037 0.037 0.037 0.037 0.037 0.037 0.037 0.037 0.037 0.037 0.037 0.037 0.037 0.037 0.034 0.032
+\end{itemize}
+
+A comparer avec le kite initial:
+\begin{itemize}
+    \item t : 0.085 0.091 0.090 0.0893 0.087 0.085 0.083 0.083 0.083 0.0820.083 0.085 0.087 0.089 0.090 0.091 0.085
+    \item k : 0.042 0.050 0.065 0.069 0.072 0.075 0.08 0.08 0.08 0.08 0.08 0.075 0.072 0.069 0.065 0.050 0.042   
+\end{itemize}
+
+\textbf{Remarque :} SK5 VB V2 est identique à SK5 VB avec un diamètre de BA augumenté de 1.5\%. En menant une étude sur SK5 VB V2 on obtiens $\alpha_{center}$ = 10°, $\sigma$ = 8°, ($\delta t_{opti}$, $\delta k_{opti}$) = (+0.0067, -0.0333); ce qui est donc cohérent !\\
+
+Si on trace l'évolution de ($\delta t_{opti}$, $\delta k_{opti}$) en fonction de $\alpha$ sans moyenner par une Gaussienne :\\
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{Pics/04 -Etudes complémentaires/diam deth alpha sk5 vb.png}
+    \caption{Evolution de ($\delta t_{opti}$, $\delta k_{opti}$) en fonction de alpha}
+    \label{fig:diam deth alpha sk5 vb}
+\end{figure}
