@@ -102,23 +102,19 @@ La même étude que présentée dans ce papier a été réalisée sur un SK5-VB 
     \label{fig:gaussian sensibility sk5 vb}
 \end{figure}
 
-la figure \ref{fig:gaussian sensibility sk5 vb} montre qu'un choix de $\sigma$ = 8° et $\alpha_{center}$ = 10° permet de trouver un bon compromis d'optimum sur l'ensemble de la poalaire à faibles incidences. \\
-Ainsi, pour ces paramètre, on obtiens la polaire suivante :\\
-
 \begin{figure}[H]
     \centering
     \includegraphics[width=\textwidth]{Pics/04 -Etudes complémentaires/sk5 vb polar.png}
-    \caption{Optimisation réalisée avec Aerosandbox sur des profils dis "de Kulfan"}
+    \caption{Polaire de comparaison}
     \label{fig:polar sk5 vb}
 \end{figure}
 
-La figure \ref{fig:polar sk5 vb} montre que l'optimisation améliore en effet la polaire du kite à des incidences inférieures à 10° ainsi que sa stabilité.\\
-\textbf{En conclusion :} $\alpha_{center}$ = 10°, $\sigma$ = 8°, ($\delta t_{opti}$, $\delta k_{opti}$) = (-0.0067, -0.0333) \\
+\textbf{Pour le prochain prototype de SK5 (12/2024)} on propose de choisir un ($\delta t, \delta k)$ qui permette d'optimiser la polaire autour de $\alpha = 15$°
 
-Cela correspond à une répartition en envergure :
+Cela correspond à \textbf{($\delta t, \delta k)$ = (-0.0067, -0.0111)} et une répartition en envergure :
 \begin{itemize}
     \item t : 0.063 0.068 0.073 0.073 0.073 0.073 0.073 0.073 0.073 0.073 0.073 0.073 0.073 0.073 0.073 0.073 0.073 0.073 0.068 0.063
-    \item k : 0.032 0.034 0.037 0.037 0.037 0.037 0.037 0.037 0.037 0.037 0.037 0.037 0.037 0.037 0.037 0.037 0.037 0.037 0.034 0.032
+    \item k : 0.032 0.039 0.039 0.039 0.039 0.039 0.039 0.039 0.039 0.039 0.039 0.039 0.039 0.039 0.039 0.039 0.039 0.039 0.039 0.032
 \end{itemize}
 
 A comparer avec le kite initial:
@@ -127,13 +123,20 @@ A comparer avec le kite initial:
     \item k : 0.042 0.050 0.065 0.069 0.072 0.075 0.08 0.08 0.08 0.08 0.08 0.075 0.072 0.069 0.065 0.050 0.042   
 \end{itemize}
 
-\textbf{Remarque :} SK5 VB V2 est identique à SK5 VB avec un diamètre de BA augumenté de 1.5\%. En menant une étude sur SK5 VB V2 on obtiens $\alpha_{center}$ = 10°, $\sigma$ = 8°, ($\delta t_{opti}$, $\delta k_{opti}$) = (+0.0067, -0.0333); ce qui est donc cohérent !\\
+\textbf{La polaire associée est présente sur la figure \ref{fig:polar sk5 vb}}
 
-Si on trace l'évolution de ($\delta t_{opti}$, $\delta k_{opti}$) en fonction de $\alpha$ sans moyenner par une Gaussienne :\\
+\textbf{Si on trace l'évolution de ($\delta t_{opti}$, $\delta k_{opti}$) en fonction de $\alpha$ sans moyenner par une Gaussienne} :\\
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=\textwidth]{Pics/04 -Etudes complémentaires/diam deth alpha sk5 vb.png}
     \caption{Evolution de ($\delta t_{opti}$, $\delta k_{opti}$) en fonction de alpha}
-    \label{fig:diam deth alpha sk5 vb}
+    \label{fig:diam depth alpha sk5 vb}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{Pics/04 -Etudes complémentaires/diam deth 2 alpha sk5 vb.png}
+    \caption{Evolution de ($\delta t_{opti}$, $\delta k_{opti}$) en fonction de alpha}
+    \label{fig:diam depth 2 alpha sk5 vb}
 \end{figure}
