@@ -1,3 +1,8 @@
+import sys
+sys.path.append("c:/Users/RomainLambert/BEYOND_THE_SEA/awes_ekf-develop_TUDelft/src")
+import os
+os.chdir('c:/Users/RomainLambert/BEYOND_THE_SEA/awes_ekf-develop_TUDelft')
+
 import numpy as np
 import matplotlib.pyplot as plt
 from awes_ekf.setup.settings import load_config

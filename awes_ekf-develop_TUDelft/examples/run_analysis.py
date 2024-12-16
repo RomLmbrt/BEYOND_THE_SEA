@@ -1,3 +1,8 @@
+import sys
+sys.path.append("c:/Users/RomainLambert/BEYOND_THE_SEA/awes_ekf-develop_TUDelft/src")
+import os
+os.chdir('c:/Users/RomainLambert/BEYOND_THE_SEA/awes_ekf-develop_TUDelft')
+
 import os.path
 import time as time
 import sys

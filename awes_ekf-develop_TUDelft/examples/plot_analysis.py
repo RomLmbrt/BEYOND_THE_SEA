@@ -1,3 +1,8 @@
+import sys
+sys.path.append("c:/Users/RomainLambert/BEYOND_THE_SEA/awes_ekf-develop_TUDelft/src")
+import os
+os.chdir('c:/Users/RomainLambert/BEYOND_THE_SEA/awes_ekf-develop_TUDelft')
+
 from awes_ekf.load_data.read_data import read_results_from_hdf5
 from pathlib import Path
 import pandas as pd
