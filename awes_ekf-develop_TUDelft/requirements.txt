@@ -1,0 +1,14 @@
+# requirements.txt
+# This file lists all the dependencies that are required by the project
+# pip install -r requirements.txt
+numpy
+matplotlib
+casadi>=3.6.0
+pandas
+pytest
+pyyaml
+control
+scipy
+seaborn
+dataclasses; python_version < "3.7"
+h5py

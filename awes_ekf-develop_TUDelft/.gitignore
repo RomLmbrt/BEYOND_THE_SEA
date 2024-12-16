@@ -1,0 +1,15 @@
+.vscode/
+__pycache__/
+caca_turn.py
+Scipy_implementation.py
+cd_kcu.py
+data/flight_logs/v9/
+processed_data/flight_data/v9/
+results/
+build/
+src/awes_ekf.egg-info/
+venv/
+processed_data/
+./ekf_debug.logunwanted_file.txt
+ekf_debug.log
+.DS_Store   

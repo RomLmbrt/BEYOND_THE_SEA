@@ -1,0 +1,18 @@
+# This file may be used to create an environment using:
+# $ conda env create --file <this file>
+name: awes_ekf
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.6
+  - numpy
+  - matplotlib
+  - casadi>=3.6.0
+  - pandas
+  - pytest
+  - pyyaml
+  - control
+  - scipy
+  - seaborn
+  - dataclasses
+  - h5py
