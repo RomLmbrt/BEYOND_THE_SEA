@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.24)  6 DEC 2024 14:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.24)  2 JAN 2025 12:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/RomainLambert/BEYOND_THE_SEA/COMPTE RENDU/00_-_Template/main.tex"
-(c:/Users/RomainLambert/BEYOND_THE_SEA/COMPTE RENDU/00_-_Template/main.tex
+**"c:/Users/RomainLambert/BEYOND_THE_SEA/COMPTE RENDU/00_-_Template/Main.tex"
+(c:/Users/RomainLambert/BEYOND_THE_SEA/COMPTE RENDU/00_-_Template/Main.tex
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
 (DEEclass.cls
@@ -828,22 +828,22 @@ Package tocbasic Info: setting babel extension for `nls' on input line 188.
 \nomitemsep=\skip83
 )
 \@nomenclaturefile=\write3
-\openout3 = `main.nlo'.
+\openout3 = `Main.nlo'.
 
-Package nomencl Info: Writing nomenclature file main.nlo on input line 18.
-runsystem(makeindex -s main.ist -t main.glg -o main.gls main.glo)...executed safely (allowed).
+Package nomencl Info: Writing nomenclature file Main.nlo on input line 18.
+runsystem(makeindex -s Main.ist -t Main.glg -o Main.gls Main.glo)...executed safely (allowed).
 
-runsystem(makeindex -s main.ist -t main.alg -o main.acr main.acn)...executed safely (allowed).
+runsystem(makeindex -s Main.ist -t Main.alg -o Main.acr Main.acn)...executed safely (allowed).
 
 \glswrite=\write4
 \glo@main@file=\write5
-\openout5 = `main.glo'.
+\openout5 = `Main.glo'.
 
-Package glossaries Info: Writing glossary file main.glo on input line 20.
+Package glossaries Info: Writing glossary file Main.glo on input line 20.
 \glo@acronym@file=\write6
-\openout6 = `main.acn'.
+\openout6 = `Main.acn'.
 
-Package glossaries Info: Writing glossary file main.acn on input line 20.
+Package glossaries Info: Writing glossary file Main.acn on input line 20.
  (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
 \wrapoverhang=\dimen282
 \WF@size=\dimen283
@@ -864,8 +864,8 @@ Package csquotes Info: ... found 'babel' package.
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 26.
  (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) (c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\00_-_Template\build\main.aux (c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\00_-_Template\build\Chapters/01 - Example.aux))
-\openout1 = `main.aux'.
+) (c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\00_-_Template\build\Main.aux (c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\00_-_Template\build\Chapters/01 - Example.aux))
+\openout1 = `Main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
 LaTeX Font Info:    ... okay on input line 26.
@@ -912,9 +912,9 @@ Package caption Info: supertabular package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring OFF on input line 26.
- (c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\00_-_Template\build\main.out) (c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\00_-_Template\build\main.out)
+ (c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\00_-_Template\build\Main.out) (c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\00_-_Template\build\Main.out)
 \@outlinefile=\write7
-\openout7 = `main.out'.
+\openout7 = `Main.out'.
 
 \c@lstlisting=\count407
 Package tocbasic Info: setting babel extension for `lol' on input line 26.
@@ -979,46 +979,46 @@ Package pdftex.def Info: Pics/Beyond the sea.png  used on input line 28.
 
 [1
 
-\openout4 = `main.ist'.
+\openout4 = `Main.ist'.
 
 
-{C:/Users/RomainLambert/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc} <./Pics/Beyond the sea.png>] (c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\00_-_Template\build\main.toc
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2.
+{C:/Users/RomainLambert/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc} <./Pics/Beyond the sea.png>] (c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\00_-_Template\build\Main.toc
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 3.
  (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 3.
  (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 2.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 3.
  (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 2.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 3.
  (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 2.
+(Font)              <10.95> on input line 3.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 2.
+(Font)              <8> on input line 3.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 2.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
+(Font)              <6> on input line 3.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
  (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
  (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 2.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 3.
  (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ))
 \tf@toc=\write8
-\openout8 = `main.toc'.
+\openout8 = `Main.toc'.
 
 
 
@@ -1028,6 +1028,7 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 \openout2 = `"Chapters/01 - Example.aux"'.
 
  (Chapters/01 - Example.tex
+Chapter 1.
 <Pics/01 - Example/airfoil.png, id=35, 690.32906pt x 490.83376pt>
 File: Pics/01 - Example/airfoil.png Graphic file (type png)
 <use Pics/01 - Example/airfoil.png>
@@ -1036,6 +1037,7 @@ Package pdftex.def Info: Pics/01 - Example/airfoil.png  used on input line 21.
 )
 
 [3
+
 
 {C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc} <./Pics/01 - Example/airfoil.png>]
 
@@ -1047,26 +1049,26 @@ Package glossaries Warning: No \printglossary or \printglossaries found.
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-(c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\00_-_Template\build\main.aux (c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\00_-_Template\build\Chapters/01 - Example.aux))
+(c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\00_-_Template\build\Main.aux (c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\00_-_Template\build\Chapters/01 - Example.aux))
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2020/03/25>
  ***********
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A07E9EDD5DA0C25990974A4CD767C39E;599.
+Package rerunfilecheck Info: File `Main.out' has not changed.
+(rerunfilecheck)             Checksum: DA56D75CDC82084E4B05F69CD1B5CA70;583.
  ) 
 Here is how much of TeX's memory you used:
- 33527 strings out of 473899
- 726416 string characters out of 5722724
+ 33517 strings out of 473899
+ 726020 string characters out of 5722724
  1247475 words of memory out of 5000000
- 55842 multiletter control sequences out of 15000+600000
- 613498 words of font info for 71 fonts, out of 8000000 for 9000
+ 55832 multiletter control sequences out of 15000+600000
+ 613514 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  110i,19n,107p,2473b,986s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb>
-Output written on "c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\00_-_Template\build\main.pdf" (3 pages, 1084103 bytes).
+<C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb>
+Output written on "c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\00_-_Template\build\Main.pdf" (3 pages, 1055853 bytes).
 PDF statistics:
- 91 PDF objects out of 1000 (max. 8388607)
+ 86 PDF objects out of 1000 (max. 8388607)
  10 named destinations out of 1000 (max. 500000)
  35 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,49 @@
+\chapter{Mesure de l'angle d'incidence au Zénith}
+\label{ch:Ch3}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SECTION 1
+\section{Calcul de la finesse en pleine fenêtre} 
+\label{sec:Ch3.1}
+
+\textbf{En l'absence d'angle de calage} ($\alpha_0 = 90$\textdegree), on a l'équilibre dynamique qui devient :
+\begin{center}
+    \begin{equation}
+        L sin(\theta) - D cos(\theta) = t sin(\alpha_0) \Rightarrow \frac{D}{L} = tan(\alpha)
+        \label{eq : l_over_d}
+    \end{equation}
+\end{center}
+
+ainsi, Fechner et Schmehl dans "Model-Based Efficiency Analysis ofWind Power Conversion by a Pumping Kite Power System" proposent : 
+
+\begin{center}
+    \begin{equation}
+        v_a^2 = (v_w cos(\beta) cos(\Phi) - v_{t,0})^2( 1 + (\frac{L}{D})^2)
+    \end{equation}
+\end{center}
+
+par relation de pythagore, avec ici $\beta$ est l'angle d'élévation, $\Phi$ l'angle azimuth, et $v_{t,0}$ la reel\_out speed utilisée par kite-power (nul dans notre cas d'un point fixe)\\
+
+Finalement on obtient la relation : 
+\begin{center}
+    \begin{equation}
+        v_a = ( cos(\beta) cos(\Phi) - \frac{v_{t,0}}{v_w}) v_w \sqrt{ 1 + (\frac{L}{D})^2}
+    \end{equation}
+\end{center}
+
+\textbf{Cette relation permet d'obtenir la finesse du kite, en shoot (vitesse max) en focntion de l'élévation, du vent réel, et du vent relatif !}
+
+\section{Influence des lignes}
+
+Quand on parle de finesse, on parle en rélalité de la \textbf{finesse de l'ensemble du système Kite + Ligne}, soit $finesse = \frac{C_L^k}{C_D^k + C_D^{lignes}}$\\
+
+Fechner et Schmehl dans "Model-Based Efficiency Analysis ofWind Power Conversion by a Pumping Kite Power System" proposent pour prendre en compte la trainée des lignes supérieures uniquement, la portion des lignes qui se déplace à la vitesse du kite, la portion inférieur étant alors considérée fixe :
+
+\begin{equation}
+    C_{D, eff}^{lignes} \approx  0.31 \overline{l} \frac{d}{A_{kite}} C_D^{lignes}
+\end{equation}
+
+Dès lors on a $C_D = C_D^k + C_{D, eff}^{lignes} $ et \textbf{en l'absence d'angle de calage}:
+
+\begin{equation}
+    F_{t, max} = \frac{1}{2} \rho v_a^2 A_{kite} C_D \sqrt{1 + (\frac{L}{D})^2}
+\end{equation}

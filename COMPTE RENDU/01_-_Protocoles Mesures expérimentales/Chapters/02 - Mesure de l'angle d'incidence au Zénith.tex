@@ -1,76 +1,15 @@
-\documentclass[conference]{IEEEtran}
-%+++++++++++++++++++++++++++++++++++++++++++
-% Added to commands
-\input epsf
-\usepackage{graphicx}
-\usepackage [french]{babel}
-\usepackage [utf8]{inputenc}
-\usepackage [T1] {fontenc}
-\usepackage{float}
-\usepackage{amsmath}
-%+++++++++++++++++++++++++++++++++++++++++++
-% correct bad hyphenation here
-\hyphenation{op-tical net-works semi-conduc-tor IEEEtran}
-\begin{document}
+\chapter{Mesure de l'angle d'incidence au Zénith}
+\label{ch:Ch2}
 
-%+++++++++++++++++++++++++++++++++++++++++++
-\title{\LARGE Identification Expérimentale des Coéfficients Aérodynamiques
-\vskip10pt
-
-\small 2024 - Romain LAMBERT
-}
-%+++++++++++++++++++++++++++++++++++++++++++
-% make the title area
-\maketitle
-
-\begin{abstract}Ce bureau d'étude a pour sujet l'identification expérimentale des coéfficients aérodynamiques. L'objectif final étant de déterminer un protocol expérimental permetant de mesurer l'angle d'incidence d'un kite; en vue d'obtenir une polaire expérimentale des voiles. 
-\end{abstract}
-\IEEEoverridecommandlockouts
-
-\IEEEpeerreviewmaketitle
-\section{Travaux précédents (Zoé Marcelet)}
-
-\subsection{Modèle Lagragien} 
-
-D'après le document \textit{"Dynamics and Control of Single-Line Kites"} de Gonzalo Sanchez-Arriaga (2006),  les formules suivantes permettent d'obtenir l'élévation $\Gamma$ et l'angle d'incidence du vent $\theta$, en fonction du vent et des coefficients aérodynamiques du kite : \\
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.5\textwidth]{Pics/Picture Sanchez.png}  
-    \caption{Schéma du kite au Zénith.}
-    \label{fig:sanchez}
-\end{figure}
-
-La première équation donne l’angle d’incidence $\theta$ : 
-\begin{center}
-    \begin{equation}
-        cos(\delta - \theta) + \beta (\sigma-cos(\delta))C_N(\theta) = 0
-        \label{eq:theta}
-    \end{equation}
-\end{center}
-La deuxieme équation donne l’angle d’élévation $\Gamma$ :
-\begin{center}
-    \begin{equation}
-        \Gamma = tan^{-1}(\frac{\beta C_N (\theta) cos(\theta)-1}{\beta C_N (\theta)sin(\theta)})
-        \label{eq:gamma}
-    \end{equation}
-\end{center}
-Avec $\beta = \frac{\rho A W_0^2}{2mg}$ et $\sigma = \frac{X_{cp}}{r}$ \\
-
-Ces équations ont été codées (disponible sur Nextcloud : 06-RESSOURCE/AC-Admin Commun/4-Rapports Stagiaires/Stage Zoé Marcelet/Rapport\_zozo/06\_Topic\_modèle\_aéro\_zenith). \\
-\textbf{Elles restent cependant peut concluantes car requièrent les coéfficients aérodynamiques du kite. }
-
-\IEEEpeerreviewmaketitle
-\section{Mesure de l'angle d'incidence au Zénith}
-
-\subsection{Problème de l'angle de calage $\alpha_0$} 
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SECTION 1
+\section{Problème de l'angle de calage $\alpha_0$} 
+\label{sec:Ch2.1}
 
 Une première intuition nous amène à penser que la connaissance de l'angle d'élévation et de la géométrie des bridages permet de remonter à l'angle d'incidence $\alpha$
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.5\textwidth]{Pics/Schéma Equilibre Zéntih.png}  
+    \includegraphics[width=0.5\textwidth]{Pics/02 - Mesure de l'angle d'incidence au Zénith/Schéma Equilibre Zéntih.png}  
     \caption{Schéma des angles qui paramètres le Zénith.}
     \label{fig:Zénith alpha zéro}
 \end{figure}
@@ -85,7 +24,7 @@ Ainsi, l'angle que fait le cône de bridage avec les lignes qui le relient au so
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.5\textwidth]{Pics/Schéma Equilibre finesse.png}  
+    \includegraphics[width=0.5\textwidth]{Pics/02 - Mesure de l'angle d'incidence au Zénith/Schéma Equilibre finesse.png}  
     \caption{Graphique du lien entre finesse (aérodynamique) et l'angle $\alpha_0$}
     \label{fig:Zénith finesse}
 \end{figure}
@@ -98,16 +37,17 @@ Ainsi, l'angle que fait le cône de bridage avec les lignes qui le relient au so
     \end{equation}
 \end{center}
 
-montre qu'en \textbf{vent fort}, pour $C_{M_0} = 0$, $x_T = x_F$, et donc on peut déterminer géométriquement $\alpha_0$ ! \textbf{Donc la mesure de l'angle $\theta$ permet de remonter à $\alpha$ et à la finesse $\frac{L}{D}$}
+montre qu'en \textbf{vent fort}, pour $C_{M_0} = 0$, $x_T = x_F$, et donc on peut déterminer géométriquement $\alpha_0$ ! \textbf{Donc la mesure de l'angle $\theta$ permet de remonter à $\alpha$ et à la finesse $\frac{L}{D}$}\\
 
-\subsection{Utiliser un capteur de tension pour les A et les B au niveau du kite}
-\label{sec:tension AB}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SECTION 2
+\section{Utiliser un capteur de tension pour les A et les B au niveau du kite} 
+\label{sec:Ch2.2}
 
 L'idée est que notre système \{kite+bridages\} se comporte comme un pendule inversé. Mesurer les tensions dans les A et les B permet de mesurer la position de la résultante aérodynamique le long du kite et ainsi de prédire son angle d'incidence $\alpha$ en s'affranchissant de la polaire aérodynamique du kite. 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.5\textwidth]{Pics/Schéma Equilibre capteurs tension AB.png}  
+    \includegraphics[width=0.5\textwidth]{Pics/02 - Mesure de l'angle d'incidence au Zénith/Schéma Equilibre capteurs tension AB.png}  
     \caption{Schéma des tensions dans les bridages}
     \label{fig:Zénith tensions AB}
 \end{figure}
@@ -138,7 +78,10 @@ Ainsi, on peut déterminer l'angle d'incidence $\alpha$ à partir de :
     \item $\delta_B$ : l'angle des B par rapport à la corde moyenne du kite (surfplan ou au laser)
 \end{itemize}
 
-\subsection{La sonde pitot}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SECTION 3
+\section{La sonde pitot} 
+\label{sec:Ch2.3}
+
 L'équilibre au Zéntih permet d'obtenir : 
 
 \begin{equation}
@@ -169,9 +112,24 @@ Les modèles de couches limites sont de la forme
 
 où les différents coéfficients sont charactéristiques du lieu. (\textbf{Source :} \textit{Sébastien Blein. Observation et modélisation de couche limite atmosphérique stable en relief complexe : le processus turbulent d’écoulement catabatique. Météorologie. Université Grenoble Alpes, 2016. Français. ffNNT : 2016GREAI023ff. fftel-01622676f} - équation 2.69 du chapitre 2.3.1 (modèle de Prandtl)). \\
 
+Un autre modèle est celui proposé par Fechner et Schmehl dans "Model-Based Efficiency Analysis ofWind Power Conversion by a Pumping Kite Power System" :  
+\begin{equation}
+    v_w = v_{w,g} (\frac{\overline{h}}{ 10 m })^{\alpha} \\
+\end{equation}
+
+Avec $v_{w,g}$ la ground wind speed à 10 m, $\overline{h}$ la hauteur moyenne du kite, et $\alpha$ un coefficient dont la valeurs standard est 1/7, là où en offshore $\alpha$ vaut plutôt 0.11\\
+
+Aussi, la connaissance de $\rho$ est nécessaire. La formule suivante peut être utilisée :
+\begin{equation}
+    \rho = \rho_{0} e^{-\frac{\overline{h}}{H_{\rho}}} \\
+\end{equation}
+avec $H_{\rho} = 8:55 km$ et $\rho_{0} = 1.225 Kg.m^{-3}$
+
 \textbf{Ainsi, on propose de mesurer les vitesses à différentes hauteurs grâce à la sonde pitot afin d'établir un modèle de couche limite pour un lieu (\textit{plage de Pereire}) et une provenance de vent (\textit{Nord-Ouest-Sud}) [l'état. de la couche limite dépend des obstacles qui précèdent le lieu de mesure]}
 
-\subsection{Conclusion }
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SECTION 4
+\section{Conclusion} 
+\label{sec:Ch2.4}
 
 Muni des capteurs
 \begin{itemize}
@@ -187,6 +145,3 @@ On propose de :
     \item Déterminer un modèle de couche limite grâce à la sonde pitot en mesurant des valeurs de vitesse vent à différentes hauteurs (\textit{réunion avec Delft mercredi 16/10 et voir avec mecatro pour filtrer/moyenner mesures})
     \item Déduire grâce à \ref{eq:clcd} les coéfficients aéro au zénith.
 \end{itemize} 
-
-
-\end{document}
