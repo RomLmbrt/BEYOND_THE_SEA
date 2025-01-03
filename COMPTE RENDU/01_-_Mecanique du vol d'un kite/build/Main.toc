@@ -1,10 +1,13 @@
 \babel@toc {english}{}\relax 
 \contentsline {chapter}{\numberline {1}Introduction}{3}{chapter.1}%
 \contentsline {chapter}{\numberline {2}Equilibre Statique Du Kite}{4}{chapter.2}%
-\contentsline {section}{\numberline {2.1}\textbf {$X_{T}$}}{4}{section.2.1}%
-\contentsline {section}{\numberline {2.2}\textbf {Tow Point}}{5}{section.2.2}%
-\contentsline {section}{\numberline {2.3}\textbf {Equilibre Statique Du Kite}}{6}{section.2.3}%
-\contentsline {section}{\numberline {2.4}\textbf {Condition d'existence de l'équilibre du kite}}{7}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Angle d'élévation minimal}{7}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Angle d'élévation maximal}{7}{subsection.2.4.2}%
-\contentsline {section}{\numberline {2.5}\textbf {Stabilité du kite}}{7}{section.2.5}%
+\contentsline {section}{\numberline {2.1}Définitions}{4}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}\textbf {$X_{T}$}}{4}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}\textbf {Tow Point}}{5}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Comparaison avec la littérature}{6}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Conclusion sur les définitions}{7}{subsection.2.1.4}%
+\contentsline {section}{\numberline {2.2}\textbf {Equilibre Statique Du Kite}}{8}{section.2.2}%
+\contentsline {section}{\numberline {2.3}\textbf {Condition d'existence de l'équilibre du kite}}{9}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Angle d'élévation minimal}{9}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Angle d'élévation maximal}{9}{subsection.2.3.2}%
+\contentsline {section}{\numberline {2.4}\textbf {Stabilité du kite}}{9}{section.2.4}%
