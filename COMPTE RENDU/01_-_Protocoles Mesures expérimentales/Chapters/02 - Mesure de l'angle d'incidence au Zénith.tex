@@ -105,31 +105,63 @@ Cependant, la connaissance du vent en altitude, à 50m de haut, est incertaine e
     \label{eq:clcd}
 \end{equation}
 
-Les modèles de couches limites sont de la forme 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SECTION 4
+\section{Les modèles de couches limites sont de la forme } 
+\label{sec:Ch2.4}
+
 \begin{equation}
         u(z) = -C \mu e^{\frac{z}{\lambda}} sin(\frac{z}{\lambda}) \\
 \end{equation}
 
 où les différents coéfficients sont charactéristiques du lieu. (\textbf{Source :} \textit{Sébastien Blein. Observation et modélisation de couche limite atmosphérique stable en relief complexe : le processus turbulent d’écoulement catabatique. Météorologie. Université Grenoble Alpes, 2016. Français. ffNNT : 2016GREAI023ff. fftel-01622676f} - équation 2.69 du chapitre 2.3.1 (modèle de Prandtl)). \\
 
-Un autre modèle est celui proposé par Fechner et Schmehl dans "Model-Based Efficiency Analysis ofWind Power Conversion by a Pumping Kite Power System" :  
+Un autre modèle est celui proposé par Fechner et Schmehl \textbf{en 2013} dans "Model-Based Efficiency Analysis ofWind Power Conversion by a Pumping Kite Power System" :  
 \begin{equation}
-    v_w = v_{w,g} (\frac{\overline{h}}{ 10 m })^{\alpha} \\
+    v_{w,exp} = v_{w,ref} (\frac{z}{ z_{ref} })^{\alpha} \\
+    \label{eq:fechner2013}
 \end{equation}
 
-Avec $v_{w,g}$ la ground wind speed à 10 m, $\overline{h}$ la hauteur moyenne du kite, et $\alpha$ un coefficient dont la valeurs standard est 1/7, là où en offshore $\alpha$ vaut plutôt 0.11\\
+Avec $v_{w,ref}$ la vitesse de référence à $z_{ref}$, et $\alpha$ un coefficient dont la valeurs standard est 1/7, là où en offshore $\alpha$ vaut plutôt 0.11\\
 
 Aussi, la connaissance de $\rho$ est nécessaire. La formule suivante peut être utilisée :
 \begin{equation}
-    \rho = \rho_{0} e^{-\frac{\overline{h}}{H_{\rho}}} \\
+    \rho = \rho_{0} e^{-\frac{z}{H_{\rho}}} \\
 \end{equation}
 avec $H_{\rho} = 8:55 km$ et $\rho_{0} = 1.225 Kg.m^{-3}$
 
+Un autre modèle, meilleur, sera proposé plus tard par Fechner \textbf{en 2015} dans "Dynamic Model of a Pumping Kite Power System" est : 
+
+\begin{equation}
+    v_{w,log} = v_{w,ref} \frac{log(z/z_0)}{log(z_{ref}/z_0)}
+    \label{eq:fechner2015}
+\end{equation}
+avec $z_{ref}$ la hauteur de référence et $z_0$ la hauteur de rugosité. Ainsi, avec la mesure du vent à deux hauteurs on peut obtenir le profil de couche limite atmosphérique.\\
+
+En combinant les équations \ref{eq:fechner2013} et \ref{eq:fechner2015}, on obtient : 
+\begin{equation}
+    v_{w} = v_{w,log} + K (v_{w,log} - v_{w,exp})
+\end{equation}
+Et 
+\begin{equation}
+    \alpha = \frac{log(v_{w,exp}(z_1)/v_{w,ref})}{log(z_1)-log(z_{ref})}
+\end{equation}
+
+On devrait ainsi obtenir des courbe de la forme : 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Pics/02 - Mesure de l'angle d'incidence au Zénith/cl atmo.png}  
+    \caption{Profil type d'une Couche Limite Atmosphérique (Fechner 2015)}
+    \label{fig:cl atmo}
+\end{figure}
+
+Dans la figure \ref{fig:cl atmo}, $v_{w,fit}$ et la courbe obtenue à partir de 3 mesures $v_{w,meas.}$
+
 \textbf{Ainsi, on propose de mesurer les vitesses à différentes hauteurs grâce à la sonde pitot afin d'établir un modèle de couche limite pour un lieu (\textit{plage de Pereire}) et une provenance de vent (\textit{Nord-Ouest-Sud}) [l'état. de la couche limite dépend des obstacles qui précèdent le lieu de mesure]}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SECTION 4
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SECTION 5
 \section{Conclusion} 
-\label{sec:Ch2.4}
+\label{sec:Ch2.5}
 
 Muni des capteurs
 \begin{itemize}

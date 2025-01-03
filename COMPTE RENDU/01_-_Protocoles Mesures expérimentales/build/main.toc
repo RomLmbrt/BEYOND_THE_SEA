@@ -6,7 +6,8 @@
 \contentsline {section}{\numberline {3.1}Problème de l'angle de calage $\alpha _0$}{6}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Utiliser un capteur de tension pour les A et les B au niveau du kite}{7}{section.3.2}%
 \contentsline {section}{\numberline {3.3}La sonde pitot}{8}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Conclusion}{10}{section.3.4}%
-\contentsline {chapter}{\numberline {4}Mesure de l'angle d'incidence au Zénith}{11}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Calcul de la finesse en pleine fenêtre}{11}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Influence des lignes}{12}{section.4.2}%
+\contentsline {section}{\numberline {3.4}Les modèles de couches limites sont de la forme }{9}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Conclusion}{10}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Mesure de l'angle d'incidence en dynamique}{12}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Calcul de la finesse en pleine fenêtre}{12}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Influence des lignes}{13}{section.4.2}%

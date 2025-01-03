@@ -1,42 +1,15 @@
-\documentclass[conference]{IEEEtran}
-%+++++++++++++++++++++++++++++++++++++++++++
-% Added to commands
-\input epsf
-\usepackage{graphicx}
-\usepackage [french]{babel}
-\usepackage [utf8]{inputenc}
-\usepackage [T1] {fontenc}
-\usepackage{float}
-\usepackage{amsmath}
-%+++++++++++++++++++++++++++++++++++++++++++
-% correct bad hyphenation here
-\hyphenation{op-tical net-works semi-conduc-tor IEEEtran}
-\begin{document}
+\chapter{Equilibre Statique Du Kite}
+\label{ch:Ch1}
 
-%+++++++++++++++++++++++++++++++++++++++++++
-\title{\LARGE L'équilibre d'un kite
-\vskip10pt
-
-\small 2024 - Romain LAMBERT
-}
-%+++++++++++++++++++++++++++++++++++++++++++
-% make the title area
-\maketitle
-
-\begin{abstract}Ce bureau d'étude a pour sujet l'équilibre du Kite, sa condition d'existence et sa stabilité. L'objectif final étant de déterminer des paramètres optimaux tels que le towpoint. 
-\end{abstract}
-\IEEEoverridecommandlockouts
-
-\IEEEpeerreviewmaketitle
-\section{L'équilibre du kite}
-
-\subsection{$X_T$} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SECTION 1
+\section{\textbf{$X_{T}$}} 
+\label{sec:Ch1.1}
 
 le point d'application d'un effort est une notion importante. Si celui de l'effort aérodynamique et du poids sont couramment utilisés, le point d'application de la tension des lignes influence beaucoup les performances d'un kite. De plus, le bridage d'un kite change considérablement la façon dont se répartie la tension dans les lignes et l'angle d'équilibre au zénith d'un kite. Ainsi, afin de capturer l'influence du bridage sur les performances d'un kite, on définit $X_T$ comme étant \textbf{le point d'intersection entre la corde moyenne d'un kite et l'axe de la tension des lignes}. Ainsi, $X_T$ permet de lié la géométrie du bridage et son influence sur la dynamique du kite.  \\
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.5\textwidth]{Pics/Xt.png}  
+    \includegraphics[width=0.5\textwidth]{Pics/01 - xt et towpoint/Xt.png}  
     \caption{Xt}
     \label{fig:Xt}
 \end{figure}
@@ -60,13 +33,18 @@ D'où :
 
 Ce qui, par définition, montre que \textbf{$X_T$ est le point d'application de la résultante de tension de l'ensemble du bridage projeté sur la corde.}
 
-\subsection{Différence entre $X_T$ et Tow Point}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SECTION 2
+\section{\textbf{Tow Point}} 
+\label{sec:Ch1.2}
 
 On définit le Tow Point par \textbf{le projeté orthogonal du point d'attache entre les lignes et le bridage sur la corde moyenne du kite}. 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.5\textwidth]{Pics/xtp.png}  
+    \includegraphics[width=0.5\textwidth]{Pics/01 - xt et towpoint/xtp.png}  
     \caption{Différence entre $x_{TP}$ et $x_T$}
     \label{fig:Xtp}
 \end{figure}
@@ -84,11 +62,13 @@ On peut lier ces deux positions par la relation suivante :
 
 où d est la distance du point d’attache entre les lignes et le bridage à la corde moyenne, divisé par la corde profil.
 
-\subsection{l'Equilibre} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SECTION 3
+\section{\textbf{Equilibre Statique Du Kite}} 
+\label{sec:Ch1.3}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.5\textwidth]{Pics/Equilibre Kite.png}  
+    \includegraphics[width=0.5\textwidth]{Pics/01 - xt et towpoint/Equilibre Kite.png}  
     \caption{Equilibre du kite}
     \label{fig:Equilibre du kite}
 \end{figure}
@@ -135,15 +115,17 @@ $x_{TP} = -0.10 $
 
 Ce resultat semble correct en ordre de grandeur (comme celui de $x_{TP}$) mais pas "exacte"; comparé aux observations expérimentales. On comprend donc l'importance de déterminer chaque grandeur, notamment les coefficients aérodynamiques, avec davantage de précision !
 
-
-\IEEEpeerreviewmaketitle
-\section{Condition d'existence de l'équilibre du kite }
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SECTION 4
+\section{\textbf{Condition d'existence de l'équilibre du kite}} 
+\label{sec:Ch1.4}
 
 \subsection{Angle d'élévation minimal} 
-
+\label{sec:Ch1.4.1}
 
 \subsection{Angle d'élévation maximal}
+\label{sec:Ch1.4.2}
 
-\section{Stabilité du kite }
 
-\end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SECTION 5
+\section{\textbf{Stabilité du kite}} 
+\label{sec:Ch1.5}
