@@ -463,6 +463,7 @@ OUTPUT c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\01_-_Mecanique du vol 
 INPUT .\Chapters\00 - introduction.tex
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmro10.tfm
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathit.enc
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-rm.enc
 OUTPUT c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\01_-_Mecanique du vol d'un kite\build\Chapters\00 - introduction.aux
 INPUT .\Chapters\00 - introduction.tex
 INPUT .\Chapters\00 - introduction.tex
@@ -516,7 +517,6 @@ INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsf
 INPUT C:\Users\RomainLambert\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs10.tfm
 INPUT C:\Users\RomainLambert\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs7.tfm
 INPUT C:\Users\RomainLambert\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs5.tfm
-INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-rm.enc
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathsy.enc
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathex.enc
 INPUT .\Pics\01 - xt et towpoint\fechner alpha d.png
@@ -571,6 +571,8 @@ INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi8.pfb
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr10.pfb
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr10.pfb
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr12.pfb
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr12.pfb
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr6.pfb
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr6.pfb
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr8.pfb
