@@ -1,0 +1,9 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{\numberline {1}La théorie de la ligne portante}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}La théorie (continue)}{3}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}La résolution}{4}{subsection.1.1.1}%
+\contentsline {section}{\numberline {1.2}Implémentation numérique (discret)}{5}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}LLT - Lifting Line Theory}{5}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}VSM - Vortex Step Method}{6}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}VLM - Vortex Latex Method}{8}{subsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.2.4}Comparaison}{8}{subsection.1.2.4}%

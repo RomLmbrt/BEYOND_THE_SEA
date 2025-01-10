@@ -1,0 +1,232 @@
+\chapter{La théorie de la ligne portante}
+\label{ch:Ch1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SECTION 1
+\section{La théorie (continue)} 
+\label{sec:Ch1.1}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{Pics/01 - Basses Fidélités/Ligne portante.png}  
+    \caption{Vortex en fer à cheval de la ligne portante}
+    \label{fig:llt fer à cheval}
+\end{figure}
+
+La théorie des lignes portantes utilise la conception de circulation et le théorème de Kutta-Jukowski qui affirme que :
+
+\begin{center}
+    \begin{equation}
+        L(y) = \rho v \Gamma(y)
+        \label{eq:Cl_breukels}
+    \end{equation}
+\end{center}
+
+Aussi, la circulation élémentaire en un point M $\delta\Gamma(M) $ induit une vitesse en P $d\omega(P) $ selon : 
+
+\begin{center}
+    \begin{equation}
+        d\omega(M) = \frac{\delta\Gamma(P) \times \overrightarrow{PM}}{4\pi ||\overrightarrow{PM}||^3}
+        \label{eq:v induite}
+    \end{equation}
+\end{center}
+
+Ce qui le long de la ligne portante, axe des y, donne : 
+
+\begin{center}
+    \begin{equation}
+        dv_i(y_0) = \frac{\delta\Gamma(y)}{4\pi (y-y_0)^2}
+        \label{eq:v induite 1d}
+    \end{equation}
+\end{center}
+
+En intégrant l'équation \ref{eq:v induite 1d} selon y, on remonte ainsi à l'angle induit en $y_0$ : 
+\begin{center}
+    \begin{equation}
+        \alpha_i(y_0) = \frac{v_i(y_0)}{v_{\infty}}
+        \label{eq:angle induit}
+    \end{equation}
+\end{center}
+
+\begin{figure}[H]
+    \centering
+    % Première image
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Pics/01 - Basses Fidélités/LLT KJ.png}
+        \caption{Lien Portance - Circulation}
+        \label{fig:LLT KJ}
+    \end{subfigure}
+    \hfill
+    % Deuxième image
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Pics/01 - Basses Fidélités/LLT vortex.png}
+        \caption{Lien Circulation - Vitesse induite}
+        \label{fig:LLT vortex}
+    \end{subfigure}
+\end{figure}
+
+Ainsi, on a :
+
+\begin{equation}
+    L_{total} = \rho v_{\infty} \int_{-\frac{b}{2}}^{\frac{b}{2}} \Gamma(y) dy
+\end{equation}
+
+et, avec $v_{\infty} sin(\alpha_i(y)) = v_i(y)$ car $tan(\alpha_i(y)) = \frac{v_i(y)}{v_{\infty}}$, on a :
+\begin{equation}
+    D_{i,total} = \rho \int_{-\frac{b}{2}}^{\frac{b}{2}} v_{i}(y)\Gamma(y) dy
+\end{equation}
+
+%%%%%%%%%%%%% SUBSECTION 1.1
+\subsection{La résolution} 
+\label{subsec:Ch1.1.1}
+
+Pour résoudre un problème avec la LLT on utilise la méthode suivante : 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Pics/01 - Basses Fidélités/Prandtl-lifting-line-coordinate-change.png}  
+    \caption{Changement de coordonées}
+    \label{fig:llt fchange coord}
+\end{figure}
+
+On pose $y = -\frac{b}{2}cos(\theta)$ et $\Gamma(\theta) = 2bv_{\infty} \sum_{n \in \mathbb{N}}^{} A_n sin(n\theta)$, on alors :
+
+\begin{equation}
+    \begin{split}
+        \frac{\rho v \Gamma}{P_{dynamique} S} = \frac{L}{P_{dynamique} S} = C_L = C_{L,\alpha,3D}(\alpha - \alpha_{0,3D} - \Delta\alpha_{vrillage} - \alpha_{induit}) \\
+        \Leftrightarrow 2b\sum_{n \geq 1}^{} A_n sin(n\theta) = \pi (\alpha - \alpha_{0,3D} - \Delta\alpha_{vrillage} - \sum_{n \geq 1}^{}n A_n \frac{sin(n\theta)}{sin(\theta)})c(y)
+    \end{split}
+    \label{eq: LLT}
+\end{equation}
+
+On remarque dans l'équation \ref{eq: LLT} que la LLT utilise donc la théorie 2D des profils minces ($C_L = C_{L, \alpha, 3D}(\alpha - \alpha_{0,3D})$) avec une formule de passage des coefficients 2D à 3D (dépend de l'allongement de l'aile)
+
+Finalement, \textbf{en faisant l'hypothèse de la théorie 2D des profils minces, et à partir de la loi de corde $c(y)$ uniquement}, on peut calculer la circulation 3D d'une aile $\Gamma(y)$, sa Portance $L$, sa trainée induite $D_i$, et sa vitesse induite $v_i(y)$
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SECTION 2
+\section{Implémentation numérique (discret)} 
+\label{sec:Ch1.2}
+
+On s'intéresse maintenant à l'application de cette théorie aux simulations numériques basses fidélités. En outre, on s'intéresse à son implémentation. 
+
+%%%%%%%%%%%%% SUBSECTION 2.1
+\subsection{LLT - Lifting Line Theory} 
+\label{subsec:Ch1.2.1}
+
+L'équation \ref{eq:v induite} permet d'écrire :
+\begin{equation}
+    v_i = \sum_{panneaux j}^{} v_{j,i} = \sum_{panneaux j}^{} b_{j,i} \Gamma_j
+    \label{eq: v induite j}
+\end{equation}
+avec $v_i$ la vitesse induite en i, $v_{j,i}$ la vitesse induite en i par le panneaux j, et $b_{j,i}$ un coefficient d'influence (géométrique) du panneaux j sur le panneaux i. Donc 
+
+\begin{equation}
+    V_{ind} = AIC .\Gamma
+    \label{eq: v induite j matrice}
+\end{equation}
+
+avec $V \in M_n(\mathbb{R})$, $\Gamma \in M_n(\mathbb{R})$, et $AIC \in M_{n,n}(\mathbb{R})$ la matrice d'influence
+
+De plus, en combiant \ref{eq: LLT} et \ref{eq: v induite j matrice}, en sachant que $\alpha_i = \frac{v_i}{v_{\infty}}$, on obtient une équation de la forme : 
+
+\begin{equation}
+    \frac{1}{v_{\infty}}\Gamma = \pi c (\alpha-\alpha_{0,3D} - \Delta\alpha_v - \frac{1}{v_{\infty}} AIC.\Gamma)
+    \label{eq: LLT gamma}
+\end{equation}
+avec $c \in M_{1,n}(\mathbb{R})$ la matrice dont la colonne j correspond à la valeur de la corde en le $j^{ème}$ panneaux.
+
+Finalement, on peut écrire \ref{eq: LLT gamma} sous la forme :
+
+\begin{equation}
+    A \Gamma = B
+    \label{eq: LLT gamma 2 }
+\end{equation}
+
+Ainsi on peut calculer $\Gamma$, en déduire les vitesses induites $V_{ind}$, calculer la répartition des forces de portance et de trainée $L_i = \rho v_{\infty} \Gamma_i$ et $D_i = \rho v_i \Gamma_i$, et sommer pour obtenir les forces de portance et de trainée.
+
+%%%%%%%%%%%%% SUBSECTION 2.2
+\subsection{VSM - Vortex Step Method} 
+\label{subsec:Ch1.2.2}
+
+\textbf{Hypothèses} \\
+\begin{itemize}
+    \item L'écoulement peut être divisé en deux régions : la région interne et la région externe. D'une part, l'écoulement dans la région interne représente les propriétés du profil aérodynamique, qui peuvent être obtenues par une variété de méthodes. D'autre part, l'écoulement en dehors de la région du profil est sans viscosité, irrotationnel et incompressible, afin d'obtenir une solution d'écoulement potentiel.
+    \item Le théorème de Kutta–Joukowski est satisfait dans chaque section de l'aile, reliant les régions interne et externe.
+    \item L'écoulement est quasi-stationnaire, ce qui signifie que chaque condition d'écoulement peut être résolue uniquement dans le domaine spatial.
+    \item Le vortex de départ est situé très en aval et son influence peut être négligée.
+    \item HYPOTHÈSE DU SILLAGE FIGÉ.
+\end{itemize}
+
+\textbf{Système de vorticity}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{Pics/01 - Basses Fidélités/vortex VSM.png}
+    \caption{Représentation du modèle de ligne portante constitué de tourbillons en fer à cheval}
+    \label{fig: vortex vsm}
+\end{figure}
+
+
+Dans la théorie classique de la ligne portante de Prandtl, la ligne portante est supposée être droite, et les tourbillons traînants sont uniquement responsables de l'induction du vent induit qui modifie les angles d'attaque locaux. En revanche, dans un cas plus général, où la ligne portante n'est pas droite, comme dans le cas du VSM actuellement étudié, l'ensemble du système de vorticité joue un rôle dans le changement de l'angle d'attaque sectionnel.\\
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{Pics/01 - Basses Fidélités/Panneaux VSM.png}
+    \caption{Représentation de la géométrie d'un vortex en fer à cheval}
+    \label{fig:panneau vsm}
+\end{figure}
+
+\textbf{Les vitesses induites des panneaux J sur les points de control i}
+
+Ces vitesses induites sont compliquées à exprimer selon si on se situe sur un panneaux ou un filament infinie. La formule générale, issue de la théorie de la ligne portante, est la suivante : 
+\begin{equation}
+    dw = \frac{\Gamma}{4 \pi} \frac{dl x r}{|r|^3}
+    \label{eq: LLT vi}
+\end{equation}
+
+\textbf{Matrice d'influence AIC}
+
+Ainsi, grâce à \ref{eq: LLT vi} on lie vitesse induite en un point de control i par l'ensemble des circulations $\Gamma$ des panneaux j via des matrices d'influences : 
+\begin{equation}
+    u = AIC_u \Gamma
+    \label{eq:gamma}
+\end{equation}
+
+\textbf{Calcul de la circulation}
+\begin{equation}
+    \rho |U_{\infty} \Gamma_j| - \frac{1}{2} \rho |U_{rel} z_{airf}|^2 c C_l(\alpha_{EFF_j}) = 0
+    \label{eq:gamma_new}
+\end{equation}
+
+\textbf{Résolution par itération à convergence}\\
+On part d'une circulation $\Gamma$ initiale, on en déduit la vitesse induite (eq. \ref{eq:gamma}), on calcul l'angle induit ($\alpha_{ind} = \frac{v_{ind}}{v_{\infty}}$) ($\alpha_{tot} = \alpha + \alpha_{ind}$), on calcul $C_l(\alpha)$ (ici, avec le code de Ocaryon, on utilise la formule de régression de Breukels), puis on calcul à nouveau $\Gamma$ grâce à l'équation \ref{eq:gamma_new}. On itère le procédé jusqu'à convergence...\\
+
+\textbf{En conclusion}\\
+\textbf{la VSM utilise la loi de corde de l'aile (relation \ref{eq:gamma}) \& la polaire 2D par regression de Breukels (i.e. CFD 2D sur kites à boudin), le tout lié par les relations de la théorie de la ligne portante (\ref{eq: LLT vi}, \ref{eq:gamma} \ref{eq:gamma_new})}\\
+
+\textbf{A noter que cette méthode de résolution utilise les mêmes théories/calculs que la LLT mais en by-passant l'inversion de matrice par des itérations à convergence sur le calcul de la loi/répartition de circulation$\Gamma$}\\
+
+%%%%%%%%%%%%% SUBSECTION 2.3
+\subsection{VLM - Vortex Latex Method} 
+\label{subsec:Ch1.2.3}
+
+La VLM fait appel à une théorie légèrement différente : \textbf{la théorie des surfaces minces}. Cette théorie diffère légèrement de la LLT par son application à des panneaux discrétisés le long de l'envergure (comme la LLT) ET le long de la corde (pas comme la LLT), mais revient à des calculs très proches de la LLT, avec sur chaque panneaux une ligne portante à 1/4 de la corde, et un point de control(i.e. point d'application de la condition d'imperméabilité) à 3/4 de la corde (comme la LLT).
+
+%%%%%%%%%%%%% SUBSECTION 2.4
+\subsection{Comparaison} 
+\label{subsec:Ch1.2.4}
+
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{|p{3cm}|p{3cm}|p{4cm}|p{4cm}|}
+        \hline
+        & \textbf{LLT} & \textbf{VSM} & \textbf{VLM} \\ \hline
+        \textbf{Théorie 3D} & Ligne Portante & Ligne Portante & Surface Portante \\ \hline
+        \textbf{Discrétisation} & envergure & envergure & envergure ET corde \\ \hline
+        \textbf{Théorie 2D} & Théorie profils minces & Regressino Breukels (CFD 2D) & Théorie profils minces par panneaux + matrice d'influence \\ \hline
+        \textbf{Déclinaison LLT continue en discret} & Matrice d'influence & Matrice d'influence & Matrice d'influence \\ \hline
+        \textbf{Représentation d'une section} & profil mince (problème portant (+ problème épais ?)) & airfoil & panneaux discret (eux-mêmes profils minces (plaque plane donc problème portant sans cambrure)) \\ \hline
+    \end{tabular}
+    \caption{Exemple de tableau 3 colonnes et 6 lignes.}
+    \label{tab:example}
+\end{table}
