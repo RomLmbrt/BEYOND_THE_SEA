@@ -1,8 +1,8 @@
-\chapter{La théorie de la ligne portante}
+\chapter{Les Théories Basses Fidélités}
 \label{ch:Ch1}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SECTION 1
-\section{La théorie (continue)} 
+\section{La théorie de la ligne portante (continue)} 
 \label{sec:Ch1.1}
 
 \begin{figure}[H]
@@ -90,7 +90,7 @@ Pour résoudre un problème avec la LLT on utilise la méthode suivante :
     \label{fig:llt fchange coord}
 \end{figure}
 
-On pose $y = -\frac{b}{2}cos(\theta)$ et $\Gamma(\theta) = 2bv_{\infty} \sum_{n \in \mathbb{N}}^{} A_n sin(n\theta)$, on alors :
+On pose $y = -\frac{b}{2}cos(\theta)$ et $\Gamma(\theta) = 2bv_{\infty} \sum_{n \in \mathbb{N}}^{} A_n sin(n\theta)$, on a alors :
 
 \begin{equation}
     \begin{split}
@@ -100,7 +100,7 @@ On pose $y = -\frac{b}{2}cos(\theta)$ et $\Gamma(\theta) = 2bv_{\infty} \sum_{n 
     \label{eq: LLT}
 \end{equation}
 
-On remarque dans l'équation \ref{eq: LLT} que la LLT utilise donc la théorie 2D des profils minces ($C_L = C_{L, \alpha, 3D}(\alpha - \alpha_{0,3D})$) avec une formule de passage des coefficients 2D à 3D (dépend de l'allongement de l'aile)
+On remarque dans l'équation \ref{eq: LLT} que la LLT utilise donc la théorie 2D des profils minces ($C_L = C_{L, \alpha, 2D}(\alpha - \alpha_{0,2D})$) avec une formule simple de passage des coefficients 2D à 3D (dépend de l'allongement de l'aile)
 
 Finalement, \textbf{en faisant l'hypothèse de la théorie 2D des profils minces, et à partir de la loi de corde $c(y)$ uniquement}, on peut calculer la circulation 3D d'une aile $\Gamma(y)$, sa Portance $L$, sa trainée induite $D_i$, et sa vitesse induite $v_i(y)$
 
@@ -114,7 +114,16 @@ On s'intéresse maintenant à l'application de cette théorie aux simulations nu
 \subsection{LLT - Lifting Line Theory} 
 \label{subsec:Ch1.2.1}
 
-L'équation \ref{eq:v induite} permet d'écrire :
+On discrétise l'aile par \textbf{panneaux le long de l'envergure}. Chaque panneaux i est associé à une cirulation $\Gamma_i$, une portance $L_i$, et une trainée $D_i$ qui s'appliquent à $\frac{1}{4}$ de la corde, et une vitesse induite $v_{ind}$ verticale à $\frac{3}{4}$ de la corde
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Pics/01 - Basses Fidélités/vortex VSM.png}
+    \caption{Représentation du modèle de ligne portante constitué de tourbillons en fer à cheval}
+    \label{fig: vortex vsm}
+\end{figure}
+
+L'équation \ref{eq:v induite} permet d'écrire en le panneaux i:
 \begin{equation}
     v_i = \sum_{panneaux j}^{} v_{j,i} = \sum_{panneaux j}^{} b_{j,i} \Gamma_j
     \label{eq: v induite j}
@@ -144,6 +153,9 @@ Finalement, on peut écrire \ref{eq: LLT gamma} sous la forme :
 \end{equation}
 
 Ainsi on peut calculer $\Gamma$, en déduire les vitesses induites $V_{ind}$, calculer la répartition des forces de portance et de trainée $L_i = \rho v_{\infty} \Gamma_i$ et $D_i = \rho v_i \Gamma_i$, et sommer pour obtenir les forces de portance et de trainée.
+
+Finalement, en faisant \textbf{l’hypothèse de la théorie 2D des profils minces ($C_{L, \alpha, 2D}$ et $\alpha_{0, 2D}$)}, et à partir de la \textbf{loi de corde uniquement (matrices c et AIC)}, on peut calculer la circulation 3D d’une aile $\Gamma$, sa Portance $L$, sa trainée induite $D_i$, et sa vitesse induite $v_i$. \\
+A noter qu'il existe une formule simple qui permet de calculer $C_{L, \alpha, 3D}$ et $\alpha_{0, 3D}$ à partir de $C_{L, \alpha, 2D}$ et $\alpha_{0, 2D}$ et de l'allongement de l'aile.
 
 %%%%%%%%%%%%% SUBSECTION 2.2
 \subsection{VSM - Vortex Step Method} 
@@ -180,7 +192,7 @@ Dans la théorie classique de la ligne portante de Prandtl, la ligne portante es
 
 Ces vitesses induites sont compliquées à exprimer selon si on se situe sur un panneaux ou un filament infinie. La formule générale, issue de la théorie de la ligne portante, est la suivante : 
 \begin{equation}
-    dw = \frac{\Gamma}{4 \pi} \frac{dl x r}{|r|^3}
+    dw = \frac{\Gamma}{4 \pi} \frac{\overrightarrow{dl} \times \overrightarrow{r}}{|\overrightarrow{r}|^3}
     \label{eq: LLT vi}
 \end{equation}
 
@@ -204,13 +216,62 @@ On part d'une circulation $\Gamma$ initiale, on en déduit la vitesse induite (e
 \textbf{En conclusion}\\
 \textbf{la VSM utilise la loi de corde de l'aile (relation \ref{eq:gamma}) \& la polaire 2D par regression de Breukels (i.e. CFD 2D sur kites à boudin), le tout lié par les relations de la théorie de la ligne portante (\ref{eq: LLT vi}, \ref{eq:gamma} \ref{eq:gamma_new})}\\
 
-\textbf{A noter que cette méthode de résolution utilise les mêmes théories/calculs que la LLT mais en by-passant l'inversion de matrice par des itérations à convergence sur le calcul de la loi/répartition de circulation$\Gamma$}\\
+\textbf{A noter que cette méthode de résolution utilise les mêmes théories/calculs que la LLT mais en by-passant l'inversion de matrice par des itérations à convergence sur le calcul de la loi/répartition de circulation $\Gamma$}\\
 
 %%%%%%%%%%%%% SUBSECTION 2.3
 \subsection{VLM - Vortex Latex Method} 
 \label{subsec:Ch1.2.3}
 
-La VLM fait appel à une théorie légèrement différente : \textbf{la théorie des surfaces minces}. Cette théorie diffère légèrement de la LLT par son application à des panneaux discrétisés le long de l'envergure (comme la LLT) ET le long de la corde (pas comme la LLT), mais revient à des calculs très proches de la LLT, avec sur chaque panneaux une ligne portante à 1/4 de la corde, et un point de control(i.e. point d'application de la condition d'imperméabilité) à 3/4 de la corde (comme la LLT).
+Les hypothèses suivantes sont formulées concernant le problème dans la méthode du réseau tourbillonnaire (vortex lattice method) :\\
+\begin{itemize}
+    \item Le champ d'écoulement est incompressible, non visqueux et irrotationnel. Cependant, un écoulement compressible subsonique avec de faibles perturbations peut être modélisé si la transformation générale tridimensionnelle de Prandtl-Glauert est intégrée dans la méthode.
+    \item Les surfaces portantes sont minces. L'influence de l'épaisseur sur les forces aérodynamiques est négligée. C'est la \textbf{théorie des surfaces minces}
+    \item L'angle d'incidence (angle d'attaque) et l'angle de dérapage sont tous deux petits, ce qui permet l'utilisation de l'approximation des petits angles.
+\end{itemize}
+
+\textbf{On discrétise cette fois une aile en plein de panneaux le long de l'envergure et de la corde. Pour ce faire, on représent l'aile par sa loi de cambrure moyenne (pour que cela fasse une surface en 3D). Comme avec a LLT on considère qu'en chaque panneaux s'appliquent une portance via une circulation (vortex en fer à cheval) à $\frac{1}{4}$ de la corde et un point de collocation à $\frac{3}{4}$ de la corde}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{Pics/01 - Basses Fidélités/vlm.png}
+    \caption{Illustration de la VLM avec ses panneaux de discrétisation et les lignes de vortex en fer à cheval dans le sillage de l'avion}
+    \label{fig:vlm}
+\end{figure}
+
+On applique en chaque point de collocation ($\frac{3}{4}$ de la corde) la \textbf{condition aux limites de Neumann} qui impose que la vitesse ($\overrightarrow{v_i} = \overrightarrow{v_{\infty}} + \overrightarrow{v_{induite,i}}$) soit orthogonale au panneaux (\textbf{condition d'imperméabilité}) :
+\begin{equation}
+    \overrightarrow{v_i}.\overrightarrow{n_i} = (\overrightarrow{v_{\infty}} + \sum_{j =1}^{N}\overrightarrow{v_{j,i}}).\overrightarrow{n_i} = (\overrightarrow{v_{\infty}} + \sum_{j =1}^{N}w_{j,i}\overrightarrow{\Gamma_j}).\overrightarrow{n_i} = 0
+    \label{eq: Neumann boundary}
+\end{equation}
+
+On remarque que la vitesse induite par un panneaux j sur un panneaux i $\overrightarrow{v_{j,i}}$ est liée à la circulation du panneaux j $\Gamma_j$ par un coefficient d'influence $w_{j,i}$ \textbf{exactement comme pour la théorie de la ligne portante}, ce qui ici s'appelle \textbf{la théorie de la surface portante}.
+
+Finalement, en posant $A = (a_{i,j})_{0 \leq (i,j) \leq N}$ la matrice d'influence, $B = (b_{j})_{0 \leq j \leq N}$, $a_{i,j} = \frac{w_{i,j}\overrightarrow{\Gamma_j}.\overrightarrow{n_i}}{||\overrightarrow{\Gamma_j}||}$, et $b_{i} = \overrightarrow{v_{\infty}}.\overrightarrow{n_i}$, on résoud à nouveau un système (inversion de matrice ou itération sur la loi de $\Gamma$ jusqu'à convergence) :
+
+\begin{equation}
+    A.\Gamma = B
+    \label{eq : vlm gamma}
+\end{equation}
+
+De là, on peut calculer la résultante aéro de chaque panneaux (la condition de Neumann impose une vitesse tangente au panneaux donc cette force est suivant $\overrightarrow{n_i}$), puis la force totale, le moment total, la trainée induite (par l'angle induit par les vortex en fer à cheval), et la portance: 
+
+\begin{equation}
+    \begin{split}
+        \overrightarrow{F_i} = \rho \Gamma_i(v_{\infty} + v_{i,ind})l_i \overrightarrow{n_i} \\
+        \overrightarrow{F} = \sum_{i=0}^{N}\overrightarrow{F_i} \\
+        \overrightarrow{M} = \sum_{i=0}^{N}\overrightarrow{F_i} \overrightarrow{r_i} \\
+        D_{ind} = \overrightarrow{F_i}.\overrightarrow{e_x} \overrightarrow{e_x} \\
+        L = \overrightarrow{F_i}.\overrightarrow{e_z} \overrightarrow{e_z}
+    \end{split}
+    \label{eq : vlm resultats}
+\end{equation}
+Avec $l_i$ la longueur transverse du panneaux (selon l'envergure).
+
+\textbf{Remarque : là où VSM et LLT considèrent le point de collocation ($\frac{3}{4}$ de la corde du panneaux, allant du BA au BF) comme étant là où la vitesse induite est orthogonale à la vitesse à l'infinie($\alpha_i = \frac{v_i}{v_{\infty}}$), la VLM considère son point de collocation comme l'endroit où s'applique la condition d'imperméabilité ($(\overrightarrow{v_{\infty}} + \overrightarrow{v_{ind}}).\overrightarrow{n} = 0$)}\\
+
+\textbf{Remarque bis : la condition de non pénétration est ce qui permet d'obtenir les résultat de la théorie 2D des profils minces ($C_L = C_{L, \alpha}(\alpha - \alpha_{0,2D}) = 2\pi (\alpha - \alpha_{0,2D})$). Pour ce faire il faut rajouter la condition de Kutta-Joukowski qui permet de fermer le système d'équation (N équations à N inconnues) et se traduit par $\frac{d\Gamma}{dt} = 0$ et donc $\Gamma_N = \Gamma_0$; qui sont les $\Gamma$ du BF sur l'intrados et l'extrados (car on discrétise le profil par N panneaux du BF au BF en passant par le BA, de l'extrados à l'intrados)}\\
+
+Finalement, \textbf{en faisant l'hypothèse de la théorie 2D des profils minces sur chaque panneaux (via condition de non pénétration), à partir de la loi de corde $c(y)$ (matrice d'influence AIC notée A), et à partir de la loi de cambrure moyenne (discrétisation le long de la corde)}, on peut calculer la circulation 3D d'une aile $\Gamma_i$, sa Portance $L$, sa trainée induite $D_{ind}$, et sa vitesse induite $v_{i, ind}$. On ne parle plus de ligne portante mais plutôt de \textbf{surface portante} car désormais chaque panneaux à un vortex élémentaire $\delta\Gamma_i$ au $\frac{1}{4}$ de la corde, repartit sur toute l'aile (envergure + corde), qui génère sa portance élémentaire $\delta L_i$.
 
 %%%%%%%%%%%%% SUBSECTION 2.4
 \subsection{Comparaison} 
@@ -222,11 +283,13 @@ La VLM fait appel à une théorie légèrement différente : \textbf{la théorie
         \hline
         & \textbf{LLT} & \textbf{VSM} & \textbf{VLM} \\ \hline
         \textbf{Théorie 3D} & Ligne Portante & Ligne Portante & Surface Portante \\ \hline
-        \textbf{Discrétisation} & envergure & envergure & envergure ET corde \\ \hline
-        \textbf{Théorie 2D} & Théorie profils minces & Regressino Breukels (CFD 2D) & Théorie profils minces par panneaux + matrice d'influence \\ \hline
+        \textbf{Discrétisation} & Envergure & Envergure & Envergure ET corde selon la loi de cambrure moyenne \\ \hline
+        \textbf{Théorie 2D} & Théorie profils minces & Regression Breukels (CFD 2D) & Théorie profils minces par panneaux + matrice d'influence \\ \hline
         \textbf{Déclinaison LLT continue en discret} & Matrice d'influence & Matrice d'influence & Matrice d'influence \\ \hline
-        \textbf{Représentation d'une section} & profil mince (problème portant (+ problème épais ?)) & airfoil & panneaux discret (eux-mêmes profils minces (plaque plane donc problème portant sans cambrure)) \\ \hline
+        \textbf{Représentation d'une section} & Profil mince (problème portant (+ problème épais ?)) & Airfoil & Panneaux discret (eux-mêmes profils minces (plaque plane donc problème portant sans cambrure)) \\ \hline
+        \textbf{Passage 2D à 3D} & Loi de corde et matrice d'influence AIC & Loi de corde et matrice d'influence AIC & Loi de corde et matrice d'influence AIC \\ \hline
+        \textbf{Prise en compte de la cambrure via} & calcul 2D & calcul 2D & discrétisation selon la loi de cambrure moyenne \\ \hline
     \end{tabular}
-    \caption{Exemple de tableau 3 colonnes et 6 lignes.}
-    \label{tab:example}
+    \caption{Tableau de comparaison des théories}
+    \label{tab:comparaison}
 \end{table}
