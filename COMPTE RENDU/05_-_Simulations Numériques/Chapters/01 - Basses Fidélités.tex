@@ -118,7 +118,7 @@ On s'intéresse maintenant à l'application de cette théorie aux simulations nu
 \subsection{LLT - Lifting Line Theory} 
 \label{subsec:Ch1.2.1}
 
-On discrétise l'aile par \textbf{panneaux le long de l'envergure}. Chaque panneaux i est associé à une cirulation $\Gamma_i$, une portance $L_i$, et une trainée $D_i$ qui s'appliquent à $\frac{1}{4}$ de la corde, et une vitesse induite $v_{ind}$ verticale à $\frac{3}{4}$ de la corde
+On discrétise l'aile par \textbf{panneaux le long de l'envergure}. Chaque panneaux i est associé à une cirulation $\Gamma_i$, une portance $L_i$, et une trainée $D_i$ et une vitesse induite $v_{ind}$ (orthogonale à $v_{\infty}$) à $\frac{1}{4}$ de la corde.
 
 \begin{figure}[H]
     \centering
@@ -245,7 +245,7 @@ Les hypothèses suivantes sont formulées concernant le problème dans la métho
     \item L'angle d'incidence (angle d'attaque) et l'angle de dérapage sont tous deux petits, ce qui permet l'utilisation de l'approximation des petits angles.
 \end{itemize}
 
-\textbf{On discrétise cette fois une aile en plein de panneaux le long de l'envergure et de la corde. Pour ce faire, on représent l'aile par sa loi de cambrure moyenne (pour que cela fasse une surface en 3D). Comme avec a LLT on considère qu'en chaque panneaux s'appliquent une portance via une circulation (vortex en fer à cheval) à $\frac{1}{4}$ de la corde et un point de collocation à $\frac{3}{4}$ de la corde}
+\textbf{On discrétise cette fois une aile en plein de panneaux le long de l'envergure et de la corde. Pour ce faire, on représent l'aile par sa loi de cambrure moyenne (pour que cela fasse une surface en 3D). Comme avec a LLT on considère qu'en chaque panneaux s'appliquent une portance via une circulation (vortex en fer à cheval) à $\frac{1}{4}$ de la corde et un point de collocation à $\frac{1}{4}$ de la corde}
 
 \begin{figure}[H]
     \centering
@@ -254,7 +254,7 @@ Les hypothèses suivantes sont formulées concernant le problème dans la métho
     \label{fig:vlm}
 \end{figure}
 
-On applique en chaque point de collocation ($\frac{3}{4}$ de la corde) la \textbf{condition aux limites de Neumann} qui impose que la vitesse ($\overrightarrow{v_i} = \overrightarrow{v_{\infty}} + \overrightarrow{v_{induite,i}}$) soit orthogonale au panneaux (\textbf{condition d'imperméabilité}) :
+On applique en chaque point de collocation ($\frac{1}{4}$ de la corde) la \textbf{condition aux limites de Neumann} qui impose que la vitesse ($\overrightarrow{v_i} = \overrightarrow{v_{\infty}} + \overrightarrow{v_{induite,i}}$) soit orthogonale au panneaux (\textbf{condition d'imperméabilité}) :
 \begin{equation}
     \overrightarrow{v_i}.\overrightarrow{n_i} = (\overrightarrow{v_{\infty}} + \sum_{j =1}^{N}\overrightarrow{v_{j,i}}).\overrightarrow{n_i} = (\overrightarrow{v_{\infty}} + \sum_{j =1}^{N}w_{j,i}\overrightarrow{\Gamma_j}).\overrightarrow{n_i} = 0
     \label{eq: Neumann boundary}
@@ -283,7 +283,7 @@ De là, on peut calculer la résultante aéro de chaque panneaux (la condition d
 \end{equation}
 Avec $l_i$ la longueur transverse du panneaux (selon l'envergure).
 
-\textbf{Remarque : là où VSM et LLT considèrent le point de collocation ($\frac{3}{4}$ de la corde du panneaux, allant du BA au BF) comme étant là où la vitesse induite est orthogonale à la vitesse à l'infinie($\alpha_i = \frac{v_i}{v_{\infty}}$), la VLM considère son point de collocation comme l'endroit où s'applique la condition d'imperméabilité ($(\overrightarrow{v_{\infty}} + \overrightarrow{v_{ind}}).\overrightarrow{n} = 0$)}\\
+\textbf{Remarque : là où VSM et LLT considèrent le point de collocation comme étant là où la vitesse induite est orthogonale à la vitesse à l'infinie($\alpha_i = \frac{v_i}{v_{\infty}}$), la VLM considère son point de collocation comme l'endroit où s'applique la condition d'imperméabilité ($(\overrightarrow{v_{\infty}} + \overrightarrow{v_{ind}}).\overrightarrow{n} = 0$)}\\
 
 \textbf{Remarque bis : la condition de non pénétration est ce qui permet d'obtenir les résultat de la théorie 2D des profils minces ($C_L = C_{L, \alpha}(\alpha - \alpha_{0,2D}) = 2\pi (\alpha - \alpha_{0,2D})$). Pour ce faire il faut rajouter la condition de Kutta-Joukowski qui permet de fermer le système d'équation (N équations à N inconnues) et se traduit par $\frac{d\Gamma}{dt} = 0$ et donc $\Gamma_N = \Gamma_0$; qui sont les $\Gamma$ du BF sur l'intrados et l'extrados (car on discrétise le profil par N panneaux du BF au BF en passant par le BA, de l'extrados à l'intrados)}\\
 
@@ -307,8 +307,8 @@ Finalement, \textbf{en faisant l'hypothèse de la théorie 2D des profils minces
         \textbf{Passage 2D à 3D} & Loi de corde et matrice d'influence AIC & Loi de corde et matrice d'influence AIC & Loi de corde et matrice d'influence AIC & Loi de corde et matrice d'influence AIC\\ \hline
         \textbf{Prise en compte de la cambrure via} & calcul 2D & calcul 2D & discrétisation selon la loi de cambrure moyenne & calcul 2D\\ \hline
         \textbf{Point d'application des efforts aéro} & 1/4 corde & 1/4 corde & 1/4 corde & 1/4 corde\\ \hline
-        \textbf{Collocation Point} & 1/4 corde & 3/4 corde & 3/4 corde & 1/4 cord \\ \hline
-        \textbf{Prise en compte du décrochage} & Non & Oui (CFD 2D) & Non & Oui \\ \hline
+        \textbf{Collocation Point} & 1/4 corde & 3/4 corde & 1/4 corde & 1/4 cord \\ \hline
+        \textbf{Prise en compte du décrochage} & Non & possible avec CFD 2D (Breukels) & Non & Oui (modèle de stall 3D) + possible avec CFD 2D (Breukels) \\ \hline
     \end{tabular}
     \caption{Tableau de comparaison des théories}
     \label{tab:comparaison}
