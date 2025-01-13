@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.24)  10 JAN 2025 17:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.24)  13 JAN 2025 12:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -974,7 +974,7 @@ Package scrbase Info: activating english \abstraclabel on input line 26.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<Pics/Beyond the sea.png, id=35, 595.47469pt x 553.31718pt>
+<Pics/Beyond the sea.png, id=47, 595.47469pt x 553.31718pt>
 File: Pics/Beyond the sea.png Graphic file (type png)
 <use Pics/Beyond the sea.png>
 Package pdftex.def Info: Pics/Beyond the sea.png  used on input line 28.
@@ -1033,10 +1033,10 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 
  (Chapters/01 - Basses Fidélités.tex
 Chapter 1.
-<Pics/01 - Basses Fidélités/Ligne portante.png, id=60, 30.1125pt x 15.11647pt>
+<Pics/01 - Basses Fidélités/Ligne portante.png, id=75, 30.1125pt x 15.11647pt>
 File: Pics/01 - Basses Fidélités/Ligne portante.png Graphic file (type png)
 <use Pics/01 - Basses Fidélités/Ligne portante.png>
-Package pdftex.def Info: Pics/01 - Basses Fidélités/Ligne portante.png  used on input line 10.
+Package pdftex.def Info: Pics/01 - Basses Fidélités/Ligne portante.png  used on input line 14.
 (pdftex.def)             Requested size: 278.8358pt x 140.0622pt.
 
 
@@ -1044,211 +1044,476 @@ Package pdftex.def Info: Pics/01 - Basses Fidélités/Ligne portante.png  used o
 
 
 {C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc} <./Pics/01 - Basses Fidélités/Ligne portante.png>]
-<Pics/01 - Basses Fidélités/LLT KJ.png, id=71, 1284.8pt x 906.38625pt>
+<Pics/01 - Basses Fidélités/LLT KJ.png, id=86, 1284.8pt x 906.38625pt>
 File: Pics/01 - Basses Fidélités/LLT KJ.png Graphic file (type png)
 <use Pics/01 - Basses Fidélités/LLT KJ.png>
-Package pdftex.def Info: Pics/01 - Basses Fidélités/LLT KJ.png  used on input line 55.
+Package pdftex.def Info: Pics/01 - Basses Fidélités/LLT KJ.png  used on input line 59.
 (pdftex.def)             Requested size: 179.25114pt x 126.45064pt.
-<Pics/01 - Basses Fidélités/LLT vortex.png, id=72, 1927.2pt x 1114.1625pt>
+<Pics/01 - Basses Fidélités/LLT vortex.png, id=87, 1927.2pt x 1114.1625pt>
 File: Pics/01 - Basses Fidélités/LLT vortex.png Graphic file (type png)
 <use Pics/01 - Basses Fidélités/LLT vortex.png>
-Package pdftex.def Info: Pics/01 - Basses Fidélités/LLT vortex.png  used on input line 63.
+Package pdftex.def Info: Pics/01 - Basses Fidélités/LLT vortex.png  used on input line 67.
 (pdftex.def)             Requested size: 179.25114pt x 103.61943pt.
-<Pics/01 - Basses Fidélités/Prandtl-lifting-line-coordinate-change.png, id=73, 323.2075pt x 219.82124pt>
+<Pics/01 - Basses Fidélités/Prandtl-lifting-line-coordinate-change.png, id=88, 323.2075pt x 219.82124pt>
 File: Pics/01 - Basses Fidélités/Prandtl-lifting-line-coordinate-change.png Graphic file (type png)
 <use Pics/01 - Basses Fidélités/Prandtl-lifting-line-coordinate-change.png>
-Package pdftex.def Info: Pics/01 - Basses Fidélités/Prandtl-lifting-line-coordinate-change.png  used on input line 88.
+Package pdftex.def Info: Pics/01 - Basses Fidélités/Prandtl-lifting-line-coordinate-change.png  used on input line 92.
 (pdftex.def)             Requested size: 199.1693pt x 135.45926pt.
 
 
 [4{C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc} <./Pics/01 - Basses Fidélités/LLT KJ.png> <./Pics/01 - Basses Fidélités/LLT vortex.png>]
-<Pics/01 - Basses Fidélités/vortex VSM.png, id=97, 893.3375pt x 500.87125pt>
-File: Pics/01 - Basses Fidélités/vortex VSM.png Graphic file (type png)
-<use Pics/01 - Basses Fidélités/vortex VSM.png>
-Package pdftex.def Info: Pics/01 - Basses Fidélités/vortex VSM.png  used on input line 121.
-(pdftex.def)             Requested size: 358.5023pt x 201.00221pt.
+Overfull \hbox (1.67769pt too wide) in paragraph at lines 112--112
+[]\T1/lmr/bx/n/14.4 La Ligne Por-tante - Im-pl�-men-ta-tion num�rique (dis-
+ []
+
+<Pics/01 - Basses Fidélités/LLT schéma.jpg, id=112, 397.80478pt x 264.13725pt>
+File: Pics/01 - Basses Fidélités/LLT schéma.jpg Graphic file (type jpg)
+<use Pics/01 - Basses Fidélités/LLT schéma.jpg>
+Package pdftex.def Info: Pics/01 - Basses Fidélités/LLT schéma.jpg  used on input line 125.
+(pdftex.def)             Requested size: 358.5023pt x 238.0518pt.
 
 
 [5 <./Pics/01 - Basses Fidélités/Prandtl-lifting-line-coordinate-change.png>]
 
-LaTeX Warning: Command \` invalid in math mode on input line 146.
+LaTeX Warning: Command \` invalid in math mode on input line 152.
 
 
 
-[6 <./Pics/01 - Basses Fidélités/vortex VSM.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 164--166
+[6 <./Pics/01 - Basses Fidélités/LLT schéma.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 174--176
 
  []
 
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 166.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 176.
 (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-Overfull \hbox (29.68507pt too wide) in paragraph at lines 168--169
+Overfull \hbox (29.68507pt too wide) in paragraph at lines 178--179
 []\T1/lmr/m/n/10.95 L'�coulement est quasi-stationnaire, ce qui sig-ni-fie que chaque con-di-tion d'�coulement
  []
 
+<Pics/01 - Basses Fidélités/vortex VSM.png, id=133, 893.3375pt x 500.87125pt>
 File: Pics/01 - Basses Fidélités/vortex VSM.png Graphic file (type png)
 <use Pics/01 - Basses Fidélités/vortex VSM.png>
-Package pdftex.def Info: Pics/01 - Basses Fidélités/vortex VSM.png  used on input line 176.
+Package pdftex.def Info: Pics/01 - Basses Fidélités/vortex VSM.png  used on input line 188.
 (pdftex.def)             Requested size: 278.8358pt x 156.33844pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 182--183
-
- []
-
 
 
 [7{C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
-<Pics/01 - Basses Fidélités/Panneaux VSM.png, id=126, 583.42969pt x 223.58531pt>
+Underfull \hbox (badness 10000) in paragraph at lines 194--195
+
+ []
+
+<Pics/01 - Basses Fidélités/Panneaux VSM.png, id=141, 583.42969pt x 223.58531pt>
 File: Pics/01 - Basses Fidélités/Panneaux VSM.png Graphic file (type png)
 <use Pics/01 - Basses Fidélités/Panneaux VSM.png>
-Package pdftex.def Info: Pics/01 - Basses Fidélités/Panneaux VSM.png  used on input line 186.
+Package pdftex.def Info: Pics/01 - Basses Fidélités/Panneaux VSM.png  used on input line 198.
 (pdftex.def)             Requested size: 278.8358pt x 106.85915pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 213--215
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 216--218
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 219--220
-
- []
-
-
-
-[8 <./Pics/01 - Basses Fidélités/Panneaux VSM.png>]
+[8 <./Pics/01 - Basses Fidélités/vortex VSM.png> <./Pics/01 - Basses Fidélités/Panneaux VSM.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 225--227
 
  []
 
 
-Overfull \hbox (9.56856pt too wide) in paragraph at lines 227--228
+Underfull \hbox (badness 10000) in paragraph at lines 228--230
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 231--232
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 241--243
+
+ []
+
+
+Overfull \hbox (9.56856pt too wide) in paragraph at lines 243--244
 []\T1/lmr/m/n/10.95 Le champ d'�coulement est in-com-press-ible, non visqueux et ir-ro-ta-tion-nel. Cepen-
  []
 
-<Pics/01 - Basses Fidélités/vlm.png, id=143, 256.5585pt x 201.1515pt>
-File: Pics/01 - Basses Fidélités/vlm.png Graphic file (type png)
-<use Pics/01 - Basses Fidélités/vlm.png>
-Package pdftex.def Info: Pics/01 - Basses Fidélités/vlm.png  used on input line 236.
-(pdftex.def)             Requested size: 278.8358pt x 218.63998pt.
 
 
 [9]
+<Pics/01 - Basses Fidélités/vlm.png, id=163, 256.5585pt x 201.1515pt>
+File: Pics/01 - Basses Fidélités/vlm.png Graphic file (type png)
+<use Pics/01 - Basses Fidélités/vlm.png>
+Package pdftex.def Info: Pics/01 - Basses Fidélités/vlm.png  used on input line 252.
+(pdftex.def)             Requested size: 278.8358pt x 218.63998pt.
+
 
 [10 <./Pics/01 - Basses Fidélités/vlm.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 270--271
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 272--273
+Underfull \hbox (badness 10000) in paragraph at lines 288--289
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 286--286
-[]|\T1/lmr/m/n/10.95 Envergure ET corde
+Underfull \hbox (badness 10000) in paragraph at lines 302--302
+[]|\T1/lmr/m/n/10.95 Ligne
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 287--287
+Underfull \hbox (badness 4266) in paragraph at lines 302--302
+[]|\T1/lmr/m/n/10.95 Ligne Por-
+ []
+
+
+Underfull \hbox (badness 4266) in paragraph at lines 302--302
+[]|\T1/lmr/m/n/10.95 Ligne Por-
+ []
+
+
+Overfull \hbox (3.0509pt too wide) in paragraph at lines 303--303
+[]|\T1/lmr/m/n/10.95 Envergure| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 303--303
+[]|\T1/lmr/m/n/10.95 Envergure ET
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 303--303
+\T1/lmr/m/n/10.95 corde selon la
+ []
+
+
+Underfull \hbox (badness 2564) in paragraph at lines 303--303
+\T1/lmr/m/n/10.95 loi de cam-brure
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--304
+[]|\T1/lmr/m/n/10.95 Th�orie
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--304
+\T1/lmr/m/n/10.95 pro-fils
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--304
+[]|\T1/lmr/m/n/10.95 Regression
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--304
+\T1/lmr/m/n/10.95 Breukels
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--304
+\T1/lmr/m/n/10.95 (CFD
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--304
+\T1/lmr/m/n/10.95 2D) OU
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--304
+\T1/lmr/m/n/10.95 n'importes
+ []
+
+
+Underfull \hbox (badness 8019) in paragraph at lines 304--304
+\T1/lmr/m/n/10.95 quels don-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--304
+\T1/lmr/m/n/10.95 n�es de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--304
 []|\T1/lmr/m/n/10.95 Th�orie pro-fils
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 287--287
-[]|\T1/lmr/m/n/10.95 Regression Breukels
+Underfull \hbox (badness 1314) in paragraph at lines 304--304
+\T1/lmr/m/n/10.95 minces par pan-
  []
 
 
-Underfull \hbox (badness 1210) in paragraph at lines 287--287
-[]|\T1/lmr/m/n/10.95 Th�orie pro-fils minces
+Underfull \hbox (badness 10000) in paragraph at lines 304--304
+[]|\T1/lmr/m/n/10.95 Th�orie
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 288--288
+Underfull \hbox (badness 10000) in paragraph at lines 304--304
+\T1/lmr/m/n/10.95 pro-fils
+ []
+
+
+Underfull \hbox (badness 1237) in paragraph at lines 304--304
+\T1/lmr/m/n/10.95 minces OU
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--304
+\T1/lmr/m/n/10.95 n'importes
+ []
+
+
+Underfull \hbox (badness 8019) in paragraph at lines 304--304
+\T1/lmr/m/n/10.95 quels don-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--304
+\T1/lmr/m/n/10.95 n�es de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 305--305
 []|\T1/lmr/bx/n/10.95 D�clinaison
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 288--288
+Underfull \hbox (badness 2662) in paragraph at lines 305--305
 \T1/lmr/bx/n/10.95 LLT con-tinue
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 288--288
+Underfull \hbox (badness 10000) in paragraph at lines 305--305
 []|\T1/lmr/m/n/10.95 Matrice
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 289--289
+Overfull \hbox (5.57515pt too wide) in paragraph at lines 305--305
+\T1/lmr/m/n/10.95 d'influence| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 305--305
+[]|\T1/lmr/m/n/10.95 Matrice
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 305--305
+[]|\T1/lmr/m/n/10.95 Matrice
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 305--305
+[]|\T1/lmr/m/n/10.95 Matrice
+ []
+
+
+Overfull \hbox (3.59155pt too wide) in paragraph at lines 306--306
 []|\T1/lmr/bx/n/10.95 Repr�sentation
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 289--289
-[]|\T1/lmr/m/n/10.95 Profil mince
+Underfull \hbox (badness 10000) in paragraph at lines 306--306
+[]|\T1/lmr/m/n/10.95 Profil
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 289--289
-\T1/lmr/m/n/10.95 (prob-l�me por-
+Underfull \hbox (badness 10000) in paragraph at lines 306--306
+\T1/lmr/m/n/10.95 mince
  []
 
 
-Underfull \hbox (badness 4120) in paragraph at lines 289--289
-\T1/lmr/m/n/10.95 m�mes pro-fils minces
+Underfull \hbox (badness 10000) in paragraph at lines 306--306
+\T1/lmr/m/n/10.95 (prob-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 289--289
-\T1/lmr/m/n/10.95 (plaque plane donc
+Underfull \hbox (badness 10000) in paragraph at lines 306--306
+\T1/lmr/m/n/10.95 l�me
  []
 
 
-Underfull \hbox (badness 2564) in paragraph at lines 290--290
-[]|\T1/lmr/bx/n/10.95 Passage 2D �
+Underfull \hbox (badness 10000) in paragraph at lines 306--306
+\T1/lmr/m/n/10.95 por-tant
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 290--290
+Underfull \hbox (badness 10000) in paragraph at lines 306--306
+\T1/lmr/m/n/10.95 l�me
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--306
+[]|\T1/lmr/m/n/10.95 Panneaux dis-
+ []
+
+
+Underfull \hbox (badness 4479) in paragraph at lines 306--306
+\T1/lmr/m/n/10.95 cret (eux-m�mes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--306
+\T1/lmr/m/n/10.95 pro-fils minces
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--306
+\T1/lmr/m/n/10.95 (plaque plane
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--306
+\T1/lmr/m/n/10.95 donc prob-l�me
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--306
+\T1/lmr/m/n/10.95 por-tant sans
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--306
+\T1/lmr/m/n/10.95 (prob-l�me
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 306--306
+\T1/lmr/m/n/10.95 por-tant (+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--306
+\T1/lmr/m/n/10.95 prob-l�me
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 307--307
+[]|\T1/lmr/m/n/10.95 Loi de
+ []
+
+
+Underfull \hbox (badness 6047) in paragraph at lines 307--307
+\T1/lmr/m/n/10.95 corde et
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 307--307
+\T1/lmr/m/n/10.95 ma-trice
+ []
+
+
+Overfull \hbox (5.57515pt too wide) in paragraph at lines 307--307
+\T1/lmr/m/n/10.95 d'influence
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 307--307
+[]|\T1/lmr/m/n/10.95 Loi de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 307--307
+\T1/lmr/m/n/10.95 corde et
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 307--307
+\T1/lmr/m/n/10.95 ma-trice
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 307--307
+\T1/lmr/m/n/10.95 d'influence
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 307--307
 []|\T1/lmr/m/n/10.95 Loi de corde
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 290--290
+Underfull \hbox (badness 10000) in paragraph at lines 307--307
 \T1/lmr/m/n/10.95 et ma-trice
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--291
+Underfull \hbox (badness 10000) in paragraph at lines 307--307
+[]|\T1/lmr/m/n/10.95 Loi de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 307--307
+\T1/lmr/m/n/10.95 corde et
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 307--307
+\T1/lmr/m/n/10.95 ma-trice
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 307--307
+\T1/lmr/m/n/10.95 d'influence
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 308--308
 []|\T1/lmr/bx/n/10.95 Prise en
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--291
-\T1/lmr/bx/n/10.95 compte de
+Underfull \hbox (badness 10000) in paragraph at lines 308--308
+[]|\T1/lmr/m/n/10.95 discr�tisation
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--291
-[]|\T1/lmr/m/n/10.95 discr�tisation selon
+Underfull \hbox (badness 10000) in paragraph at lines 308--308
+\T1/lmr/m/n/10.95 selon la loi
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--291
-\T1/lmr/m/n/10.95 la loi de cam-brure
+Underfull \hbox (badness 10000) in paragraph at lines 308--308
+\T1/lmr/m/n/10.95 de cam-brure
  []
 
 
-Overfull \hbox (49.99992pt too wide) in paragraph at lines 282--293
- [][] 
+Underfull \hbox (badness 10000) in paragraph at lines 309--309
+[]|\T1/lmr/bx/n/10.95 Point
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 309--309
+\T1/lmr/bx/n/10.95 d'application
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 309--309
+\T1/lmr/bx/n/10.95 des ef-forts
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 310--310
+[]|\T1/lmr/bx/n/10.95 Collocation
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--311
+[]|\T1/lmr/bx/n/10.95 Prise en
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--311
+\T1/lmr/bx/n/10.95 compte du
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--311
+[]|\T1/lmr/m/n/10.95 Oui (CFD
  []
 
 
@@ -1257,6 +1522,10 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 )
 
 [11]
+
+LaTeX Warning: Text page 12 contains only floats.
+
+
 
 [12]
 
@@ -1274,20 +1543,20 @@ L3 programming layer <2020/03/25>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `Main.out' has not changed.
-(rerunfilecheck)             Checksum: 163FE5BA5D236727249539DAE28AD41C;1576.
+(rerunfilecheck)             Checksum: AFA80C96C4294ACC8468A3685E0C137E;2386.
  ) 
 Here is how much of TeX's memory you used:
- 33706 strings out of 473899
- 732257 string characters out of 5722724
- 1264515 words of memory out of 5000000
- 55976 multiletter control sequences out of 15000+600000
+ 33722 strings out of 473899
+ 732733 string characters out of 5722724
+ 1268515 words of memory out of 5000000
+ 55989 multiletter control sequences out of 15000+600000
  622873 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 110i,27n,107p,2488b,1046s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 110i,27n,107p,2488b,1022s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on "c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\05_-_Simulations Numériques\build\Main.pdf" (12 pages, 1650015 bytes).
+Output written on "c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\05_-_Simulations Numériques\build\Main.pdf" (12 pages, 1731616 bytes).
 PDF statistics:
- 255 PDF objects out of 1000 (max. 8388607)
- 47 named destinations out of 1000 (max. 500000)
- 105 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 272 PDF objects out of 1000 (max. 8388607)
+ 50 named destinations out of 1000 (max. 500000)
+ 134 words of extra memory for PDF output out of 10000 (max. 10000000)
 

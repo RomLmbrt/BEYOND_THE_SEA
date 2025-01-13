@@ -5,6 +5,10 @@
 \section{La théorie de la ligne portante (continue)} 
 \label{sec:Ch1.1}
 
+%%%%%%%%%%%%% SUBSECTION 1.1
+\subsection{La théorie} 
+\label{subsec:Ch1.1.1}
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.7\textwidth]{Pics/01 - Basses Fidélités/Ligne portante.png}  
@@ -77,9 +81,9 @@ et, avec $v_{\infty} sin(\alpha_i(y)) = v_i(y)$ car $tan(\alpha_i(y)) = \frac{v_
     D_{i,total} = \rho \int_{-\frac{b}{2}}^{\frac{b}{2}} v_{i}(y)\Gamma(y) dy
 \end{equation}
 
-%%%%%%%%%%%%% SUBSECTION 1.1
+%%%%%%%%%%%%% SUBSECTION 1.2
 \subsection{La résolution} 
-\label{subsec:Ch1.1.1}
+\label{subsec:Ch1.1.2}
 
 Pour résoudre un problème avec la LLT on utilise la méthode suivante : 
 
@@ -105,7 +109,7 @@ On remarque dans l'équation \ref{eq: LLT} que la LLT utilise donc la théorie 2
 Finalement, \textbf{en faisant l'hypothèse de la théorie 2D des profils minces, et à partir de la loi de corde $c(y)$ uniquement}, on peut calculer la circulation 3D d'une aile $\Gamma(y)$, sa Portance $L$, sa trainée induite $D_i$, et sa vitesse induite $v_i(y)$
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SECTION 2
-\section{Implémentation numérique (discret)} 
+\section{La Ligne Portante - Implémentation numérique (discret)} 
 \label{sec:Ch1.2}
 
 On s'intéresse maintenant à l'application de cette théorie aux simulations numériques basses fidélités. En outre, on s'intéresse à son implémentation. 
@@ -118,10 +122,12 @@ On discrétise l'aile par \textbf{panneaux le long de l'envergure}. Chaque panne
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{Pics/01 - Basses Fidélités/vortex VSM.png}
+    \includegraphics[width=0.9\textwidth]{Pics/01 - Basses Fidélités/LLT schéma.jpg}
     \caption{Représentation du modèle de ligne portante constitué de tourbillons en fer à cheval}
     \label{fig: vortex vsm}
 \end{figure}
+
+\textbf{La Lifting Line Theory considère que le point d'application des efforts aéro (i.e. là où passe la ligne portante), et le "collocation point" où s'applique la vitesse induite orthogonale à la vitesse à l'infinie (i.e. là où l'écoulement est dévié de l'angle induit $\alpha_{ind} = \frac{v_{inf}}{V_{\infty}}$) sont tous deux à 1/4 de la corde. C'est la principale différence avec la VSM}
 
 L'équation \ref{eq:v induite} permet d'écrire en le panneaux i:
 \begin{equation}
@@ -158,8 +164,12 @@ Finalement, en faisant \textbf{l’hypothèse de la théorie 2D des profils minc
 A noter qu'il existe une formule simple qui permet de calculer $C_{L, \alpha, 3D}$ et $\alpha_{0, 3D}$ à partir de $C_{L, \alpha, 2D}$ et $\alpha_{0, 2D}$ et de l'allongement de l'aile.
 
 %%%%%%%%%%%%% SUBSECTION 2.2
-\subsection{VSM - Vortex Step Method} 
+\subsection{LP3DNLI (Théo Simonet - EAE)} 
 \label{subsec:Ch1.2.2}
+
+%%%%%%%%%%%%% SUBSECTION 2.3
+\subsection{VSM - Vortex Step Method} 
+\label{subsec:Ch1.2.3}
 
 \textbf{Hypothèses} \\
 \begin{itemize}
@@ -169,6 +179,8 @@ A noter qu'il existe une formule simple qui permet de calculer $C_{L, \alpha, 3D
     \item Le vortex de départ est situé très en aval et son influence peut être négligée.
     \item HYPOTHÈSE DU SILLAGE FIGÉ.
 \end{itemize}
+
+\textbf{La VSM considère que le point d'application des efforts aéro (i.e. là où passe la ligne portante) est à 1/4 de la corde, et que le "collocation point" où s'applique la vitesse induite orthogonale à la vitesse à l'infinie (i.e. là où l'écoulement est dévié de l'angle induit $\alpha_{ind} = \frac{v_{inf}}{V_{\infty}}$) est à 3/4 de la corde. C'est la principale différence avec la LLT}
 
 \textbf{Système de vorticity}
 \begin{figure}[H]
@@ -218,9 +230,13 @@ On part d'une circulation $\Gamma$ initiale, on en déduit la vitesse induite (e
 
 \textbf{A noter que cette méthode de résolution utilise les mêmes théories/calculs que la LLT mais en by-passant l'inversion de matrice par des itérations à convergence sur le calcul de la loi/répartition de circulation $\Gamma$}\\
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SECTION 3
+\section{La Surface Portante - Implémentation numérique (discret)} 
+\label{sec:Ch1.3}
+
 %%%%%%%%%%%%% SUBSECTION 2.3
 \subsection{VLM - Vortex Latex Method} 
-\label{subsec:Ch1.2.3}
+\label{subsec:Ch1.3.1}
 
 Les hypothèses suivantes sont formulées concernant le problème dans la méthode du réseau tourbillonnaire (vortex lattice method) :\\
 \begin{itemize}
@@ -273,22 +289,26 @@ Avec $l_i$ la longueur transverse du panneaux (selon l'envergure).
 
 Finalement, \textbf{en faisant l'hypothèse de la théorie 2D des profils minces sur chaque panneaux (via condition de non pénétration), à partir de la loi de corde $c(y)$ (matrice d'influence AIC notée A), et à partir de la loi de cambrure moyenne (discrétisation le long de la corde)}, on peut calculer la circulation 3D d'une aile $\Gamma_i$, sa Portance $L$, sa trainée induite $D_{ind}$, et sa vitesse induite $v_{i, ind}$. On ne parle plus de ligne portante mais plutôt de \textbf{surface portante} car désormais chaque panneaux à un vortex élémentaire $\delta\Gamma_i$ au $\frac{1}{4}$ de la corde, repartit sur toute l'aile (envergure + corde), qui génère sa portance élémentaire $\delta L_i$.
 
-%%%%%%%%%%%%% SUBSECTION 2.4
-\subsection{Comparaison} 
-\label{subsec:Ch1.2.4}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SECTION 4
+\section{Comparaison} 
+\label{sec:Ch1.4}
 
 \begin{table}[h!]
     \centering
-    \begin{tabular}{|p{3cm}|p{3cm}|p{4cm}|p{4cm}|}
+    \begin{tabular}{|p{2.8cm}|p{1.6cm}|p{2cm}|p{3cm}|p{2cm}|}
         \hline
-        & \textbf{LLT} & \textbf{VSM} & \textbf{VLM} \\ \hline
-        \textbf{Théorie 3D} & Ligne Portante & Ligne Portante & Surface Portante \\ \hline
-        \textbf{Discrétisation} & Envergure & Envergure & Envergure ET corde selon la loi de cambrure moyenne \\ \hline
-        \textbf{Théorie 2D} & Théorie profils minces & Regression Breukels (CFD 2D) & Théorie profils minces par panneaux + matrice d'influence \\ \hline
-        \textbf{Déclinaison LLT continue en discret} & Matrice d'influence & Matrice d'influence & Matrice d'influence \\ \hline
-        \textbf{Représentation d'une section} & Profil mince (problème portant (+ problème épais ?)) & Airfoil & Panneaux discret (eux-mêmes profils minces (plaque plane donc problème portant sans cambrure)) \\ \hline
-        \textbf{Passage 2D à 3D} & Loi de corde et matrice d'influence AIC & Loi de corde et matrice d'influence AIC & Loi de corde et matrice d'influence AIC \\ \hline
-        \textbf{Prise en compte de la cambrure via} & calcul 2D & calcul 2D & discrétisation selon la loi de cambrure moyenne \\ \hline
+        & \textbf{LLT} & \textbf{VSM} & \textbf{VLM} & \textbf{LP3DNLI} \\ \hline
+        \textbf{Théorie 3D} & Ligne Portante & Ligne Portante & Surface Portante & Ligne Portante\\ \hline
+        \textbf{Discrétisation} & Envergure & Envergure & Envergure ET corde selon la loi de cambrure moyenne & Envergure \\ \hline
+        \textbf{Théorie 2D} & Théorie profils minces & Regression Breukels (CFD 2D) OU n'importes quels données de polaires 2D & Théorie profils minces par panneaux + matrice d'influence & Théorie profils minces OU n'importes quels données de polaires 2D \\ \hline
+        \textbf{Déclinaison LLT continue en discret} & Matrice d'influence & Matrice d'influence & Matrice d'influence & Matrice d'influence\\ \hline
+        \textbf{Représentation d'une section} & Profil mince (problème portant (+ problème épais ?)) & Airfoil & Panneaux discret (eux-mêmes profils minces (plaque plane donc problème portant sans cambrure)) & Profil mince (problème portant (+ problème épais ?)) \\ \hline
+        \textbf{Passage 2D à 3D} & Loi de corde et matrice d'influence AIC & Loi de corde et matrice d'influence AIC & Loi de corde et matrice d'influence AIC & Loi de corde et matrice d'influence AIC\\ \hline
+        \textbf{Prise en compte de la cambrure via} & calcul 2D & calcul 2D & discrétisation selon la loi de cambrure moyenne & calcul 2D\\ \hline
+        \textbf{Point d'application des efforts aéro} & 1/4 corde & 1/4 corde & 1/4 corde & 1/4 corde\\ \hline
+        \textbf{Collocation Point} & 1/4 corde & 3/4 corde & 3/4 corde & 1/4 cord \\ \hline
+        \textbf{Prise en compte du décrochage} & Non & Oui (CFD 2D) & Non & Oui \\ \hline
     \end{tabular}
     \caption{Tableau de comparaison des théories}
     \label{tab:comparaison}

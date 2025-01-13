@@ -465,6 +465,8 @@ INPUT .\Chapters\01 - Basses Fidélités.tex
 INPUT Chapters\01 - Basses Fidélités.tex
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmr17.tfm
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmbx12.tfm
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmr12.tfm
+INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmbx12.tfm
 INPUT .\Pics\01 - Basses Fidélités\Ligne portante.png
 INPUT .\Pics\01 - Basses Fidélités\Ligne portante.png
 INPUT .\Pics\01 - Basses Fidélités\Ligne portante.png
@@ -490,8 +492,6 @@ INPUT .\Pics\01 - Basses Fidélités\LLT vortex.png
 INPUT .\Pics\01 - Basses Fidélités\LLT vortex.png
 INPUT .\Pics\01 - Basses Fidélités\LLT vortex.png
 INPUT .\Pics\01 - Basses Fidélités\LLT vortex.png
-INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmr12.tfm
-INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmbx12.tfm
 INPUT .\Pics\01 - Basses Fidélités\Prandtl-lifting-line-coordinate-change.png
 INPUT .\Pics\01 - Basses Fidélités\Prandtl-lifting-line-coordinate-change.png
 INPUT .\Pics\01 - Basses Fidélités\Prandtl-lifting-line-coordinate-change.png
@@ -501,17 +501,20 @@ INPUT .\Pics\01 - Basses Fidélités\Prandtl-lifting-line-coordinate-change.png
 INPUT .\Pics\01 - Basses Fidélités\Prandtl-lifting-line-coordinate-change.png
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathsy.enc
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathex.enc
-INPUT .\Pics\01 - Basses Fidélités\vortex VSM.png
-INPUT .\Pics\01 - Basses Fidélités\vortex VSM.png
-INPUT .\Pics\01 - Basses Fidélités\vortex VSM.png
-INPUT .\Pics\01 - Basses Fidélités\vortex VSM.png
-INPUT .\Pics\01 - Basses Fidélités\vortex VSM.png
-INPUT .\Pics\01 - Basses Fidélités\vortex VSM.png
-INPUT .\Pics\01 - Basses Fidélités\vortex VSM.png
+INPUT .\Pics\01 - Basses Fidélités\LLT schéma.jpg
+INPUT .\Pics\01 - Basses Fidélités\LLT schéma.jpg
+INPUT .\Pics\01 - Basses Fidélités\LLT schéma.jpg
+INPUT .\Pics\01 - Basses Fidélités\LLT schéma.jpg
+INPUT .\Pics\01 - Basses Fidélités\LLT schéma.jpg
+INPUT .\Pics\01 - Basses Fidélités\LLT schéma.jpg
+INPUT .\Pics\01 - Basses Fidélités\LLT schéma.jpg
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmr.fd
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmr.fd
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmr.fd
 INPUT C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ts1-lmr10.tfm
+INPUT .\Pics\01 - Basses Fidélités\vortex VSM.png
+INPUT .\Pics\01 - Basses Fidélités\vortex VSM.png
+INPUT .\Pics\01 - Basses Fidélités\vortex VSM.png
 INPUT .\Pics\01 - Basses Fidélités\vortex VSM.png
 INPUT .\Pics\01 - Basses Fidélités\vortex VSM.png
 INPUT .\Pics\01 - Basses Fidélités\vortex VSM.png

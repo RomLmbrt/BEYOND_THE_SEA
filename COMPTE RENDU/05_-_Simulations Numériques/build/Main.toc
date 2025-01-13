@@ -1,9 +1,12 @@
 \babel@toc {english}{}\relax 
 \contentsline {chapter}{\numberline {1}Les Théories Basses Fidélités}{3}{chapter.1}%
 \contentsline {section}{\numberline {1.1}La théorie de la ligne portante (continue)}{3}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}La résolution}{4}{subsection.1.1.1}%
-\contentsline {section}{\numberline {1.2}Implémentation numérique (discret)}{5}{section.1.2}%
+\contentsline {subsection}{\numberline {1.1.1}La théorie}{3}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}La résolution}{4}{subsection.1.1.2}%
+\contentsline {section}{\numberline {1.2}La Ligne Portante - Implémentation numérique (discret)}{5}{section.1.2}%
 \contentsline {subsection}{\numberline {1.2.1}LLT - Lifting Line Theory}{5}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}VSM - Vortex Step Method}{7}{subsection.1.2.2}%
-\contentsline {subsection}{\numberline {1.2.3}VLM - Vortex Latex Method}{9}{subsection.1.2.3}%
-\contentsline {subsection}{\numberline {1.2.4}Comparaison}{11}{subsection.1.2.4}%
+\contentsline {subsection}{\numberline {1.2.2}LP3DNLI (Théo Simonet - EAE)}{7}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}VSM - Vortex Step Method}{7}{subsection.1.2.3}%
+\contentsline {section}{\numberline {1.3}La Surface Portante - Implémentation numérique (discret)}{9}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}VLM - Vortex Latex Method}{9}{subsection.1.3.1}%
+\contentsline {section}{\numberline {1.4}Comparaison}{11}{section.1.4}%
