@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.24)  9 JAN 2025 16:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.24)  24 JAN 2025 11:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -864,7 +864,7 @@ Package csquotes Info: ... found 'babel' package.
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 26.
  (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) (c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\01_-_Mecanique du vol d'un kite\build\Main.aux (c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\01_-_Mecanique du vol d'un kite\build\Chapters/00 - introduction.aux) (c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\01_-_Mecanique du vol d'un kite\build\Chapters/01 - equilibre statique du kite.aux))
+) (c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\01_-_Mecanique du vol d'un kite\build\Main.aux (c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\01_-_Mecanique du vol d'un kite\build\Chapters/00 - introduction.aux) (c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\01_-_Mecanique du vol d'un kite\build\Chapters/01 - Définitions.aux) (c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\01_-_Mecanique du vol d'un kite\build\Chapters/02 - Equilibre Statique du Kite.aux))
 \openout1 = `Main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
@@ -970,7 +970,7 @@ Package scrbase Info: activating english \abstraclabel on input line 26.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<Pics/Beyond the sea.png, id=59, 595.47469pt x 553.31718pt>
+<Pics/Beyond the sea.png, id=55, 595.47469pt x 553.31718pt>
 File: Pics/Beyond the sea.png Graphic file (type png)
 <use Pics/Beyond the sea.png>
 Package pdftex.def Info: Pics/Beyond the sea.png  used on input line 28.
@@ -1016,11 +1016,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Font Info:    Trying to load font information for U+rsfs on input line 4.
  (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-)
-
-LaTeX Warning: Command \` invalid in math mode on input line 10.
-
-)
+))
 \tf@toc=\write8
 \openout8 = `Main.toc'.
 
@@ -1028,7 +1024,7 @@ LaTeX Warning: Command \` invalid in math mode on input line 10.
 
 [2
 
-{C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}]
+{C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}]
 \openout2 = `"Chapters/00 - introduction.aux"'.
 
  (Chapters/00 - introduction.tex
@@ -1039,33 +1035,37 @@ Chapter 1.
 
 
 ]
-\openout2 = `"Chapters/01 - equilibre statique du kite.aux"'.
+\openout2 = `"Chapters/01 - Définitions.aux"'.
 
- (Chapters/01 - equilibre statique du kite.tex
+ (Chapters/01 - Définitions.tex
 Chapter 2.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 11.
+(Font)              <14.4> on input line 5.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 5.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 5.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 11.
+(hyperref)                removing `math shift' on input line 5.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 11.
+(hyperref)                removing `subscript' on input line 5.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 11.
+(hyperref)                removing `math shift' on input line 5.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 14--15
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
 
-<Pics/01 - xt et towpoint/Xt.png, id=98, 539.76656pt x 437.38406pt>
-File: Pics/01 - xt et towpoint/Xt.png Graphic file (type png)
-<use Pics/01 - xt et towpoint/Xt.png>
-Package pdftex.def Info: Pics/01 - xt et towpoint/Xt.png  used on input line 18.
+<Pics/01 - Définitions/Xt.png, id=91, 539.76656pt x 437.38406pt>
+File: Pics/01 - Définitions/Xt.png Graphic file (type png)
+<use Pics/01 - Définitions/Xt.png>
+Package pdftex.def Info: Pics/01 - Définitions/Xt.png  used on input line 12.
 (pdftex.def)             Requested size: 199.1693pt x 161.38908pt.
 
 
@@ -1075,93 +1075,84 @@ Package pdftex.def Info: Pics/01 - xt et towpoint/Xt.png  used on input line 18.
 
 
 ]
-<Pics/01 - xt et towpoint/xtp.png, id=104, 512.66531pt x 362.85562pt>
-File: Pics/01 - xt et towpoint/xtp.png Graphic file (type png)
-<use Pics/01 - xt et towpoint/xtp.png>
-Package pdftex.def Info: Pics/01 - xt et towpoint/xtp.png  used on input line 50.
+<Pics/01 - Définitions/xtp.png, id=97, 512.66531pt x 362.85562pt>
+File: Pics/01 - Définitions/xtp.png Graphic file (type png)
+<use Pics/01 - Définitions/xtp.png>
+Package pdftex.def Info: Pics/01 - Définitions/xtp.png  used on input line 44.
 (pdftex.def)             Requested size: 199.1693pt x 140.97052pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 51.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 51.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 51.
+(Font)              <5> on input line 45.
 
 
-[5{C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc} <./Pics/01 - xt et towpoint/Xt.png>]
-<Pics/01 - xt et towpoint/fechner alpha d.png, id=118, 453.19313pt x 314.67563pt>
-File: Pics/01 - xt et towpoint/fechner alpha d.png Graphic file (type png)
-<use Pics/01 - xt et towpoint/fechner alpha d.png>
-Package pdftex.def Info: Pics/01 - xt et towpoint/fechner alpha d.png  used on input line 76.
+[5{C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc} <./Pics/01 - Définitions/Xt.png>]
+<Pics/01 - Définitions/fechner alpha d.png, id=114, 453.19313pt x 314.67563pt>
+File: Pics/01 - Définitions/fechner alpha d.png Graphic file (type png)
+<use Pics/01 - Définitions/fechner alpha d.png>
+Package pdftex.def Info: Pics/01 - Définitions/fechner alpha d.png  used on input line 70.
 (pdftex.def)             Requested size: 199.1693pt x 138.29445pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--82
+
+LaTeX Warning: Reference `subsec:Ch1.1.1' on page 6 undefined on input line 75.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
 
  []
 
 
 
-[6 <./Pics/01 - xt et towpoint/xtp.png> <./Pics/01 - xt et towpoint/fechner alpha d.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 83--84
+[6 <./Pics/01 - Définitions/xtp.png> <./Pics/01 - Définitions/fechner alpha d.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
  []
 
 
-Overfull \hbox (0.36378pt too wide) in paragraph at lines 93--95
+Overfull \hbox (0.36378pt too wide) in paragraph at lines 87--89
 \T1/lmr/m/n/10.95 qui gravi-tent au-tour d'un kite, ainsi que leur d�pen-dances aux con-di-tions a�rologique.
  []
 
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 95.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 89.
 (C:\Users\RomainLambert\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
+))
 
-LaTeX Warning: Command \` invalid in math mode on input line 106.
+[7{C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
+\openout2 = `"Chapters/02 - Equilibre Statique du Kite.aux"'.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 106.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 106.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 106.
-
-<Pics/01 - xt et towpoint/Equilibre Kite.png, id=136, 498.36188pt x 502.87875pt>
-File: Pics/01 - xt et towpoint/Equilibre Kite.png Graphic file (type png)
-<use Pics/01 - xt et towpoint/Equilibre Kite.png>
-Package pdftex.def Info: Pics/01 - xt et towpoint/Equilibre Kite.png  used on input line 111.
+ (Chapters/02 - Equilibre Statique du Kite.tex
+Chapter 3.
+<Pics/02 - Equilibre Statique du Kite/Equilibre Kite.png, id=137, 498.36188pt x 502.87875pt>
+File: Pics/02 - Equilibre Statique du Kite/Equilibre Kite.png Graphic file (type png)
+<use Pics/02 - Equilibre Statique du Kite/Equilibre Kite.png>
+Package pdftex.def Info: Pics/02 - Equilibre Statique du Kite/Equilibre Kite.png  used on input line 12.
 (pdftex.def)             Requested size: 199.1693pt x 200.97145pt.
 
 
-[7{C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 116--117
+[8
+
+
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--119
+Underfull \hbox (badness 10000) in paragraph at lines 44--46
 
  []
 
 
 
-[8 <./Pics/01 - xt et towpoint/Equilibre Kite.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 145--147
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 157--158
+[9 <./Pics/02 - Equilibre Statique du Kite/Equilibre Kite.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
 
  []
 
 )
 
-[9]
+[10]
 
 Package caption Warning: Unused \captionsetup[sub] on input line 24.
 See the caption package documentation for explanation.
@@ -1171,26 +1162,30 @@ Package glossaries Warning: No \printglossary or \printglossaries found.
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-(c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\01_-_Mecanique du vol d'un kite\build\Main.aux (c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\01_-_Mecanique du vol d'un kite\build\Chapters/00 - introduction.aux) (c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\01_-_Mecanique du vol d'un kite\build\Chapters/01 - equilibre statique du kite.aux))
+(c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\01_-_Mecanique du vol d'un kite\build\Main.aux (c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\01_-_Mecanique du vol d'un kite\build\Chapters/00 - introduction.aux) (c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\01_-_Mecanique du vol d'un kite\build\Chapters/01 - Définitions.aux) (c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\01_-_Mecanique du vol d'un kite\build\Chapters/02 - Equilibre Statique du Kite.aux))
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2020/03/25>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `Main.out' has not changed.
-(rerunfilecheck)             Checksum: 402A68CCF202522FEEDA11B0DDB0B50A;2436.
+(rerunfilecheck)             Checksum: 5E237353CBB95117239243EC2704FE86;2225.
  ) 
 Here is how much of TeX's memory you used:
- 33721 strings out of 473899
- 732463 string characters out of 5722724
+ 33745 strings out of 473899
+ 733858 string characters out of 5722724
  1252531 words of memory out of 5000000
- 55983 multiletter control sequences out of 15000+600000
+ 56000 multiletter control sequences out of 15000+600000
  643877 words of font info for 100 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 110i,20n,107p,2491b,993s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxo10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb>
-Output written on "c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\01_-_Mecanique du vol d'un kite\build\Main.pdf" (9 pages, 1500421 bytes).
+ 110i,20n,107p,2491b,986s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxo10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/RomainLambert/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb>
+Output written on "c:\Users\RomainLambert\BEYOND_THE_SEA\COMPTE RENDU\01_-_Mecanique du vol d'un kite\build\Main.pdf" (10 pages, 1482233 bytes).
 PDF statistics:
- 259 PDF objects out of 1000 (max. 8388607)
+ 251 PDF objects out of 1000 (max. 8388607)
  36 named destinations out of 1000 (max. 500000)
- 138 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 130 words of extra memory for PDF output out of 10000 (max. 10000000)
 

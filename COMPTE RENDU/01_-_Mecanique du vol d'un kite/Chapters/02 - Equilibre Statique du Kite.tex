@@ -1,0 +1,85 @@
+\chapter{\textbf{Equilibre Statique Du Kite}}
+\label{ch:Ch2}
+
+\textbf{On utilise un modèle de kite "point masse" pour définir l'équilibre statique.} En effet, comme mentionné dans "Dynamic Model of a Pumping Kite Power System" (fechner, 2015), le modèle plus complexe (mais moins simplificateur) qui consiste à considérer 4 points masses (bouts d'aile, centre du kite, attache du bridage) permet de prendre en compte les phénomènes d'inertie du kite dans le virage et de déformation du kite pour pénaliser sa trainé et son taux de virage. le modèle point masse est donc un bon compromis entre hypothèses simplificatrices et prise en compte des phénomènes prédominants sur l'équilibre du kite au zénith. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SECTION 1
+\section{Approche simplifiée} 
+\label{sec:Ch2.1}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Pics/02 - Equilibre Statique du Kite/Equilibre Kite.png}  
+    \caption{Equilibre du kite}
+    \label{fig:Equilibre du kite}
+\end{figure}
+
+\textbf{L'angle theta doit être compris comme l'angle que fait le dernier segment de lignes, au point d'attache avec le kite, par rapport à la vertical}. Soit $\theta = \frac{\pi}{2} + \alpha_d - \alpha$ si on se réfère à \ref{fig:fechner alpha d}.\\
+
+Dans le cas particulier où le fardage est négligeable (i.e. trainée des lignes négligeable devant les autres efforts), alors l'angle theta devient celui représenté sur la figure \ref{fig:Equilibre du kite}.
+
+On écrit l'équilibre statique de \{kite+bridage\}, en $X_T$ du kite : 
+
+\begin{equation}
+    \begin{cases}
+        L = P + T sin(\theta) \\
+        D = T cos(\theta) \\
+        0 = C_{M_0} + (x_T - x_F) (L cos(\alpha) + D sin(\alpha)) - P cos(\alpha) (x_T - x_G)
+    \end{cases}
+\end{equation}
+
+Ainsi, en considérant $\alpha << 1$, on a :
+
+\begin{equation}
+    \begin{cases}
+    \frac{L-P}{D} = tan(\theta) \\
+    \theta = \frac{\pi}{2} - \alpha + \alpha_d \\
+    x_T = \frac{L x_F - P x_G -C_{M_0}}{L - P}
+    \end{cases}
+    \label{eq:Xt}
+\end{equation}
+    
+Il semblerait donc que le calcul (CFD, VSM, ...) des polaires aérodynamiques ($L(\alpha)$ et $D(\alpha)$) permettent de trouver le $X_T$ optimal afin d'optimiser la finesse au zénith. 
+
+\textit{Exemple : }
+Pour $\alpha_{optimal} = 21^\circ$, $C_D = 0.19$ et $C_L = 1.35$, on trouve en appliquant l'équation \ref{eq:Xt} : \\
+
+\begin{equation}
+    \begin{cases}
+    \alpha_d =  -12^\circ\\
+    \theta = 81^\circ\\
+    x_T = 0.22
+    \end{cases}
+    \label{eq:Xt results}
+\end{equation}
+
+avec $P = 21 kg$, $x_F = 0.25$, $x_G = 0.5$,$\frac{1}{2} \rho S v^2 = \frac{1}{2} 1.225 * (50m^2) * (14 * 0.514 m/s)^2$  et $C_{M_0} = 0$ \\
+
+De plus, avec  $d = \frac{6.9 m}{4.56 m} = 1.51 m$ pour une $50m^2$ (d'après SurfPlan). On a finalement :\\
+$x_{TP} = -0.10 $
+
+Ce resultat semble correct en ordre de grandeur (comme celui de $x_{TP}$) mais pas "exacte"; comparé aux observations expérimentales. On comprend donc l'importance de déterminer chaque grandeur, notamment les coefficients aérodynamiques, avec davantage de précision !
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SECTION 2
+\section{Principe Fondamental de la Statique} 
+\label{sec:Ch2.2}
+
+\textbf{On souhaite désormais effectuer le calcul rigoureux de l'équilibre du système \{kite, bridage, lignes\}}.
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SECTION 3
+\section{\textbf{Condition d'existence de l'équilibre du kite}} 
+\label{sec:Ch2.3}
+
+\subsection{Angle d'élévation minimal} 
+\label{sec:Ch2.3.1}
+
+\subsection{Angle d'élévation maximal}
+\label{sec:Ch2.3.2}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SECTION 4
+\section{\textbf{Stabilité du kite}} 
+\label{sec:Ch2.4}
